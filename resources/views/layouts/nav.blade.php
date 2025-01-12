@@ -2,8 +2,8 @@
     <nav class="container mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-14 border-b border-sky-200"
         aria-label="Global">
         <div class="flex lg:flex-1">
-            <a class="italic text-3xl text-sky-500 hover:text-sky-600 font-bold" href="/">
-                JOKI<span class="text-2xl">IT.com</span>
+            <a class="italic text-2xl md:text-3xl lg:text:3xl text-sky-500 hover:text-sky-600 font-bold" href="/">
+                JOKIIN<span class="text-xl md:text-2xl lg:text-2xl">IT</span>
             </a>
         </div>
 
@@ -22,34 +22,35 @@
         <!-- Desktop menu -->
         <div class="navbar hidden lg:flex md:flex md:gap-x-6 lg:gap-x-12">
             <a href="/"
-                class="font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-400  {{ isset($slug) && $slug === 'home' ? 'active' : '' }}">
+                class="relative font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-400 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-400 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'home' ? 'active after:scale-x-100' : '' }}">
                 <i class='bx bxs-home text-xl'></i>
                 <p>Beranda</p>
             </a>
-            <a href="/app/blog"
-                class="font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-400  {{ isset($slug) && $slug === 'blog' ? 'active' : '' }}">
+            <a href="/information"
+                class="relative font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-400 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-400 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'information' ? 'active after:scale-x-100' : '' }}">
                 <i class='bx bxl-blogger text-xl'></i>
-                <p>Blog</p>
+                <p>Informasi</p>
             </a>
-            <a href="/app/profil"
-                class="font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-400  {{ isset($slug) && $slug === 'profil' ? 'active' : '' }}">
+            <a href="/track-order"
+                class="relative font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-400 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-400 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'track-order' ? 'active after:scale-x-100' : '' }}">
                 <i class='bx bx-chart text-xl'></i>
                 <p>Track Order</p>
             </a>
-            <a href="/app/program"
-                class="font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-400  {{ isset($slug) && $slug === 'program' ? 'active' : '' }}">
+            <a href="/review"
+                class="relative font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-400 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-400 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'review' ? 'active after:scale-x-100' : '' }}">
                 <i class='bx bxs-star-half text-xl'></i>
                 <p>Review</p>
             </a>
             <div class="hidden lg:flex md:flex lg:flex-1 lg:justify-end gap-x-1">
-                <a href="/"
-                    class=" font-semibold text-base text-sky-500 border border-transparent px-6 py-2 hover:text-sky-600">Bagaimana
+                <a href="/how-to-order"
+                    class="relative font-semibold text-base text-sky-500 px-6 py-2 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-400 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'how-to-order' ? 'active after:scale-x-100' : '' }}">Bagaimana
                     Cara Ordernya?</a>
-                <a href="/"
-                    class=" font-semibold text-base text-white bg-sky-500  px-6 py-2 rounded-3xl border hover:bg-sky-600">Order
+                <a href="/order"
+                    class="font-semibold text-base text-white bg-sky-500 px-6 py-2 rounded-3xl border hover:bg-sky-600 {{ isset($slug) && $slug === 'order' ? 'active after:scale-x-100' : '' }}">Order
                     Sekarang</a>
             </div>
         </div>
+
 
 
     </nav>
@@ -62,7 +63,7 @@
             <div class="flex items-center justify-between">
                 <div class="flex items-center gap-x-2">
                     <a class="italic text-3xl text-sky-500 font-bold" href="/">
-                        JOKI<span class="text-2xl">IT.com</span>
+                        JOKIIN<span class="text-2xl">IT.com</span>
                     </a>
                 </div>
                 <button id="menu-close" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
@@ -95,7 +96,8 @@
                             <i class='bx bxs-star-half text-xl'></i>
                             <p>Review</p>
                         </a>
-                        <div class="pt-6">
+                        <hr class="text-sky-200">
+                        <div>
                             <a href="/"
                                 class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-sky-500 hover:bg-gray-50 hover:text-sky-600">Bagaimana
                                 Cara Ordernya?</a>

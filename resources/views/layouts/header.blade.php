@@ -45,6 +45,11 @@
             scrollbar-width: thin;
             scrollbar-color: #cccccc #f5f5f5;
         }
+
+        footer {
+            background: rgb(8, 134, 223);
+            background: linear-gradient(90deg, rgba(8, 134, 223, 1) 0%, rgba(15, 117, 184, 0.949258927203694) 0%, rgba(0, 162, 224, 0.43945500563506656) 100%);
+        }
     </style>
 
 </head>
