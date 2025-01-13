@@ -1,9 +1,9 @@
-<header id="header" class="bg-transparent fixed w-full z-50 transition-colors duration-300">
-    <nav class="container mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-14 border-b border-sky-200"
+<header id="header" class="bg-white fixed w-full z-50 transition-colors duration-300">
+    <nav class="container mx-auto flex max-w-7xl items-center justify-between py-6 border-b border-sky-200"
         aria-label="Global">
-        <div class="flex lg:flex-1">
+        <div class="name-company flex lg:flex-1">
             <a class="italic text-2xl md:text-3xl lg:text:3xl text-sky-500 hover:text-sky-600 font-bold" href="/">
-                JOKIIN<span class="text-xl md:text-2xl lg:text-2xl">IT</span>
+                JOKIIN<span class="text-xl md:text-2xl lg:text-2xl">IT.com</span>
             </a>
         </div>
 
@@ -127,14 +127,15 @@
         mobileMenu.classList.add('hidden');
     });
 
-    window.addEventListener('scroll', () => {
-        const header = document.getElementById('header');
-        if (window.scrollY > 0) {
-            header.classList.remove('bg-transparent');
-            header.classList.add('bg-white', 'shadow-md');
-        } else {
-            header.classList.remove('bg-white', 'shadow-md');
-            header.classList.add('bg-transparent');
-        }
-    });
+    // window.addEventListener('scroll', () => {
+    //     const header = document.getElementById('header');
+    //     if (window.scrollY > 0) {
+    //         // warna navbar
+    //         header.classList.remove('bg-zinc-100');
+    //         header.classList.add('bg-white', 'shadow-md');
+    //     } else {
+    //         header.classList.remove('bg-white', 'shadow-md');
+    //         header.classList.add('bg-zinc-100');
+    //     }
+    // });
 </script>

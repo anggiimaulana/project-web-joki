@@ -1,5 +1,5 @@
-<footer class="footer pt-12 pb-10 border-t border-zinc-200 bg-sky-500">
-    <div class="container mx-auto lg:px-14">
+<footer class="footer pt-12 pb-10 border-t border-zinc-200 bg-sky-500 relative">
+    <div class="container mx-auto">
         <div class="flex flex-col lg:flex-row lg:justify-between gap-14">
             <!-- Logo and description -->
             <div class="lg:w-5/6">
@@ -10,10 +10,10 @@
                 </div>
                 <p class="text-zinc-100 mt-2 text-lg">
                     <a href="/" class="italic text-lg hover:text-white font-bold">
-                        JOKIIN<span class="text-sm">IT</span></a> berdiri sejak tahun 2025 dan resmi berdiri menjadi
-                    platform yang menyediakan jasa joki
-                    tugas untuk kamu yang butuh bantuan pengerjaan tugas – tugas sekolah maupun tugas kuliah kamu.
-                    Bahkan, termasuk Laporan Magang & Skripsi loh!
+                        JOKIIN<span class="text-sm">IT</span></a> resmi hadir sejak tahun 2025 sebagai platform
+                    profesional yang menyediakan jasa pendampingan dan bantuan pengerjaan tugas di bidang IT. Kami
+                    berkomitmen untuk membantu siswa dan mahasiswa yang membutuhkan dukungan dalam menyelesaikan
+                    berbagai tugas, mulai dari tugas sekolah, tugas kuliah, hingga laporan magang dan skripsi.
                 </p>
             </div>
 
@@ -45,7 +45,6 @@
                 </div>
             </div>
 
-
             <!-- Links and Social Media Section -->
             <div class="lg:w-2/6 flex flex-col lg:pt-2">
                 <div class="md:w-1/2">
@@ -59,7 +58,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
         <!-- Footer Bottom -->
@@ -69,5 +67,28 @@
                     JOKIINIT</span>
                 </a> All rights reserved.</p>
         </div>
+    </div>
+
+    <!-- Decorative Elements -->
+    <!-- Kotak -->
+    <div class="absolute top-5 left-12 w-10 h-10 bg-transparent border-blue-400 border-4"></div>
+
+    <!-- Segitiga -->
+    <div
+        class="absolute top-20 right-5 w-0 h-0 border-l-[10px] border-l-transparent border-r-[10px] border-r-transparent border-b-[20px] border-sky-600 bg-transparent">
+    </div>
+
+    <!-- Lingkaran -->
+    <div class="absolute top-72 left-20 w-8 h-8 rounded-full bg-transparent border-4 border-gray-500"></div>
+
+    <!-- Logo Code -->
+    <div class="absolute top-1 right-3/4  text-4xl text-zinc-300 ">
+        <i class="bx bx-code"></i>
+    </div>
+    <div class="absolute top-7 right-1/4 text-4xl text-gray-400 ">
+        <i class='bx bxl-javascript'></i>
+    </div>
+    <div class="absolute top-60 right-2/3 text-4xl text-sky-300 ">
+        <i class='bx bxl-php'></i>
     </div>
 </footer>
