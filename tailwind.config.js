@@ -15,6 +15,9 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                lavender: '#347dc6', // Warna kustom dengan nama 'lavender'
+              },
         },
     },
     plugins: [],

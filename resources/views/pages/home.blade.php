@@ -5,39 +5,61 @@
 @section('data')
     <div>
         <!-- Hero Section -->
-        <section class="bg-sky-600 relative px-8 lg:px-0 md:px-8">
+        <section class="bg-lavender relative px-6 md:px-8 ">
             <div class="container mx-auto flex flex-col lg:flex-row items-center">
-                <div class="max-w-3xl py-40 lg:py-56 text-zinc-100">
-                    <p class="italic text-sm font-bold text-center">Jasa Joki Tugas Kuliah Murah, Cepat, & Berkualitas</p>
-                    <h1 class="text-2xl lg:text-4xl font-bold leading-tight my-4">
-                        <span class=" font-bold">
-                            JOKIIN<span class=" text-xl lg:text-3xl">IT.com</span>
-                        </span>: <br class="mt-3">Belajar Super Lengkap
-                    </h1>
-                    <p class="text-lg font-semibold mb-8 lg:mb-8">
-                        Platform <strong>JOKI</strong> Pengerjaan Tugas Online Bidang <strong><i>IT</i></strong> Terbaik di
+                <div class="max-w-2xl pt-28 pb-16 md:pt-36 md:pb-24 lg:pt-56 lg:pb-40 text-zinc-100">
+                    <p class="italic text-sm font-bold">Jasa Joki Tugas <strong>Bidang IT</strong> Murah, Cepat, &
+                        Berkualitas</p>
+                    <h2 class="text-2xl font-serif lg:text-4xl font-bold leading-tight my-6 lg:mb-6 md:mt-0">
+                        <span class="font-bold">
+                            JOKIIN<span class="text-xl lg:text-3xl">IT.com:</span>
+                        </span> <br class="mt-3">Pengerjaan Super
+                        <span id="desc"
+                            class="text-zinc-200 transition-opacity duration-1000 ease-in-out">Profesional</span>
+                    </h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-full max-w-lg" viewBox="0 0 548 15" fill="none">
+                        <path d="M1 14C54.8932 10.1481 239.544 2.15556 547 1" stroke="#2EB5C0" stroke-width="2"
+                            stroke-linecap="round"></path>
+                        <path d="M2 8C128.553 4.98151 414.327 0.755614 545 8" stroke="#2EB5C0" stroke-width="2"
+                            stroke-linecap="round"></path>
+                    </svg>
+                    <div class="relative flex lg:hidden my-6">
+                        <div class="rounded-full overflow-hidden bg-white">
+                            <img src="{{ asset('images/programming3.jpg') }}" alt="Belajar"
+                                class="w-60 max-w-full object-cover">
+                        </div>
+                    </div>
+                    <p class="text-base font-semibold my-6">
+                        Platform Bimbingan Belajar dan Pengerjaan Tugas Online di <strong>Bidang IT</strong> Terbaik dan
+                        Terpercaya se
                         Indonesia.
                     </p>
-                    <div class="flex flex-wrap gap-4">
+                    <div class="flex flex-wrap gap-2 md:gap-4">
+                        {{-- mobile --}}
                         <button onclick="self()"
-                            class="cursor-pointer bg-white lg:w-full w-64 h-12 lg:h-10 px-4 lg:px-6 rounded-3xl text-sky-600 font-semibold hover:bg-gray-100 flex items-center justify-center">
-                            Self Order
-                            <span class="text-base text-sky-500 font-bold ml-1">
-                                JOKIIN<span class="text-sm">IT.com</span>
-                            </span>
+                            class="cursor-pointer text-xs bg-blue-400 w-40 py-2 lg:h-10 px-2 rounded-3xl text-white font-bold hover:bg-blue-500 flex md:hidden items-center justify-center">
+                            Order JOKIINIT.com
                         </button>
                         <button onclick="order()"
-                            class="cursor-pointer bg-white lg:w-full w-64 h-12 lg:h-10 px-4 lg:px-6 rounded-3xl text-sky-600 font-semibold hover:bg-gray-100 flex items-center justify-center">
-                            <span class="text-base text-sky-500 font-bold">
-                                JOKIIN<span class="text-sm mr-1">IT.com</span>
-                            </span>Support Team
+                            class="cursor-pointer text-xs bg-white w-36 py-2 lg:h-10 px-2 rounded-3xl text-sky-500 font-bold hover:bg-gray-100 flex md:hidden items-center justify-center">
+                            Support Team
+                        </button>
+
+                        {{-- desktop --}}
+                        <button onclick="self()"
+                            class="hidden cursor-pointer text-xs md:text-sm bg-white lg:max-w-full md:w-60 w-36 py-2 lg:h-10 px-4 lg:px-6 rounded-3xl text-sky-500 font-bold hover:bg-gray-100 md:flex items-center justify-center">
+                            JOKIINIT.com Self Order
+                        </button>
+                        <button onclick="order()"
+                            class="hidden cursor-pointer text-xs md:text-sm bg-white lg:max-w-full md:w-60 w-44 py-2 lg:h-10 px-4 lg:px-6 rounded-3xl text-sky-500 font-bold hover:bg-gray-100 md:flex items-center justify-center">
+                            JOKIINIT.com Support Team
                         </button>
                     </div>
                 </div>
 
-                <div class="relative mt-4 lg:mt-10 ml-0 lg:ml-12">
+                <div class="relative hidden lg:flex mt-10">
                     <div class="rounded-full overflow-hidden bg-white">
-                        <img src="{{ asset('images/banda-neira.jpg') }}" alt="Belajar" class="w-72 h-72 object-cover">
+                        <img src="{{ asset('images/programming3.jpg') }}" alt="Belajar" class="w-full object-cover">
                     </div>
                 </div>
             </div>
@@ -59,5 +81,28 @@
         function order() {
             window.location.href = 'https://jokitugaslo.com';
         }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const words = ["Profesional", "Cepat", "Canggih", "Dipercaya", "Lengkap", "Berkualitas"];
+            const descElement = document.getElementById("desc");
+            let currentIndex = 0;
+
+            const updateWord = () => {
+                // Fade out current word
+                descElement.classList.add("opacity-0", "scale-90");
+
+                // Wait for the fade-out animation, then update text and fade in
+                setTimeout(() => {
+                    currentIndex = (currentIndex + 1) % words.length;
+                    descElement.textContent = words[currentIndex];
+
+                    // Fade in the new word
+                    descElement.classList.remove("opacity-0", "scale-90");
+                }, 500); // Duration matches half of the total animation
+            };
+
+            // Run updateWord every 2 seconds
+            setInterval(updateWord, 3500);
+        });
     </script>
 @endsection

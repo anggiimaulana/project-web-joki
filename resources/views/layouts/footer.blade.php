@@ -1,5 +1,5 @@
 <footer class="footer pt-10 pb-8 border-t border-zinc-200 bg-sky-500 relative">
-    <div class="container px-6 md:px-12 lg:px-0 mx-auto">
+    <div class="container px-6 md:px-8 mx-auto">
         <div class="flex flex-col lg:flex-row lg:justify-between gap-14">
             <!-- Logo and description -->
             <div class="lg:w-5/6">
