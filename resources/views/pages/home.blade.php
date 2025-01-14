@@ -6,7 +6,7 @@
     <div>
         <!-- Hero Section -->
         <section class="bg-sky-600 relative">
-            <div class="container mx-auto flex flex-col lg:flex-row items-center">
+            <div class="container mx-auto md:px-8 flex flex-col lg:flex-row items-center">
                 <div class="max-w-3xl py-56 text-zinc-100">
                     <p class="italic text-sm font-bold">Jasa Joki Tugas Kuliah Murah, Cepat, & Berkualitas</p>
                     <h1 class="text-2xl lg:text-4xl font-bold leading-tight mb-4 mt-1"><span class="italic font-bold">

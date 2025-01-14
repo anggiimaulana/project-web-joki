@@ -1,16 +1,16 @@
 <header id="header" class="bg-white fixed w-full z-50 transition-colors duration-300">
-    <nav class="container mx-auto flex max-w-7xl items-center justify-between py-6 border-b border-sky-200"
+    <nav class="container px-6 md:px-12 lg:px-0 lg:mx-auto flex max-w-7xl items-center justify-between py-6 border-b border-sky-200"
         aria-label="Global">
         <div class="name-company flex lg:flex-1">
-            <a class="italic text-2xl md:text-3xl lg:text:3xl text-sky-500 hover:text-sky-600 font-bold" href="/">
-                JOKIIN<span class="text-xl md:text-2xl lg:text-2xl">IT.com</span>
+            <a class="italic text-2xl md:text:3xl lg:text-3xl text-sky-500 hover:text-sky-600 font-bold" href="/">
+                JOKIIN<span class="text-xl lg:text-2xl">IT.com</span>
             </a>
         </div>
 
         <!-- Mobile hamburger button -->
-        <div class="flex lg:hidden md:hidden">
+        <div class="flex lg:hidden">
             <button id="menu-toggle" type="button"
-                class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-sky-500">
                 <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                     aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -20,7 +20,7 @@
         </div>
 
         <!-- Desktop menu -->
-        <div class="navbar hidden lg:flex md:flex md:gap-x-6 lg:gap-x-12">
+        <div class="navbar hidden lg:flex md:hidden md:gap-x-4 lg:gap-x-12">
             <a href="/"
                 class="relative font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-400 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-400 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'home' ? 'active after:scale-x-100' : '' }}">
                 <i class='bx bxs-home text-xl'></i>
@@ -50,9 +50,6 @@
                     Sekarang</a>
             </div>
         </div>
-
-
-
     </nav>
 
     <!-- Mobile menu -->
@@ -62,8 +59,8 @@
             class="fixed inset-y-0 right-0 z-20 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div class="flex items-center justify-between">
                 <div class="flex items-center gap-x-2">
-                    <a class="italic text-3xl text-sky-500 font-bold" href="/">
-                        JOKIIN<span class="text-2xl">IT.com</span>
+                    <a class="italic text-2xl text-sky-500 font-bold" href="/">
+                        JOKIIN<span class="text-xl">IT.com</span>
                     </a>
                 </div>
                 <button id="menu-close" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">

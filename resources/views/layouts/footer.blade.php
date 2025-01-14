@@ -1,10 +1,10 @@
-<footer class="footer pt-12 pb-10 border-t border-zinc-200 bg-sky-500 relative">
-    <div class="container mx-auto">
+<footer class="footer pt-10 pb-8 border-t border-zinc-200 bg-sky-500 relative">
+    <div class="container px-6 md:px-12 lg:px-0 mx-auto">
         <div class="flex flex-col lg:flex-row lg:justify-between gap-14">
             <!-- Logo and description -->
             <div class="lg:w-5/6">
                 <div class="flex items-center space-x-4">
-                    <h2 class="italic text-3xl text-zinc-100 hover:text-sky-600 font-bold">
+                    <h2 class="italic text-2xl lg:text-3xl text-zinc-100 hover:text-sky-600 font-bold">
                         JOKIIN<span class="text-xl">IT</span>
                     </h2>
                 </div>
@@ -51,10 +51,10 @@
                     <h2 class="font-bold text-zinc-100 text-xl">NAVIGASI</h2>
                     <!-- Social Media Icons -->
                     <div class="flex flex-col gap-2 mt-2">
-                        <a href="#" class="text-zinc-200 text-lg hover:text-white">Beranda</a>
-                        <a href="#" class="text-zinc-200 text-lg hover:text-white">Informasi</a>
-                        <a href="#" class="text-zinc-200 text-lg hover:text-white">Track Order</a>
-                        <a href="#" class="text-zinc-200 text-lg hover:text-white">Review</a>
+                        <a href="#" class="text-zinc-200 text-base lg:text-lg hover:text-white">Beranda</a>
+                        <a href="#" class="text-zinc-200 text-base lg:text-lg hover:text-white">Informasi</a>
+                        <a href="#" class="text-zinc-200 text-base lg:text-lg hover:text-white">Track Order</a>
+                        <a href="#" class="text-zinc-200 text-base lg:text-lg hover:text-white">Review</a>
                     </div>
                 </div>
             </div>
@@ -71,24 +71,28 @@
 
     <!-- Decorative Elements -->
     <!-- Kotak -->
-    <div class="absolute top-5 left-12 w-10 h-10 bg-transparent border-blue-400 border-4"></div>
+    <div class="absolute top-5 left-4 lg:left-12 w-4 h-4 lg:h-10 lg:w-10 bg-transparent border-blue-400 border-4"></div>
 
     <!-- Segitiga -->
     <div
-        class="absolute top-20 right-5 w-0 h-0 border-l-[10px] border-l-transparent border-r-[10px] border-r-transparent border-b-[20px] border-sky-600 bg-transparent">
+        class="absolute top-24 right-5 w-0 h-0 border-l-[10px] border-l-transparent border-r-[10px] border-r-transparent border-b-[20px] border-sky-600 bg-transparent">
     </div>
 
     <!-- Lingkaran -->
-    <div class="absolute top-72 left-20 w-8 h-8 rounded-full bg-transparent border-4 border-gray-500"></div>
+    <div class="absolute top-12 lg:top-64 left-44 lg:left-8 w-6 h-6 lg:h-8 lg:w-8 rounded-full bg-transparent border-4 border-gray-500"></div>
 
     <!-- Logo Code -->
-    <div class="absolute top-1 right-3/4  text-4xl text-zinc-300 ">
+    <div class="absolute top-60 lg:top-1 right:80 lg:right-3/4 text-2xl lg:text-4xl text-zinc-300 ">
         <i class="bx bx-code"></i>
     </div>
+
+    {{-- js --}}
     <div class="absolute top-7 right-1/4 text-4xl text-gray-400 ">
         <i class='bx bxl-javascript'></i>
     </div>
-    <div class="absolute top-60 right-2/3 text-4xl text-sky-300 ">
+
+    {{-- php --}}
+    <div class="absolute top-48 right-3.5 lg:right-48 text-4xl text-sky-300 ">
         <i class='bx bxl-php'></i>
     </div>
 </footer>
