@@ -47,7 +47,7 @@
 
                         {{-- desktop --}}
                         <button onclick="self()"
-                            class="hidden cursor-pointer text-xs md:text-sm bg-white lg:max-w-full md:w-60 w-36 py-2 lg:h-10 px-4 lg:px-6 rounded-3xl text-sky-500 font-bold hover:bg-gray-100 md:flex items-center justify-center">
+                            class="hidden cursor-pointer text-xs md:text-sm bg-blue-400 lg:max-w-full md:w-60 w-36 py-2 lg:h-10 px-4 lg:px-6 rounded-3xl font-bold hover:bg-blue-500 md:flex items-center justify-center">
                             JOKIINIT.com Self Order
                         </button>
                         <button onclick="order()"
@@ -62,6 +62,46 @@
                         <img src="{{ asset('images/programming3.jpg') }}" alt="Belajar" class="w-full object-cover">
                     </div>
                 </div>
+
+            </div>
+            <!-- Logo Code -->
+            <div class="absolute top-24 lg:top-48 lg:left-10 text-xl lg:text-3xl text-sky-100 ">
+                <i class="bx bx-code-alt"></i>
+            </div>
+
+            {{-- flutter --}}
+            <div class="absolute top-72 lg:top-48 right-8 lg:right-20 text-3xl lg:text-4xl text-sky-300">
+                <i class='bx bxl-flutter'></i>
+                <i class='bx bxl-java'></i>
+                <i class='bx bxl-tailwind-css'></i>
+            </div>
+
+            {{-- html --}}
+            <div class="absolute top-80 lg:top-64 right-8 lg:right-20 text-3xl lg:text-4xl text-sky-300">
+                <i class='bx bxl-html5'></i>
+                <i class='bx bxl-typescript'></i>
+                <i class='bx bxl-python'></i>
+            </div>
+
+            {{-- html --}}
+            <div class="absolute top-2/4 lg:top-80 right-8 lg:right-20 text-3xl lg:text-4xl text-sky-300">
+                <i class='bx bxl-javascript'></i>
+                <i class='bx bxl-nodejs'></i>
+                <i class='bx bxl-php'></i>
+            </div>
+
+            {{-- figma --}}
+            <div class="absolute top-96 right-8 lg:right-20 text-3xl lg:text-4xl text-sky-300">
+                <i class='bx bxl-figma'></i>
+                <i class='bx bxl-vuejs'></i>
+                <i class='bx bxl-bootstrap'></i>
+            </div>
+
+            {{-- css --}}
+            <div class="absolute bottom-52 lg:bottom-44 right-8 lg:right-20 text-3xl lg:text-4xl text-sky-300">
+                <i class='bx bxl-css3'></i>
+                <i class='bx bxl-redux'></i>
+                <i class='bx bxl-go-lang'></i>
             </div>
         </section>
 
@@ -83,7 +123,7 @@
         }
 
         document.addEventListener("DOMContentLoaded", () => {
-            const words = ["Profesional", "Cepat", "Canggih", "Dipercaya", "Lengkap", "Berkualitas"];
+            const words = ["Profesional", "Satset Cepatnyoo!", "Canggih", "Dipercaya", "Lengkap", "Berkualitas"];
             const descElement = document.getElementById("desc");
             let currentIndex = 0;
 
