@@ -9,11 +9,12 @@
                     </h2>
                 </div>
                 <p class="text-zinc-100 mt-2 text-lg">
-                    <a href="/" class="italic text-lg hover:text-white font-bold">
-                        JOKIIN<span class="text-sm">IT</span></a> resmi hadir sejak tahun 2025 sebagai platform
-                    profesional yang menyediakan jasa pendampingan dan bantuan pengerjaan tugas di bidang IT. Kami
-                    berkomitmen untuk membantu siswa dan mahasiswa yang membutuhkan dukungan dalam menyelesaikan
-                    berbagai tugas, mulai dari tugas sekolah, tugas kuliah, hingga laporan magang dan skripsi.
+                    <a href="/" class="italic text-base lg:text-lg hover:text-white font-bold">
+                        JOKIIN<span class="text-sm">IT</span>
+                    </a> berdiri sejak Januari 2025 dan resmi menjadi platform yang menyediakan jasa joki tugas
+                    untuk kamu yang butuh bantuan pengerjaan tugas – tugas sekolah maupun tugas kuliah di bidang
+                    <strong>IT</strong>. Bahkan,
+                    termasuk Laporan Magang & Skripsi loh!
                 </p>
             </div>
 
@@ -79,7 +80,9 @@
     </div>
 
     <!-- Lingkaran -->
-    <div class="absolute top-12 lg:top-64 left-44 lg:left-8 w-6 h-6 lg:h-8 lg:w-8 rounded-full bg-transparent border-4 border-gray-500"></div>
+    <div
+        class="absolute top-12 lg:top-64 left-44 lg:left-8 w-6 h-6 lg:h-8 lg:w-8 rounded-full bg-transparent border-4 border-gray-500">
+    </div>
 
     <!-- Logo Code -->
     <div class="absolute top-60 lg:top-1 right:80 lg:right-3/4 text-2xl lg:text-4xl text-zinc-300 ">
