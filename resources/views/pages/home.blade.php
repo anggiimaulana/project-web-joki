@@ -63,7 +63,7 @@
                 </div>
 
                 <!-- Logo Code -->
-                <div class="code absolute top-24 lg:top-48 lg:left-10 text-xl lg:text-3xl text-sky-100 ">
+                <div class="code absolute top-24 md:top-28 lg:top-48 md:left-6 lg:left-10 text-xl lg:text-3xl text-sky-100 ">
                     <i class="bx bx-code-alt"></i>
                 </div>
 

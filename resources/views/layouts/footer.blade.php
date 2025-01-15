@@ -8,6 +8,12 @@
                         JOKIIN<span class="text-xl lg:text-2xl">IT.com</span>
                     </h2>
                 </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-full max-w-lg" viewBox="0 0 548 15" fill="none">
+                    <path d="M1 14C54.8932 10.1481 239.544 2.15556 547 1" stroke="#2EB5C0" stroke-width="2"
+                        stroke-linecap="round"></path>
+                    <path d="M2 8C128.553 4.98151 414.327 0.755614 545 8" stroke="#2EB5C0" stroke-width="2"
+                        stroke-linecap="round"></path>
+                </svg>
                 <p class="text-gray-200 mt-2 text-base">
                     <a href="/" class="italic text-sm lg:text-base font-bold">
                         JOKIIN<span class="text-sm">IT</span>
@@ -72,7 +78,7 @@
 
     <!-- Decorative Elements -->
     <!-- Kotak -->
-    <div class="absolute top-5 left-4 lg:left-12 w-4 h-4 lg:h-10 lg:w-10 bg-transparent border-blue-400 border-4"></div>
+    <div class="absolute top-5 left-4 lg:left-8 w-4 h-4 lg:h-6 lg:w-6 bg-transparent border-blue-400 border-4"></div>
 
     <!-- Segitiga -->
     <div
@@ -88,20 +94,20 @@
         <i class='bx bxl-javascript'></i>
     </div>
 
-    <div class="absolute bottom-12 md:top-48 left-3.5 lg:right-48 text-3xl text-blue-400 ">
+    <div class="absolute bottom-12 md:bottom-12 left-3.5 lg:right-48 text-3xl text-blue-400 ">
         <i class='bx bxl-php'></i>
     </div>
 
-    <div class="absolute top-64 lg:top-40 left-32 lg:right-2/3 text-2xl text-blue-400 ">
+    <div class="absolute top-64 md:top-2/3 lg:top-40 left-32 lg:left-1/3 text-2xl text-blue-400 ">
         <i class='bx bxl-typescript'></i>
     </div>
 
     <div
-        class="absolute bottom-72 lg:top-40 right-24 md:right-3.5 lg:right-2/3 text-3xl mdtext-4xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-yellow-400 ">
+        class="absolute bottom-72 lg:bottom-36 right-40 md:right-2/3 text-3xl md:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-yellow-400 ">
         <i class='bx bxl-python'></i>
     </div>
 
-    <div class="absolute bottom-24 lg:top-40 right-5 md:right-3.5 lg:right-2/3 text-2xl md:text-4xl text-sky-300 ">
+    <div class="absolute bottom-24 lg:top-56 right-5 md:right-3.5 lg:right-12 text-2xl text-sky-300 ">
         <i class='bx bxl-figma'></i>
     </div>
 </footer>
