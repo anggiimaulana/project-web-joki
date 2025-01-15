@@ -1,5 +1,5 @@
 <header id="header" class="bg-white fixed w-full z-50 transition-colors duration-300">
-    <nav class="container px-6 md:px-8 lg:mx-auto flex max-w-7xl items-center justify-between py-4 border-b border-sky-200"
+    <nav class="container px-6 md:px-0 mx-auto flex max-w-8xl items-center justify-between py-4 border-b border-sky-200"
         aria-label="Global">
         <div class="name-company flex lg:flex-1">
             <a class="italic text-2xl md:text:3xl lg:text-3xl text-sky-500 hover:text-sky-600 font-bold" href="/">

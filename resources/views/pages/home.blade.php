@@ -5,15 +5,15 @@
 @section('data')
     <div>
         <!-- Hero Section -->
-        <section class="bg-lavender relative px-6 md:px-8 ">
-            <div class="container mx-auto flex flex-col lg:flex-row items-center">
-                <div class="max-w-2xl pt-28 pb-16 md:pt-36 md:pb-24 lg:pt-56 lg:pb-40 text-zinc-100">
+        <section class="bg-lavender relative">
+            <div class="container px-6 md:px-0 mx-auto flex flex-col lg:flex-row items-center">
+                <div class="max-w-3xl pt-28 pb-16 md:pt-36 md:pb-24 lg:pt-56 lg:pb-40 text-zinc-100">
                     <p class="italic text-sm font-bold">Jasa Joki Tugas <strong>Bidang IT</strong> Murah, Cepat, &
                         Berkualitas</p>
-                    <h2 class="text-2xl font-serif lg:text-4xl font-bold leading-tight my-6 lg:mb-6 md:mt-0">
+                    <h2 class="text-2xl font-serif lg:text-4xl font-bold leading-tight my-4 lg:mb-6 md:mt-0">
                         <span class="font-bold">
                             JOKIIN<span class="text-xl lg:text-3xl">IT.com:</span>
-                        </span> <br class="mt-3">Pengerjaan Super
+                        </span> <br class="mt-3">Hasil Super
                         <span id="desc"
                             class="text-zinc-200 transition-opacity duration-1000 ease-in-out">Profesional</span>
                     </h2>
@@ -29,10 +29,9 @@
                                 class="w-60 max-w-full object-cover">
                         </div>
                     </div>
-                    <p class="text-base font-semibold my-6">
+                    <p class="text-sm md:text-base font-semibold my-6">
                         Platform Bimbingan Belajar dan Pengerjaan Tugas Online di <strong>Bidang IT</strong> Terbaik dan
-                        Terpercaya se
-                        Indonesia.
+                        Terpercaya se-Indonesia.
                     </p>
                     <div class="flex flex-wrap gap-2 md:gap-4">
                         {{-- mobile --}}
@@ -63,46 +62,74 @@
                     </div>
                 </div>
 
-            </div>
-            <!-- Logo Code -->
-            <div class="absolute top-24 lg:top-48 lg:left-10 text-xl lg:text-3xl text-sky-100 ">
-                <i class="bx bx-code-alt"></i>
+                <!-- Logo Code -->
+                <div class="code absolute top-24 lg:top-48 lg:left-10 text-xl lg:text-3xl text-sky-100 ">
+                    <i class="bx bx-code-alt"></i>
+                </div>
+
+                <div class="absolute text-3xl lg:text-4xl text-sky-300 bottom-48 md:top-72 lg:top-1/3 right-9 md:right-2/4 lg:right-16">
+                    <div class="flex gap-x-3 md:gap-x-4 pb-1 lg:pb-2">
+                        <i class='bx bxs-file-pdf'></i>
+                        <i class='bx bxs-file-doc' ></i>
+                        <i class='bx bxl-flutter'></i>
+                    </div>
+                    <div class="flex gap-x-3 md:gap-x-4 py-1 lg:py-2">
+                        <i class='bx bxl-html5'></i>
+                        <i class='bx bxl-typescript'></i>
+                        <i class='bx bxl-python'></i>
+                    </div>
+                    <div class="flex gap-x-3 md:gap-x-4 py-1 lg:py-2">
+                        <i class='bx bxl-javascript'></i>
+                        <i class='bx bxl-nodejs'></i>
+                        <i class='bx bxl-php'></i>
+                    </div>
+                    <div class="flex gap-x-3 md:gap-x-4 py-1 lg:py-2">
+                        <i class='bx bxl-figma'></i>
+                        <i class='bx bxl-vuejs'></i>
+                        <i class='bx bxl-bootstrap'></i>
+                    </div>
+                    <div class="flex gap-x-3 md:gap-x-4 py-1 lg:py-2">
+                        <i class='bx bxl-java'></i>
+                        <i class='bx bxl-tailwind-css'></i>
+                        <i class='bx bxl-go-lang'></i>
+                    </div>
+                </div>
             </div>
 
             {{-- flutter --}}
-            <div class="absolute top-72 lg:top-48 right-8 lg:right-20 text-3xl lg:text-4xl text-sky-300">
+            {{-- <div class="flutter absolute top-60 lg:top-48 right-8 lg:right-20 text-3xl lg:text-4xl text-sky-300">
                 <i class='bx bxl-flutter'></i>
                 <i class='bx bxl-java'></i>
                 <i class='bx bxl-tailwind-css'></i>
-            </div>
+            </div> --}}
 
             {{-- html --}}
-            <div class="absolute top-80 lg:top-64 right-8 lg:right-20 text-3xl lg:text-4xl text-sky-300">
+            {{-- <div class="html absolute top-72 lg:top-64 right-8 lg:right-20 text-3xl lg:text-4xl text-sky-300">
                 <i class='bx bxl-html5'></i>
                 <i class='bx bxl-typescript'></i>
                 <i class='bx bxl-python'></i>
-            </div>
+            </div> --}}
 
             {{-- html --}}
-            <div class="absolute top-2/4 lg:top-80 right-8 lg:right-20 text-3xl lg:text-4xl text-sky-300">
+            {{-- <div class="js absolute top-2/4 lg:top-80 right-8 lg:right-20 text-3xl lg:text-4xl text-sky-300">
                 <i class='bx bxl-javascript'></i>
                 <i class='bx bxl-nodejs'></i>
                 <i class='bx bxl-php'></i>
-            </div>
+            </div> --}}
 
             {{-- figma --}}
-            <div class="absolute top-96 right-8 lg:right-20 text-3xl lg:text-4xl text-sky-300">
+            {{-- <div class="figma absolute top-96 right-8 lg:right-20 text-3xl lg:text-4xl text-sky-300">
                 <i class='bx bxl-figma'></i>
                 <i class='bx bxl-vuejs'></i>
                 <i class='bx bxl-bootstrap'></i>
-            </div>
+            </div> --}}
 
             {{-- css --}}
-            <div class="absolute bottom-52 lg:bottom-44 right-8 lg:right-20 text-3xl lg:text-4xl text-sky-300">
+            {{-- <div class="css absolute bottom-52 lg:bottom-44 right-8 lg:right-20 text-3xl lg:text-4xl text-sky-300">
                 <i class='bx bxl-css3'></i>
                 <i class='bx bxl-redux'></i>
                 <i class='bx bxl-go-lang'></i>
-            </div>
+            </div> --}}
         </section>
 
 
@@ -123,22 +150,19 @@
         }
 
         document.addEventListener("DOMContentLoaded", () => {
-            const words = ["Profesional", "Satset Cepatnyoo!", "Canggih", "Dipercaya", "Lengkap", "Berkualitas"];
+            const words = ["Profesional", "Satset", "Canggih", "Dipercaya", "Lengkap", "Berkualitas"];
             const descElement = document.getElementById("desc");
             let currentIndex = 0;
 
             const updateWord = () => {
-                // Fade out current word
                 descElement.classList.add("opacity-0", "scale-90");
 
-                // Wait for the fade-out animation, then update text and fade in
                 setTimeout(() => {
                     currentIndex = (currentIndex + 1) % words.length;
                     descElement.textContent = words[currentIndex];
 
-                    // Fade in the new word
                     descElement.classList.remove("opacity-0", "scale-90");
-                }, 500); // Duration matches half of the total animation
+                }, 500);
             };
 
             // Run updateWord every 2 seconds

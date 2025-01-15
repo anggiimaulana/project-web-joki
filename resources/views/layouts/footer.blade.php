@@ -1,5 +1,5 @@
-<footer class="footer pt-10 pb-8 border-t border-zinc-200 bg-sky-500 relative">
-    <div class="container px-6 md:px-8 mx-auto">
+<footer class="footer pt-10 pb-8 border-t border-zinc-200 bg-lavender relative">
+    <div class="container px-6 md:px-0 mx-auto">
         <!-- Logo and description -->
         <div class="flex flex-col lg:flex-row lg:justify-between gap-14">
             <div class="lg:w-5/6">
@@ -22,7 +22,7 @@
             <div class="lg:w-3/6 flex flex-col lg:gap-32 gap-8 lg:pt-2">
                 <div class="md:w-1/2">
                     <h2 class="font-bold text-zinc-100 text-base lg:text-xl">KONTAK</h2>
-                    <div class="flex flex-col gap-2 mt-2 text-sm md:text-base">
+                    <div class="flex flex-col gap-2 mt-2 text-base">
                         <p class="text-zinc-200 hover:text-white flex items-center">
                             <i class="bx bxl-whatsapp text-xl mr-2"></i>+628987654321
                         </p>
@@ -35,13 +35,11 @@
                     <h2 class="font-bold text-zinc-100 text-base lg:text-xl mt-6">SOSIAL MEDIA</h2>
                     <div class="flex space-x-2 mt-2">
                         <a href="#" class="text-zinc-200 hover:text-white"><i
-                                class="bx bxl-instagram text-base md:text-base lg:text-xl"></i></a>
+                                class="bx bxl-instagram text-3xl md:text-xl"></i></a>
                         <a href="#" class="text-zinc-200 hover:text-white"><i
-                                class="bx bxl-github text-base md:text-base lg:text-xl"></i></a>
+                                class="bx bxl-github text-3xl md:text-xl"></i></a>
                         <a href="#" class="text-zinc-200 hover:text-white"><i
-                                class="bx bxl-tiktok text-base md:text-base lg:text-xl"></i></a>
-                        <a href="#" class="text-zinc-200 hover:text-white"><i
-                                class="bx bxl-youtube text-base md:text-base lg:text-xl"></i></a>
+                                class="bx bxl-tiktok text-3xl md:text-xl"></i></a>
                     </div>
                 </div>
             </div>
@@ -52,11 +50,11 @@
                     <h2 class="font-bold text-zinc-100 text-base lg:text-xl">NAVIGASI</h2>
                     <!-- Social Media Icons -->
                     <div class="flex flex-col gap-2 mt-2">
-                        <a href="#" class="text-zinc-200 text-sm md:text-base hover:text-white">Beranda</a>
-                        <a href="#" class="text-zinc-200 text-sm md:text-base hover:text-white">Informasi</a>
-                        <a href="#" class="text-zinc-200 text-sm md:text-base hover:text-white">Track
+                        <a href="#" class="text-zinc-200 text-base hover:text-white">Beranda</a>
+                        <a href="#" class="text-zinc-200 text-base hover:text-white">Informasi</a>
+                        <a href="#" class="text-zinc-200 text-base hover:text-white">Track
                             Order</a>
-                        <a href="#" class="text-zinc-200 text-sm md:text-base hover:text-white">Review</a>
+                        <a href="#" class="text-zinc-200 text-base hover:text-white">Review</a>
                     </div>
                 </div>
             </div>
@@ -86,18 +84,24 @@
         class="absolute top-12 lg:top-64 left-44 lg:left-8 w-6 h-6 lg:h-8 lg:w-8 rounded-full bg-transparent border-4 border-gray-500">
     </div>
 
-    {{-- js --}}
     <div class="absolute top-7 right-1/4 text-4xl text-gray-400 ">
         <i class='bx bxl-javascript'></i>
     </div>
 
-    {{-- php --}}
-    <div class="absolute top-48 right-3.5 lg:right-48 text-4xl text-sky-300 ">
+    <div class="absolute bottom-12 md:top-48 left-3.5 lg:right-48 text-3xl text-blue-400 ">
         <i class='bx bxl-php'></i>
     </div>
 
-    {{-- ts --}}
-    <div class="absolute top-40 right-3.5 lg:right-2/3 text-4xl text-sky-300 ">
+    <div class="absolute top-64 lg:top-40 left-32 lg:right-2/3 text-2xl text-blue-400 ">
         <i class='bx bxl-typescript'></i>
+    </div>
+
+    <div
+        class="absolute bottom-72 lg:top-40 right-24 md:right-3.5 lg:right-2/3 text-3xl mdtext-4xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-yellow-400 ">
+        <i class='bx bxl-python'></i>
+    </div>
+
+    <div class="absolute bottom-24 lg:top-40 right-5 md:right-3.5 lg:right-2/3 text-2xl md:text-4xl text-sky-300 ">
+        <i class='bx bxl-figma'></i>
     </div>
 </footer>
