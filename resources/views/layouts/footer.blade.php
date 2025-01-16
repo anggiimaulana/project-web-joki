@@ -4,8 +4,8 @@
         <div class="flex flex-col lg:flex-row lg:justify-between gap-14">
             <div class="lg:w-5/6">
                 <div class="flex items-center space-x-4">
-                    <h2 class="italic text-2xl lg:text-3xl text-zinc-100 font-bold">
-                        JOKIIN<span class="text-xl lg:text-2xl">IT.com</span>
+                    <h2 class="italic text-2xl lg:text-3xl text-zinc-100 font-bold font-serif">
+                        JOKIIN<span class="text-xl lg:text-2xl">IT</span>
                     </h2>
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-full max-w-lg" viewBox="0 0 548 15" fill="none">
@@ -33,7 +33,7 @@
                             <i class="bx bxl-whatsapp text-xl mr-2"></i>+628987654321
                         </p>
                         <p class="text-zinc-200 hover:text-white flex items-center">
-                            <i class="bx bx-envelope text-base mr-2"></i>anggimaulana23@student.polindra.ac.id
+                            <i class="bx bx-envelope text-xl mr-2"></i>anggimaulana23@student.polindra.ac.id
                         </p>
                     </div>
 
@@ -41,11 +41,11 @@
                     <h2 class="font-bold text-zinc-100 text-base lg:text-xl mt-6">SOSIAL MEDIA</h2>
                     <div class="flex space-x-2 mt-2">
                         <a href="#" class="text-zinc-200 hover:text-white"><i
-                                class="bx bxl-instagram text-3xl md:text-xl"></i></a>
+                                class="bx bxl-instagram text-3xl md:text-2xl lg:text-3xl"></i></a>
                         <a href="#" class="text-zinc-200 hover:text-white"><i
-                                class="bx bxl-github text-3xl md:text-xl"></i></a>
+                                class="bx bxl-github text-3xl md:text-2xl lg:text-3xl"></i></a>
                         <a href="#" class="text-zinc-200 hover:text-white"><i
-                                class="bx bxl-tiktok text-3xl md:text-xl"></i></a>
+                                class="bx bxl-tiktok text-3xl md:text-2xl lg:text-3xl"></i></a>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
         <div class="border-t border-zinc-200 mt-8 pt-4">
             <p class="text-center font-semibold text-zinc-100 pt-4">&copy; 2025 <a
                     class="italic text-base text-zinc-100 hover:text-white font-bold" href="/">
-                    JOKIIN<span class="text-sm">IT.com
+                    JOKIIN<span class="text-sm">IT
                     </span>
                 </a> All rights reserved.</p>
         </div>
