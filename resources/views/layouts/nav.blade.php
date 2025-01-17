@@ -74,29 +74,29 @@
                 <div class="-my-6 divide-y divide-gray-500/10">
                     <div class="space-y-2 py-6">
                         <a href="/"
-                            class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-gray-700 hover:bg-gray-50 hover:text-sky-500 {{ isset($slug) && $slug === 'home' ? 'active' : '' }}">
+                            class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-gray-700 hover:bg-gray-50 hover:text-sky-500 {{ isset($slug) && $slug === 'home' ? 'text-sky-600 after:scale-x-100' : '' }}">
                             <i class='bx bxs-home text-xl'></i>
                             <p>Beranda</p>
                         </a>
-                        <a href="/app/profil"
-                            class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-gray-700 hover:bg-gray-50 hover:text-sky-500 {{ isset($slug) && $slug === 'profil' ? 'active' : '' }}">
+                        <a href="/information"
+                            class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-gray-700 hover:bg-gray-50 hover:text-sky-500 {{ isset($slug) && $slug === 'information' ? 'text-sky-600 after:scale-x-100' : '' }}">
                             <i class='bx bxl-blogger text-xl'></i>
                             <p>Blog</p>
                         </a>
-                        <a href="/app/program"
-                            class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-gray-700 hover:bg-gray-50 hover:text-sky-500 {{ isset($slug) && $slug === 'program' ? 'active' : '' }}">
+                        <a href="/track-order"
+                            class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-gray-700 hover:bg-gray-50 hover:text-sky-500 {{ isset($slug) && $slug === 'track-order' ? 'text-sky-600 after:scale-x-100' : '' }}">
                             <i class='bx bx-chart text-xl'></i>
                             <p>Track Order</p>
                         </a>
-                        <a href="/app/store"
-                            class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-gray-700 hover:bg-gray-50 hover:text-sky-500 {{ isset($slug) && $slug === 'store' ? 'active' : '' }}">
+                        <a href="/rating"
+                            class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-gray-700 hover:bg-gray-50 hover:text-sky-500 {{ isset($slug) && $slug === 'rating' ? 'text-sky-600 after:scale-x-100' : '' }}">
                             <i class='bx bxs-star-half text-xl'></i>
                             <p>Review</p>
                         </a>
                         <hr class="text-sky-200">
                         <div>
                             <a href="/how-to-order"
-                                class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-sky-500 hover:bg-gray-50 hover:text-sky-600">Bagaimana
+                                class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-sky-500 hover:bg-gray-50 hover:text-sky-600 {{ isset($slug) && $slug === 'how-to-order' ? 'text-sky-600 after:scale-x-100' : '' }}">Bagaimana
                                 Cara Ordernya?</a>
                             <a href="/order"
                                 class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-sky-500 hover:bg-gray-50 hover:text-sky-600">Order

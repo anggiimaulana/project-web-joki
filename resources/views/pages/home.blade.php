@@ -156,11 +156,11 @@
             </div>
         </section>
 
-        {{-- Pelayanan --}}
+        {{-- Rating --}}
         <section class="bg-lavender">
-            <div class="container mx-auto py-8 lg:py-10">
-                <div class="flex flex-col md:flex-row justify-center items-center md:items-stretch gap-4 md:gap-0 lg:gap-6">
-                    <div class="text-center text-rose-300 text-4xl lg:text-5xl flex flex-col items-center w-full max-w-60 md:max-w-64 p-2 md:px-6">
+            <div class="container mx-auto py-8">
+                <div class="flex flex-col md:flex-row justify-center items-center md:items-stretch gap-4 md:gap-2 lg:gap-4">
+                    <div class="text-center text-rose-300 text-4xl lg:text-5xl flex flex-col items-center w-full max-w-60 md:max-w-64 p-2">
                         <i class='bx bxs-group mb-1'></i>
                         <h4 class="text-2xl lg:text-3xl text-zinc-200 font-bold">100+</h4>
                         <p class="text-sm md:text-base text-zinc-200">
@@ -168,7 +168,7 @@
                             <span class="font-semibold">JOKIIN<span class="text-sm">IT</span></span>
                         </p>
                     </div>
-                    <div class="text-center text-green-300 text-4xl lg:text-5xl flex flex-col items-center w-full max-w-60 md:max-w-64 p-2 md:px-6">
+                    <div class="text-center text-green-300 text-4xl lg:text-5xl flex flex-col items-center w-full max-w-60 md:max-w-64 p-2">
                         <i class='bx bxs-graduation mb-1'></i>
                         <h4 class="text-2xl lg:text-3xl text-zinc-200 font-bold">15+</h4>
                         <p class="text-sm md:text-base text-zinc-200">
@@ -176,7 +176,7 @@
                             <span class="font-semibold">JOKIIN<span class="text-sm">IT</span></span>
                         </p>
                     </div>
-                    <div class="text-center text-green-300 text-4xl lg:text-5xl flex flex-col items-center w-full max-w-60 md:max-w-64 p-2 md:px-6">
+                    <div class="text-center text-fuchsia-200 text-4xl lg:text-5xl flex flex-col items-center w-full max-w-60 md:max-w-64 p-2">
                         <i class='bx bxs-user mb-1'></i>
                         <h4 class="text-2xl lg:text-3xl text-zinc-200 font-bold ">100%</h4>
                         <p class="text-sm md:text-base text-zinc-200">
@@ -185,7 +185,7 @@
                             Mendapatkan Nilai Baik
                         </p>
                     </div>
-                    <div class="text-center text-fuchsia-200 text-4xl lg:text-5xl flex flex-col items-center w-full max-w-60 md:max-w-64 p-2 md:px-6">
+                    <div class="text-center text-amber-300 text-4xl lg:text-5xl flex flex-col items-center w-full max-w-60 md:max-w-64 p-2">
                         <i class='bx bxs-star mb-1'></i>
                         <h4 class="text-2xl lg:text-3xl text-zinc-200 font-bold ">9.8/10</h4>
                         <p class="text-sm md:text-base text-zinc-200">Tingkat Kepuasan Pengguna</p>
@@ -194,8 +194,131 @@
             </div>
         </section>
         
-        
-        <section class="bg-white py-10"></section>
+        {{-- Service --}}
+        <section class="bg-gray-200">
+            <div class="container mx-auto py-12">
+                <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 px-4 md:px-0">
+                    <!-- Card 1 -->
+                    <div class="bg-white shadow rounded-3xl">
+                        <div class="relative">
+                            <img src="{{ asset('images/programming.jpg') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
+                        </div>
+                        <div class="p-4 text-center text-gray-500">
+                            <h3 class="text-xl md:text-2xl text-lavender font-semibold mb-2">Zip Tote Basket</h3>
+                            <p class="text-base lg:text-xl">White and black</p>
+                            <div class="flex gap-2 md:gap-4">
+                                <button class="mt-4 w-full max-w-36 md:max-w-56 bg-lavender hover:bg-sky-500 text-zinc-200 py-1 md:py-2 rounded-2xl font-bold">Order</button>
+                                <button class="mt-4 w-full max-w-36 md:max-w-56 bg-zinc-100 hover:bg-zinc-200 text-lavender py-1 md:py-2 rounded-2xl font-bold">Detail</button>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Card 2 -->
+                    <div class="bg-white shadow rounded-3xl">
+                        <div class="relative">
+                            <img src="{{ asset('images/programming.jpg') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
+                        </div>
+                        <div class="p-4 text-center text-gray-500">
+                            <h3 class="text-xl md:text-2xl text-lavender font-semibold mb-2">Zip High Wall Tote</h3>
+                            <p class="text-base lg:text-xl">White and blue</p>
+                            <div class="flex gap-2 md:gap-4">
+                                <button class="mt-4 w-full max-w-36 md:max-w-56 bg-lavender hover:bg-sky-500 text-zinc-200 py-1 md:py-2 rounded-2xl font-bold">Order</button>
+                                <button class="mt-4 w-full max-w-36 md:max-w-56 bg-zinc-100 hover:bg-zinc-200 text-lavender py-1 md:py-2 rounded-2xl font-bold">Detail</button>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Card 3 -->
+                    <div class="bg-white shadow rounded-3xl">
+                        <div class="relative">
+                            <img src="{{ asset('images/programming3.jpg') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
+                        </div>
+                        <div class="p-4 text-center text-gray-500">
+                            <h3 class="text-xl md:text-2xl text-lavender font-semibold mb-2">Halfsize Tote</h3>
+                            <p class="text-base lg:text-xl">Clay</p>
+                            <div class="flex gap-2 md:gap-4">
+                                <button class="mt-4 w-full max-w-36 md:max-w-56 bg-lavender hover:bg-sky-500 text-zinc-200 py-1 md:py-2 rounded-2xl font-bold">Order</button>
+                                <button class="mt-4 w-full max-w-36 md:max-w-56 bg-zinc-100 hover:bg-zinc-200 text-lavender py-1 md:py-2 rounded-2xl font-bold">Detail</button>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Card 4 -->
+                    <div class="bg-white shadow rounded-3xl">
+                        <div class="relative">
+                            <img src="{{ asset('images/programming.png') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
+                        </div>
+                        <div class="p-4 text-center text-gray-500">
+                            <h3 class="text-xl md:text-2xl text-lavender font-semibold mb-2">High Wall Tote</h3>
+                            <p class="text-base lg:text-xl">Black and orange</p>
+                            <div class="flex gap-2 md:gap-4">
+                                <button class="mt-4 w-full max-w-36 md:max-w-56 bg-lavender hover:bg-sky-500 text-zinc-200 py-1 md:py-2 rounded-2xl font-bold">Order</button>
+                                <button class="mt-4 w-full max-w-36 md:max-w-56 bg-zinc-100 hover:bg-zinc-200 text-lavender py-1 md:py-2 rounded-2xl font-bold">Detail</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="bg-white shadow rounded-3xl">
+                        <div class="relative">
+                            <img src="{{ asset('images/programming.png') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
+                        </div>
+                        <div class="p-4 text-center text-gray-500">
+                            <h3 class="text-xl md:text-2xl text-lavender font-semibold mb-2">Jasa Joki Laporan Magang</h3>
+                            <p class="text-base lg:text-xl">Bingung dengan laporan magang? Tenang, JOKIIN<span class="text-sm">IT</span> hadir untuk membantu kamu! Dengan layanan ini, kamu hanya perlu mengirimkan data-data yang diperlukan, dan kami akan menyusun laporan magangmu dengan rapi dan sesuai dengan arahan serta instruksi yang kamu berikan.</p>
+                            <div id="hidden-jasa" class="hidden">
+                                <p class="text-base lg:text-xl mt-2">
+                                    Tidak hanya membantu bimbingan, kami juga siap mengeksekusi skripsi kamu sesuai kesepakatan bersama. Kamu tetap bisa memantau setiap progress pengerjaannya, dari awal hingga selesai. Yuk, wujudkan skripsi impianmu dengan 
+                                    <span class="text-sky-700 font-bold">
+                                        JOKIIN<span class="text-sm md:text-base">IT</span>
+                                    </span>!
+                                </p>
+                            </div>
+                            <div class="flex gap-2 md:gap-4">
+                                <button class="mt-4 w-full max-w-36 md:max-w-56 bg-lavender hover:bg-sky-500 text-zinc-200 py-1 md:py-2 rounded-2xl font-bold">Order</button>
+                                <button class="mt-4 w-full max-w-36 md:max-w-56 bg-zinc-100 hover:bg-zinc-200 text-lavender py-1 md:py-2 rounded-2xl font-bold">Detail</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="bg-white shadow rounded-3xl">
+                        <div class="relative">
+                            <img src="{{ asset('images/programming.png') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
+                        </div>
+                        <div class="p-4 text-center text-gray-500">
+                            <h3 class="text-xl md:text-2xl text-lavender font-semibold mb-2">Jasa Joki Skripsi</h3>
+                            <p class="text-base lg:text-xl">
+                                Bingung dengan skripsi? Tenang, 
+                                <span class="text-sky-700 font-bold">
+                                    JOKIIN<span class="text-sm md:text-base">IT</span>
+                                </span> hadir untuk membantu kamu! Dengan layanan Jasa Joki Skripsi, kamu bisa mendapatkan bimbingan langsung dari tim ahli kami.
+                            </p>
+                            <!-- Konten tambahan -->
+                            <div id="hidden-jasa" class="hidden">
+                                <p class="text-base lg:text-xl mt-2">
+                                    Tidak hanya membantu bimbingan, kami juga siap mengeksekusi skripsi kamu sesuai kesepakatan bersama. Kamu tetap bisa memantau setiap progress pengerjaannya, dari awal hingga selesai. Yuk, wujudkan skripsi impianmu dengan 
+                                    <span class="text-sky-700 font-bold">
+                                        JOKIIN<span class="text-sm md:text-base">IT</span>
+                                    </span>!
+                                </p>
+                            </div>
+
+                            <!-- Tombol toggle -->
+                            <button id="button-jasa" class="mt-2 text-lavender font-semibold text-sm md:text-base">
+                                Baca Selengkapnya
+                            </button>
+
+                            <div class="flex gap-2 md:gap-4">
+                                <button class="mt-4 w-full bg-lavender hover:bg-sky-500 text-zinc-200 py-1 md:py-2 rounded-2xl font-bold cursor-pointer" disabled>Coming Soon</button>
+                                {{-- <button class="mt-4 w-full md:max-w-56 bg-zinc-100 hover:bg-zinc-200 text-lavender py-1 md:py-2 rounded-2xl font-bold">Detail</button> --}}
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
     </div>
     <script>
         function self() {
@@ -237,6 +360,23 @@
                     : "Sembunyikan";
             });
         });
+
+        document.addEventListener("DOMContentLoaded", function () {
+        const toggleButton = document.getElementById("button-jasa");
+        const hiddenContent = document.getElementById("hidden-jasa");
+
+        toggleButton.addEventListener("click", function () {
+            // Toggle visibility of the hidden content
+            if (hiddenContent.classList.contains("hidden")) {
+                hiddenContent.classList.remove("hidden");
+                toggleButton.textContent = "Sembunyikan";
+            } else {
+                hiddenContent.classList.add("hidden");
+                toggleButton.textContent = "Baca Selengkapnya";
+            }
+        });
+    });
+
 
     </script>
 @endsection
