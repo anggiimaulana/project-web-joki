@@ -8,6 +8,5 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="{{ asset('images/programming.png') }}" type="image/png">
     @vite('resources/css/app.css')
-    {{-- <title>@yield('title')</title> --}}
-    <title>JOKI</title>
+    <title>@yield('title')</title>
 </head>

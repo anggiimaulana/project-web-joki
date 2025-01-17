@@ -2,7 +2,7 @@
     <nav class="container px-6 md:px-0 mx-auto flex max-w-8xl items-center justify-between py-4 border-b border-sky-200"
         aria-label="Global">
         <div class="name-company flex lg:flex-1">
-            <a class="italic font-serif text-2xl md:text:3xl lg:text-3xl text-sky-500 hover:text-sky-600 font-bold" href="/">
+            <a class="italic font-serif text-2xl md:text:3xl lg:text-3xl text-lavender hover:text-sky-600 font-bold" href="/">
                 JOKIIN<span class="text-xl lg:text-2xl">IT</span>
             </a>
         </div>
@@ -22,31 +22,31 @@
         <!-- Desktop menu -->
         <div class="navbar hidden lg:flex md:hidden md:gap-x-4 lg:gap-x-10">
             <a href="/"
-                class="relative font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-400 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-400 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'home' ? 'active after:scale-x-100' : '' }}">
+                class="relative font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-600 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-600 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'home' ? 'text-sky-600 after:scale-x-100' : '' }}">
                 <i class='bx bxs-home text-xl'></i>
                 <p>Beranda</p>
             </a>
             <a href="/information"
-                class="relative font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-400 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-400 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'information' ? 'active after:scale-x-100' : '' }}">
+                class="relative font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-600 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-600 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'information' ? 'text-sky-600 after:scale-x-100' : '' }}">
                 <i class='bx bxl-blogger text-xl'></i>
                 <p>Informasi</p>
             </a>
             <a href="/track-order"
-                class="relative font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-400 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-400 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'track-order' ? 'active after:scale-x-100' : '' }}">
+                class="relative font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-600 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-600 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'track-order' ? 'text-sky-600 after:scale-x-100' : '' }}">
                 <i class='bx bx-chart text-xl'></i>
                 <p>Track Order</p>
             </a>
             <a href="/review"
-                class="relative font-semibold text-gray-700 flex items-center hover:text-sky-400 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-400 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'review' ? 'active after:scale-x-100' : '' }}">
+                class="relative font-semibold text-gray-700 flex items-center hover:text-sky-600 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-600 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'review' ? 'text-sky-600 after:scale-x-100' : '' }}">
                 <i class='bx bxs-star-half text-xl'></i>
                 <p>Review</p>
             </a>
             <div class="hidden lg:flex md:flex lg:flex-1 lg:justify-end gap-x-1">
                 <a href="/how-to-order"
-                    class="relative font-semibold text-base text-sky-500 px-6 py-2 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-400 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'how-to-order' ? 'active after:scale-x-100' : '' }}">Bagaimana
+                    class="relative font-semibold text-base text-sky-600 px-6 py-2 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-600 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'how-to-order' ? 'active after:scale-x-100' : '' }}">Bagaimana
                     Cara Ordernya?</a>
                 <a href="/order"
-                    class="font-semibold text-base text-white bg-sky-500 px-6 py-2 rounded-3xl border hover:bg-sky-600 {{ isset($slug) && $slug === 'order' ? 'active after:scale-x-100' : '' }}">Order
+                    class="font-semibold text-base text-white bg-sky-600 px-6 py-2 rounded-3xl border hover:bg-sky-500 {{ isset($slug) && $slug === 'order' ? 'active after:scale-x-100' : '' }}">Order
                     Sekarang</a>
             </div>
         </div>
@@ -95,10 +95,10 @@
                         </a>
                         <hr class="text-sky-200">
                         <div>
-                            <a href="/"
+                            <a href="/how-to-order"
                                 class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-sky-500 hover:bg-gray-50 hover:text-sky-600">Bagaimana
                                 Cara Ordernya?</a>
-                            <a href="/"
+                            <a href="/order"
                                 class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-sky-500 hover:bg-gray-50 hover:text-sky-600">Order
                                 Sekarang</a>
                         </div>
@@ -123,16 +123,4 @@
     menuClose.addEventListener('click', () => {
         mobileMenu.classList.add('hidden');
     });
-
-    // window.addEventListener('scroll', () => {
-    //     const header = document.getElementById('header');
-    //     if (window.scrollY > 0) {
-    //         // warna navbar
-    //         header.classList.remove('bg-zinc-100');
-    //         header.classList.add('bg-white', 'shadow-md');
-    //     } else {
-    //         header.classList.remove('bg-white', 'shadow-md');
-    //         header.classList.add('bg-zinc-100');
-    //     }
-    // });
 </script>
