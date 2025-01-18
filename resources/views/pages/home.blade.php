@@ -207,12 +207,11 @@
                     <p class="text-base md:text-lg text-gray-700">
                         Bingung memilih jenis tugas yang perlu dijokikan? Tenang, kami siap membantu! Konsultasikan tugasmu dengan Jasa Joki Tugas by
                         <span class="text-sky-700 font-semibold">
-                            JOKIIN<span class="text-base">IT</span>
+                            JOKIIN<span class="text-sm md:text-base">IT</span>
                         </span>
                     </p>
                 </div>
                 <div class="my-5 md:my-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 px-4 md:px-0">
-
                     <!-- Berlangganan -->
                     <div class="bg-white shadow rounded-3xl">
                         <div class="relative">
@@ -425,68 +424,41 @@
                 </div>
             </div>
         </section>
+
+        {{-- How To Order --}}
+        <section class="bg-lavender">
+            <div class="container mx-auto py-12 md:py-16 lg:py-20">
+                <div class="text-center px-2 md:px-0">
+                    <h3 class="text-zinc-200 text-2xl md:text-4xl font-bold">
+                        Alur Transaksi Jasa Joki Tugas di <span class="text-zinc-200">
+                            JOKIIN<span class="text-xl md:text-3xl">IT</span>
+                        </span>
+                    </h3>
+                    <div class="h-2 rounded w-44 md:w-1/2 lg:w-1/3 mx-auto bg-gradient-to-r from-zinc-200 to-gray-400 my-4"></div>
+                    <p class="text-base md:text-lg text-zinc-200">
+                        Kami memberikan kemudahan dalam proses order jasa joki di <span class="font-semibold">
+                            JOKIIN<span class="text-sm md:text-base">IT</span>
+                        </span> tugas demi kenyamanan pelayanan.
+                    </p>
+                </div>
+                <div class="my-5 md:my-10 px-4 md:px-6 lg:px-16">
+                    <img 
+                        src="{{ asset('images/how-to-order-jokiinit.jpg') }}" 
+                        alt="how-to-order-jokiinit"
+                        class="rounded-3xl shadow w-full cursor-pointer object-cover"
+                        loading="lazy"
+                        onclick="openImage()"
+                        id="how-to-order-jokiinit"
+                    >
+                </div>
+                <!-- Modal untuk menampilkan gambar besar -->
+                <div id="image-modal" class="fixed inset-0 bg-black bg-opacity-75 hidden justify-center items-center z-50" onclick="closeImage()">
+                    <img id="large-image" class="w-full max-w-[90%] rounded-3xl object-contain" src="" alt="Large Image">
+                </div>
+
+            </div>
+        </section>
     </div>
-    <script>
-        function self() {
-            window.location.href = 'https://jokitugaslo.com';
-        }
-
-        function order() {
-            window.location.href = 'https://jokitugaslo.com';
-        }
-
-        document.addEventListener("DOMContentLoaded", () => {
-            const words = ["Profesional", "Sat-set", "Canggih", "Dipercaya", "Lengkap", "Berkualitas"];
-            const descElement = document.getElementById("desc");
-            let currentIndex = 0;
-
-            const updateWord = () => {
-                descElement.classList.add("opacity-0", "scale-90");
-
-                setTimeout(() => {
-                    currentIndex = (currentIndex + 1) % words.length;
-                    descElement.textContent = words[currentIndex];
-
-                    descElement.classList.remove("opacity-0", "scale-90");
-                }, 500);
-            };
-
-            // Run updateWord every 2 seconds
-            setInterval(updateWord, 3500);
-        });
-
-        document.addEventListener("DOMContentLoaded", function () {
-            const toggleVisibility = (buttonId, contentId) => {
-                const button = document.getElementById(buttonId);
-                const content = document.getElementById(contentId);
-
-                button.addEventListener("click", () => {
-                    content.classList.toggle("hidden");
-                    button.textContent = content.classList.contains("hidden") ? "Baca Selengkapnya" : "Sembunyikan";
-                });
-            };
-
-            // Subscribe
-            toggleVisibility("button-laprak", "hidden-laprak");
-
-            // Laprak
-            toggleVisibility("button-subscribe", "hidden-subscribe");
-
-            // Tubes
-            toggleVisibility("button-tubes", "hidden-tubes");
-
-            // Karya Ilmiah
-            toggleVisibility("button-karya-ilmiah", "hidden-karya-ilmiah");
-
-            // Magang
-            toggleVisibility("button-magang", "hidden-magang");
-
-            // Skripsi
-            toggleVisibility("button-skripsi", "hidden-skripsi");
-
-        });
-
-
-
-    </script>
+    
+    <script src="{{ asset('js/script.js') }}"></script>
 @endsection
