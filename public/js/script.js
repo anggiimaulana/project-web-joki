@@ -22,10 +22,11 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 500);
     };
 
-    // Run updateWord every 2 seconds
+    // Run updateWord every 3,5 seconds
     setInterval(updateWord, 3500);
 });
 
+// Visibility Selengkapnya & Sembunyikan
 document.addEventListener("DOMContentLoaded", function () {
     const toggleVisibility = (buttonId, contentId) => {
         const button = document.getElementById(buttonId);
@@ -36,6 +37,9 @@ document.addEventListener("DOMContentLoaded", function () {
             button.textContent = content.classList.contains("hidden") ? "Baca Selengkapnya" : "Sembunyikan";
         });
     };
+
+    // About
+    toggleVisibility("button-about", "hidden-about");
 
     // Subscribe
     toggleVisibility("button-laprak", "hidden-laprak");
@@ -67,6 +71,7 @@ function openImage() {
     modalImage.src = imageUrl;
 }
 
+// Close image how-to-order-jokiinit
 function closeImage() {
     var modal = document.getElementById('image-modal');
     modal.style.display = "none";
