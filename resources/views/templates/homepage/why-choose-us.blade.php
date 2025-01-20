@@ -1,6 +1,6 @@
-<section class="bg-gray-200">
-    <div class="container mx-auto py-12 md:py-16 lg:py-20">
-        <div class="text-center px-2 md:px-0">
+<section class="bg-gray-50 py-12">
+    <div class="container mx-auto px-4">
+        <div class="text-center px-2 md:px-0 ">
             <h3 class="text-gray-700 text-2xl md:text-4xl font-bold">
                 Kenapa Harus <span class="text-sky-700 font-serif">
                     JOKIIN<span class="text-xl md:text-3xl">IT</span>
@@ -15,97 +15,84 @@
                 </span>
             </p>
         </div>
-        <div class="grid my-5 md:my-10 grid-cols-1 md:grid-cols-2 gap-6 px-4 md:p-0">
-            <!-- Card 1 -->
-            <div class="bg-zinc-100 rounded-2xl shadow-md p-4 flex items-start space-x-4">
-                <div class="p-3 bg-gray-200 text-lavender rounded-full">
-                    <i class='bx bxs-user-check text-3xl md:text-4xl'></i>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-5 md:my-10">
+            <!-- Profesionalitas -->
+            <div class="flex flex-col items-center text-center">
+                <div class="mb-4">
+                    <img src="https://img.icons8.com/?size=100&id=41799&format=png&color=000000" alt="Free Shipping" class="w-12 h-12">
                 </div>
-                <div>
-                    <h3 class="text-lg md:text-2xl font-bold text-lavender md:pb-2">Profesionalitas Tim</h3>
-                    <p class="text-base lg:text-lg text-gray-700">
-                        Kami menjamin tugas Anda dikerjakan oleh Tim Profesional dengan hasil yang memuaskan.
-                    </p>
-                </div>
+                <h3 class="text-lg md:text-2xl font-bold text-lavender md:pb-2">Profesionalitas Tim</h3>
+                <p class="text-base lg:text-lg text-gray-700">
+                    Kami menjamin tugas Anda dikerjakan oleh Tim Profesional dengan hasil yang memuaskan.
+                </p>
             </div>
 
-            <!-- Card 2 -->
-            <div class="bg-zinc-100 rounded-2xl shadow-md p-4 flex items-start space-x-4">
-                <div class="p-3 bg-purple-100 text-purple-500 rounded-full">
-                    <i class='bx bxs-lock text-3xl md:'></i>
+            <!-- Anonymity -->
+            <div class="flex flex-col items-center text-center">
+                <div class="mb-4">
+                    <img src="https://img.icons8.com/?size=100&id=41658&format=png&color=000000" alt="10-year warranty" class="w-12 h-12">
                 </div>
-                <div>
-                    <h3 class="text-lg md:text-2xl font-bold text-lavender md:pb-2">Kerahasiaan Terjamin</h3>
-                    <p class="text-base lg:text-lg text-gray-700">
-                        Kami menjamin kerahasiaan data Anda. Keamanan dan privasi adalah prioritas utama kami.
-                    </p>
-                </div>
+                <h3 class="text-lg md:text-2xl font-bold text-lavender md:pb-2">Kerahasiaan Terjamin</h3>
+                <p class="text-base lg:text-lg text-gray-700">
+                    Kami menjamin kerahasiaan data Anda. Keamanan dan privasi adalah prioritas utama kami.
+                </p>
             </div>
 
-            <!-- Card 3 -->
-            <div class="bg-zinc-100 rounded-2xl shadow-md p-4 flex items-start space-x-4">
-                <div class="p-3 bg-green-500 text-zinc-100 rounded-full">
-                    <i class='bx bxs-check-square text-3xl md:text-4xl'></i>
+            <!-- Garansi -->
+            <div class="flex flex-col items-center text-center">
+                <div class="mb-4">
+                    <img src="https://img.icons8.com/?size=100&id=51624&format=png&color=000000" alt="Exchanges" class="w-12 h-12">
                 </div>
-                <div>
-                    <h3 class="text-lg md:text-2xl font-bold text-lavender md:pb-2">Garansi Kualitas</h3>
-                    <p class="text-base lg:text-lg text-gray-700">
-                        Kami memberikan garansi 1x24 jam revisi gratis untuk memastikan hasil pengerjaan sesuai dengan harapan Anda.
-                    </p>
-                </div>
+                <h3 class="text-lg md:text-2xl font-bold text-lavender md:pb-2">Garansi Kualitas</h3>
+                <p class="text-base lg:text-lg text-gray-700">
+                    Kami memberikan garansi 1x24 jam revisi gratis untuk memastikan hasil pengerjaan sesuai dengan harapan Anda.
+                </p>
             </div>
 
-            <!-- Card 4 -->
-            <div class="bg-zinc-100 rounded-2xl shadow-md p-4 flex items-start space-x-4">
-                <div class="p-3 bg-green-100 text-green-500 rounded-full">
-                    <i class='bx bx-timer text-3xl md:text-4xl'></i>
+            <!-- Layanan Cepat -->
+            <div class="flex flex-col items-center text-center">
+                <div class="mb-4">
+                    <img src="https://img.icons8.com/?size=100&id=49945&format=png&color=000000" alt="Exchanges" class="w-12 h-12">
                 </div>
-                <div>
-                    <h3 class="text-lg md:text-2xl font-bold text-lavender md:pb-2">Layanan Cepat dan Tepat Waktu</h3>
-                    <p class="text-base lg:text-lg text-gray-700">
-                        Tugas selesai tepat waktu tanpa kompromi pada kualitas.
-                    </p>
-                </div>
+                <h3 class="text-lg md:text-2xl font-bold text-lavender md:pb-2">Layanan Cepat dan Tepat Waktu</h3>
+                <p class="text-base lg:text-lg text-gray-700">
+                    Tugas selesai tepat waktu tanpa kompromi pada kualitas.
+                </p>
             </div>
 
-            <!-- Card 5 -->
-            <div class="bg-zinc-100 rounded-2xl shadow-md p-4 flex items-start space-x-4">
-                <div class="p-3 bg-gray-200 text-gray-700 rounded-full">
-                    <i class='bx bx-loader text-3xl md:text-4xl'></i>
+            <!-- Kemudahan -->
+            <div class="flex flex-col items-center text-center">
+                <div class="mb-4">
+                    <img src="https://img.icons8.com/?size=100&id=XViSiygLfzih&format=png&color=000000" alt="Exchanges" class="w-12 h-12">
                 </div>
-                <div>
-                    <h3 class="text-lg md:text-2xl font-bold text-lavender md:pb-2">Kemudahan Proses</h3>
-                    <p class="text-base lg:text-lg text-gray-700">
-                        Hanya dalam beberapa langkah sederhana, tugas Anda akan kami kerjakan. Mudah, cepat, dan tanpa ribet!
-                    </p>
-                </div>
+                <h3 class="text-lg md:text-2xl font-bold text-lavender md:pb-2">Kemudahan Proses</h3>
+                <p class="text-base lg:text-lg text-gray-700">
+                    Hanya dalam beberapa langkah sederhana, tugas Anda akan kami kerjakan. Mudah, cepat, dan tanpa ribet!
+                </p>
             </div>
 
-            <!-- Card 6 -->
-            <div class="bg-zinc-100 rounded-2xl shadow-md p-4 flex items-start space-x-4">
-                <div class="p-3 bg-yellow-100 text-yellow-500 rounded-full">
-                    <i class='bx bx-money-withdraw text-3xl md:text-4xl'></i>
+            <!-- Harga -->
+            <div class="flex flex-col items-center text-center">
+                <div class="mb-4">
+                    <img src="https://img.icons8.com/?size=100&id=78753&format=png&color=000000" alt="Exchanges" class="w-12 h-12">
                 </div>
-                <div>
-                    <h3 class="text-lg md:text-2xl font-bold text-lavender md:pb-2">Harga Terjangkau</h3>
-                    <p class="text-base lg:text-lg text-gray-700">
-                        Dapatkan layanan berkualitas tinggi dengan harga yang terjangkau.
-                    </p>
-                </div>
+                <h3 class="text-lg md:text-2xl font-bold text-lavender md:pb-2">Harga Terjangkau</h3>
+                <p class="text-base lg:text-lg text-gray-700">
+                    Dapatkan layanan berkualitas tinggi dengan harga yang terjangkau.
+                </p>
             </div>
 
-            <!-- Card 7 -->
-            <div class="bg-zinc-100 rounded-2xl shadow-md p-4 flex items-start space-x-4 md:col-span-2 md:justify-self-center lg:w-2/3">
-                <div class="p-3 bg-lavender text-zinc-200 rounded-full">
-                    <i class='bx bx-code-alt text-3xl md:text-4xl'></i>
-                </div>
-                <div>
-                    <h3 class="text-lg md:text-2xl font-bold text-lavender md:pb-2">Beragam Layanan</h3>
-                    <p class="text-base lg:text-lg text-gray-700">
-                        Kami menyediakan berbagai layanan, mulai dari Pembuatan Laporan Praktikum, Pemrograman, UI/UX, Tugas Besar IT, BPMN, Pengembangan Aplikasi atau Website, hingga Pembuatan Laporan Magang dan Skripsi IT loh!.
-                    </p>
-                </div>
+        </div>
+        
+        <!-- Layanan -->
+        <div class="flex flex-col items-center text-center">
+            <div class="mb-4">
+                <img src="https://img.icons8.com/?size=100&id=50199&format=png&color=000000 alt="Exchanges" class="w-12 h-12">
             </div>
+            <h3 class="text-lg md:text-2xl font-bold text-lavender md:pb-2">Beragam Layanan</h3>
+            <p class="text-base lg:text-lg text-gray-700">
+                Kami menyediakan berbagai layanan, mulai dari Pembuatan Laporan Praktikum, Pemrograman, UI/UX, Tugas Besar IT, BPMN, Pengembangan Aplikasi atau Website, hingga Pembuatan Laporan Magang dan Skripsi IT loh!.
+            </p>
         </div>
     </div>
 </section>
