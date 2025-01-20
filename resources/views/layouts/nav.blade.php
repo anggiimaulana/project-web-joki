@@ -42,9 +42,11 @@
                 <p>Review</p>
             </a>
             <div class="hidden lg:flex md:flex lg:flex-1 lg:justify-end gap-x-1">
-                <a href="/how-to-order"
-                    class="relative font-semibold text-base text-sky-600 px-6 py-2 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-600 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'how-to-order' ? 'active after:scale-x-100' : '' }}">Bagaimana
-                    Cara Ordernya?</a>
+                <button 
+                    onclick="window.open('https://wa.me/6281394106225?text=Halo, saya ingin konsultasi', '_blank')"
+                    class="relative font-semibold text-base text-sky-600 px-6 py-2 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-600 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform">
+                    Konsultasi Tugas
+                </button>
                 <a href="/order"
                     class="font-semibold text-base text-white bg-sky-600 px-6 py-2 rounded-3xl border hover:bg-sky-500 {{ isset($slug) && $slug === 'order' ? 'active after:scale-x-100' : '' }}">Order
                     Sekarang</a>
@@ -59,7 +61,7 @@
             class="fixed inset-y-0 right-0 z-20 w-full overflow-y-auto bg-white px-6 py-4 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div class="flex items-center justify-between">
                 <div class="flex items-center gap-x-2">
-                    <a class="italic text-2xl text-sky-500 font-bold" href="/">
+                    <a class="italic text-2xl text-lavender font-serif font-bold" href="/">
                         JOKIIN<span class="text-xl">IT</span>
                     </a>
                 </div>
@@ -95,9 +97,11 @@
                         </a>
                         <hr class="text-sky-200">
                         <div>
-                            <a href="/how-to-order"
-                                class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-sky-500 hover:bg-gray-50 hover:text-sky-600 {{ isset($slug) && $slug === 'how-to-order' ? 'text-sky-600 after:scale-x-100' : '' }}">Bagaimana
-                                Cara Ordernya?</a>
+                            <button 
+                                onclick="window.open('https://wa.me/6281394106225?text=Halo, saya ingin konsultasi', '_blank')"
+                                class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-sky-500 hover:bg-gray-50 hover:text-sky-600">
+                                Konsultasi Tugas
+                            </button>
                             <a href="/order"
                                 class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-sky-500 hover:bg-gray-50 hover:text-sky-600">Order
                                 Sekarang</a>
