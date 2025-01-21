@@ -19,7 +19,7 @@
             <!-- Profesionalitas -->
             <div class="flex flex-col items-center text-center">
                 <div class="mb-4">
-                    <img src="https://img.icons8.com/?size=100&id=41799&format=png&color=000000" alt="Free Shipping" class="w-12 h-12">
+                    <img src="https://img.icons8.com/?size=100&id=41799&format=png&color=000000" alt="Free Shipping" class="w-12 h-12" loading="lazy">
                 </div>
                 <h3 class="text-lg md:text-2xl font-bold text-lavender md:pb-2">Profesionalitas Tim</h3>
                 <p class="text-base lg:text-lg text-gray-700">
@@ -30,7 +30,7 @@
             <!-- Anonymity -->
             <div class="flex flex-col items-center text-center">
                 <div class="mb-4">
-                    <img src="https://img.icons8.com/?size=100&id=41658&format=png&color=000000" alt="10-year warranty" class="w-12 h-12">
+                    <img src="https://img.icons8.com/?size=100&id=41658&format=png&color=000000" alt="10-year warranty" class="w-12 h-12" loading="lazy">
                 </div>
                 <h3 class="text-lg md:text-2xl font-bold text-lavender md:pb-2">Kerahasiaan Terjamin</h3>
                 <p class="text-base lg:text-lg text-gray-700">
@@ -41,7 +41,7 @@
             <!-- Garansi -->
             <div class="flex flex-col items-center text-center">
                 <div class="mb-4">
-                    <img src="https://img.icons8.com/?size=100&id=51624&format=png&color=000000" alt="Exchanges" class="w-12 h-12">
+                    <img src="https://img.icons8.com/?size=100&id=51624&format=png&color=000000" alt="Exchanges" class="w-12 h-12" loading="lazy">
                 </div>
                 <h3 class="text-lg md:text-2xl font-bold text-lavender md:pb-2">Garansi Kualitas</h3>
                 <p class="text-base lg:text-lg text-gray-700">
@@ -52,7 +52,7 @@
             <!-- Layanan Cepat -->
             <div class="flex flex-col items-center text-center">
                 <div class="mb-4">
-                    <img src="https://img.icons8.com/?size=100&id=49945&format=png&color=000000" alt="Exchanges" class="w-12 h-12">
+                    <img src="https://img.icons8.com/?size=100&id=49945&format=png&color=000000" alt="Exchanges" class="w-12 h-12" loading="lazy">
                 </div>
                 <h3 class="text-lg md:text-2xl font-bold text-lavender md:pb-2">Layanan Cepat dan Tepat Waktu</h3>
                 <p class="text-base lg:text-lg text-gray-700">
@@ -63,7 +63,7 @@
             <!-- Kemudahan -->
             <div class="flex flex-col items-center text-center">
                 <div class="mb-4">
-                    <img src="https://img.icons8.com/?size=100&id=XViSiygLfzih&format=png&color=000000" alt="Exchanges" class="w-12 h-12">
+                    <img src="https://img.icons8.com/?size=100&id=XViSiygLfzih&format=png&color=000000" alt="Exchanges" class="w-12 h-12" loading="lazy">
                 </div>
                 <h3 class="text-lg md:text-2xl font-bold text-lavender md:pb-2">Kemudahan Proses</h3>
                 <p class="text-base lg:text-lg text-gray-700">
@@ -74,7 +74,7 @@
             <!-- Harga -->
             <div class="flex flex-col items-center text-center">
                 <div class="mb-4">
-                    <img src="https://img.icons8.com/?size=100&id=78753&format=png&color=000000" alt="Exchanges" class="w-12 h-12">
+                    <img src="https://img.icons8.com/?size=100&id=78753&format=png&color=000000" alt="Exchanges" class="w-12 h-12" loading="lazy">
                 </div>
                 <h3 class="text-lg md:text-2xl font-bold text-lavender md:pb-2">Harga Terjangkau</h3>
                 <p class="text-base lg:text-lg text-gray-700">
@@ -86,8 +86,8 @@
         
         <!-- Layanan -->
         <div class="flex flex-col items-center text-center">
-            <div class="mb-4">
-                <img src="https://img.icons8.com/?size=100&id=50199&format=png&color=000000 alt="Exchanges" class="w-12 h-12">
+            <div class="my-4">
+                <img src="https://img.icons8.com/?size=100&id=50199&format=png&color=000000 alt="Exchanges" class="w-12 h-12" loading="lazy">
             </div>
             <h3 class="text-lg md:text-2xl font-bold text-lavender md:pb-2">Beragam Layanan</h3>
             <p class="text-base lg:text-lg text-gray-700">
