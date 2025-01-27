@@ -6,7 +6,7 @@
                     JOKIIN<span class="text-xl md:text-3xl">IT</span>
                 </span>
             </h3>
-            <div class="h-2 rounded w-44 md:w-1/2 lg:w-1/3 mx-auto bg-gradient-to-r from-blue-700 to-blue-300 my-4"></div>
+            <div class="h-2 rounded w-44 md:w-2/3 lg:w-1/3 mx-auto bg-gradient-to-r from-blue-700 to-blue-300 my-4"></div>
             <p class="text-base md:text-lg text-gray-700">
                 Kami memberikan kemudahan dalam proses order jasa joki di <span class="font-semibold">
                     JOKIIN<span class="text-sm md:text-base">IT</span>

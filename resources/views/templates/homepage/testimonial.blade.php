@@ -6,7 +6,7 @@
         JOKIIN<span class="text-xl md:text-3xl">IT</span>
         </span>
       </h3>
-      <div class="h-2 rounded w-44 md:w-1/2 lg:w-1/3 mx-auto bg-gradient-to-r from-blue-700 to-blue-300 my-4"></div>
+      <div class="h-2 rounded w-44 md:w-1/3 lg:w-64 mx-auto bg-gradient-to-r from-blue-700 to-blue-300 my-4"></div>
         <p class="text-base md:text-lg text-gray-700">
           Tidak hanya sekadar layanan, tapi pengalaman luar biasa! Ini dia testimoni dari mereka yang sudah puas dengan
           <span class="text-sky-700 font-semibold">
@@ -23,10 +23,10 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Agnita Najwa</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Agnita Najwa</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+            <blockquote class=" text-sm lg:text-base text-gray-600">
               gabisa berkata kata ubur ubur ikan lele mantapp leee, pengerjaannya cepat , murahh lagi🤩
             </blockquote>
           </figure>
@@ -35,11 +35,11 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Malik Hakim</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Malik Hakim</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-              JokiInit tuh top banget! Kerjanya cepet, hasilnya ciamik, dan gak pernah ribet. Kalo butuh lagi, langsung deh balik sini!
+            <blockquote class=" text-sm lg:text-base text-gray-600">
+              jokiinit gila banget! Tugas selesai dalam sekejap, dan hasilnya ciamik! Pokoknya kalo butuh bantuan, gak akan cari tempat lain!🙌
             </blockquote>
           </figure>
   
@@ -47,11 +47,11 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Alfarizy</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Alfarizy</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-              jokiInit tuh top banget! Kerjanya cepet, hasilnya ciamik, dan gak pernah ribet. Kalo butuh lagi, langsung deh balik sini!
+            <blockquote class=" text-sm lg:text-base text-gray-600">
+              JokiInit bener-bener nge-revolusiin cara gue ngerjain tugas! Kerjaannya gak cuma cepet, tapi juga SUPER KEREN! Gak sabar buat pake lagi! 😱
             </blockquote>
           </figure>
     
@@ -59,10 +59,10 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Najmi Ayu</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Najmi Ayu</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+            <blockquote class=" text-sm lg:text-base text-gray-600">
               mantaaappp si 9/10 apalagi klo lagi banyak kerjaan gabisa megang tugas, jdi bisa langsung joki ke JOKIINIT and cuzz cepet jadi bro.
             </blockquote>
           </figure>
@@ -71,10 +71,10 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Syahirah</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Syahirah</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+            <blockquote class=" text-sm lg:text-base text-gray-600">
               sicepat express👍👍
             </blockquote>
           </figure>
@@ -83,11 +83,11 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Haikal Ibrahim</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Haikal Ibrahim</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-              Satu kata: Top! Layanan sangat profesional dan responsif. Pasti saya rekomendasikan ke teman-teman.
+            <blockquote class=" text-sm lg:text-base text-gray-600">
+              Satu kata: Top! Layanan sangat profesional dan responsif. 
             </blockquote>
           </figure>
     
@@ -95,10 +95,10 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Salma Rusyda</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Salma Rusyda</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+            <blockquote class=" text-sm lg:text-base text-gray-600">
               kereennn gercep abieesszz pengerjaan nya, tinggal duduk santai langsung jdii😍😍😍
             </blockquote>
           </figure>
@@ -106,10 +106,10 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Agnita Najwa</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Agnita Najwa</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+            <blockquote class=" text-sm lg:text-base text-gray-600">
               gabisa berkata kata ubur ubur ikan lele mantapp leee, pengerjaannya cepat , murahh lagi🤩
             </blockquote>
           </figure>
@@ -118,11 +118,11 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Malik Hakim</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Malik Hakim</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-              JokiInit tuh top banget! Kerjanya cepet, hasilnya ciamik, dan gak pernah ribet. Kalo butuh lagi, langsung deh balik sini!
+            <blockquote class=" text-sm lg:text-base text-gray-600">
+              jokiinit gila banget! Tugas selesai dalam sekejap, dan hasilnya ciamik! Pokoknya kalo butuh bantuan, gak akan cari tempat lain!🙌
             </blockquote>
           </figure>
   
@@ -130,11 +130,11 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Alfarizy</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Alfarizy</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-              jokiInit tuh top banget! Kerjanya cepet, hasilnya ciamik, dan gak pernah ribet. Kalo butuh lagi, langsung deh balik sini!
+            <blockquote class=" text-sm lg:text-base text-gray-600">
+              JokiInit bener-bener nge-revolusiin cara gue ngerjain tugas! Kerjaannya gak cuma cepet, tapi juga SUPER KEREN! Gak sabar buat pake lagi! 😱
             </blockquote>
           </figure>
     
@@ -142,10 +142,10 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Najmi Ayu</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Najmi Ayu</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+            <blockquote class=" text-sm lg:text-base text-gray-600">
               mantaaappp si 9/10 apalagi klo lagi banyak kerjaan gabisa megang tugas, jdi bisa langsung joki ke JOKIINIT and cuzz cepet jadi bro.
             </blockquote>
           </figure>
@@ -154,10 +154,10 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Syahirah</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Syahirah</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+            <blockquote class=" text-sm lg:text-base text-gray-600">
               sicepat express👍👍
             </blockquote>
           </figure>
@@ -166,11 +166,11 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Haikal Ibrahim</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Haikal Ibrahim</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-              Satu kata: Top! Layanan sangat profesional dan responsif. Pasti saya rekomendasikan ke teman-teman.
+            <blockquote class=" text-sm lg:text-base text-gray-600">
+              Satu kata: Top! Layanan sangat profesional dan responsif. 
             </blockquote>
           </figure>
     
@@ -178,10 +178,10 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Salma Rusyda</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Salma Rusyda</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+            <blockquote class=" text-sm lg:text-base text-gray-600">
               kereennn gercep abieesszz pengerjaan nya, tinggal duduk santai langsung jdii😍😍😍
             </blockquote>
           </figure>
@@ -193,10 +193,10 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Agnita Najwa</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Agnita Najwa</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+              <blockquote class=" text-sm lg:text-base text-gray-600">
                 gabisa berkata kata ubur ubur ikan lele mantapp leee, pengerjaannya cepat , murahh lagi🤩
               </blockquote>
             </figure>
@@ -205,11 +205,11 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Malik Hakim</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Malik Hakim</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-                JokiInit tuh top banget! Kerjanya cepet, hasilnya ciamik, dan gak pernah ribet. Kalo butuh lagi, langsung deh balik sini!
+              <blockquote class=" text-sm lg:text-base text-gray-600">
+                jokiinit gila banget! Tugas selesai dalam sekejap, dan hasilnya ciamik! Pokoknya kalo butuh bantuan, gak akan cari tempat lain!🙌
               </blockquote>
             </figure>
   
@@ -217,11 +217,11 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Alfarizy</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Alfarizy</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-                jokiInit tuh top banget! Kerjanya cepet, hasilnya ciamik, dan gak pernah ribet. Kalo butuh lagi, langsung deh balik sini!
+              <blockquote class=" text-sm lg:text-base text-gray-600">
+                JokiInit bener-bener nge-revolusiin cara gue ngerjain tugas! Kerjaannya gak cuma cepet, tapi juga SUPER KEREN! Gak sabar buat pake lagi! 😱
               </blockquote>
             </figure>
       
@@ -229,10 +229,10 @@
             <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Najmi Ayu</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Najmi Ayu</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+              <blockquote class=" text-sm lg:text-base text-gray-600">
                 mantaaappp si 9/10 apalagi klo lagi banyak kerjaan gabisa megang tugas, jdi bisa langsung joki ke JOKIINIT and cuzz cepet jadi bro.
               </blockquote>
             </figure>
@@ -241,10 +241,10 @@
             <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Syahirah</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Syahirah</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+              <blockquote class=" text-sm lg:text-base text-gray-600">
                 sicepat express👍👍
               </blockquote>
             </figure>
@@ -253,11 +253,11 @@
             <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Haikal Ibrahim</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Haikal Ibrahim</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-                Satu kata: Top! Layanan sangat profesional dan responsif. Pasti saya rekomendasikan ke teman-teman.
+              <blockquote class=" text-sm lg:text-base text-gray-600">
+                Satu kata: Top! Layanan sangat profesional dan responsif. 
               </blockquote>
             </figure>
       
@@ -265,10 +265,10 @@
             <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Salma Rusyda</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Salma Rusyda</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+              <blockquote class=" text-sm lg:text-base text-gray-600">
                 kereennn gercep abieesszz pengerjaan nya, tinggal duduk santai langsung jdii😍😍😍
               </blockquote>
             </figure>
@@ -277,10 +277,10 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Agnita Najwa</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Agnita Najwa</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+              <blockquote class=" text-sm lg:text-base text-gray-600">
                 gabisa berkata kata ubur ubur ikan lele mantapp leee, pengerjaannya cepat , murahh lagi🤩
               </blockquote>
             </figure>
@@ -289,11 +289,11 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Malik Hakim</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Malik Hakim</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-                JokiInit tuh top banget! Kerjanya cepet, hasilnya ciamik, dan gak pernah ribet. Kalo butuh lagi, langsung deh balik sini!
+              <blockquote class=" text-sm lg:text-base text-gray-600">
+                jokiinit gila banget! Tugas selesai dalam sekejap, dan hasilnya ciamik! Pokoknya kalo butuh bantuan, gak akan cari tempat lain!🙌
               </blockquote>
             </figure>
   
@@ -301,11 +301,11 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Alfarizy</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Alfarizy</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-                jokiInit tuh top banget! Kerjanya cepet, hasilnya ciamik, dan gak pernah ribet. Kalo butuh lagi, langsung deh balik sini!
+              <blockquote class=" text-sm lg:text-base text-gray-600">
+                JokiInit bener-bener nge-revolusiin cara gue ngerjain tugas! Kerjaannya gak cuma cepet, tapi juga SUPER KEREN! Gak sabar buat pake lagi! 😱
               </blockquote>
             </figure>
       
@@ -313,10 +313,10 @@
             <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Najmi Ayu</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Najmi Ayu</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+              <blockquote class=" text-sm lg:text-base text-gray-600">
                 mantaaappp si 9/10 apalagi klo lagi banyak kerjaan gabisa megang tugas, jdi bisa langsung joki ke JOKIINIT and cuzz cepet jadi bro.
               </blockquote>
             </figure>
@@ -325,10 +325,10 @@
             <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Syahirah</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Syahirah</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+              <blockquote class=" text-sm lg:text-base text-gray-600">
                 sicepat express👍👍
               </blockquote>
             </figure>
@@ -337,11 +337,11 @@
             <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Haikal Ibrahim</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Haikal Ibrahim</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-                Satu kata: Top! Layanan sangat profesional dan responsif. Pasti saya rekomendasikan ke teman-teman.
+              <blockquote class=" text-sm lg:text-base text-gray-600">
+                Satu kata: Top! Layanan sangat profesional dan responsif. 
               </blockquote>
             </figure>
       
@@ -349,10 +349,10 @@
             <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Salma Rusyda</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Salma Rusyda</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+              <blockquote class=" text-sm lg:text-base text-gray-600">
                 kereennn gercep abieesszz pengerjaan nya, tinggal duduk santai langsung jdii😍😍😍
               </blockquote>
             </figure>
@@ -366,10 +366,10 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Bayu Rokhmatullah</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Bayu Rokhmatullah</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+            <blockquote class=" text-sm lg:text-base text-gray-600">
               Gacorr abisss cepat, tepat, kerennn dan hasil pengerjaan nya sangat baik sekali, Top ini pokoknyaa🤩, Next harus order lagii gass👍🏻👍🏻
             </blockquote>
           </figure>
@@ -378,11 +378,11 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Tri Indah</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Tri Indah</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-              Gue sampe gak percaya! Tugas selesai dengan hasil yang sempurna dan cepat banget! Makasih banget JokiInit, kalian emang pahlawan! 💥🎯
+            <blockquote class=" text-sm lg:text-base text-gray-600">
+              Aku sampe ga percaya! Tugas selesai dengan hasil yang sempurna dan cepat bgt! Makasih JokiInit💥🎯
             </blockquote>
           </figure>
     
@@ -390,10 +390,10 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Muhammad Abiyyi</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Muhammad Abiyyi</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+            <blockquote class=" text-sm lg:text-base text-gray-600">
               Serius deh, JokiInit tuh super kece. Semua tugas gue selesai dengan cepat dan hasilnya gak ngecewain sama sekali. 100% recommended!
             </blockquote>
           </figure>
@@ -402,11 +402,11 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Rafli</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Rafli</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-              Puas banget pake JokiInit! Tugas gue selesai cepet banget, hasilnya oke, dan yang paling penting gak ribet. Pokoknya puas 100%!
+            <blockquote class=" text-sm lg:text-base text-gray-600">
+              Puas banget pake JokiInit! Tugas ku selesai cepet banget, hasilnya oke, dan yang paling penting gak ribet. Pokoknya puas 100000000000000%!
             </blockquote>
           </figure>
   
@@ -414,11 +414,11 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Nur Fajrina</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Nur Fajrina</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-              WAHHHH, gak sabar buat pake JokiInit lagi! Kerjaannya cepet banget, hasilnya juga gak kalah keren! Gua bener-bener puas banget!🎉
+            <blockquote class=" text-sm lg:text-base text-gray-600">
+              WAHHHH, gak sabar buat pake JokiInit lagi! Kerjaannya cepet banget, hasilnya juga gak kalah keren! Aku bener-bener puas banget!🎉
             </blockquote>
           </figure>
     
@@ -426,10 +426,10 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Erwan Kurniawan</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Erwan Kurniawan</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+            <blockquote class=" text-sm lg:text-base text-gray-600">
               JOKIINIT Gacorr abisss jokinya cepat, tepat, kerennn dan hasil pengerjaan nya sangat baik sekali, Top bgt ini pokoknyaa🤩, Next harus order lagii deeh apalagi untuk harganya murah sesuai bgt buat budget mahasiswa👍🏻👍🏻
             </blockquote>
           </figure>
@@ -438,10 +438,10 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Hafiz Surya Wijaya</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Hafiz Surya Wijaya</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+            <blockquote class=" text-sm lg:text-base text-gray-600">
               Pokoknya JokiInit tuh the best! Cepet banget kerjanya, hasilnya juga kece banget. Tugas selesai dengan mulus, makasih ya!
             </blockquote>
           </figure>
@@ -449,10 +449,10 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Bayu Rokhmatullah</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Bayu Rokhmatullah</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+            <blockquote class=" text-sm lg:text-base text-gray-600">
               Gacorr abisss cepat, tepat, kerennn dan hasil pengerjaan nya sangat baik sekali, Top ini pokoknyaa🤩, Next harus order lagii gass👍🏻👍🏻
             </blockquote>
           </figure>
@@ -461,11 +461,11 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Tri Indah</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Tri Indah</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-              Gue sampe gak percaya! Tugas selesai dengan hasil yang sempurna dan cepat banget! Makasih banget JokiInit, kalian emang pahlawan! 💥🎯
+            <blockquote class=" text-sm lg:text-base text-gray-600">
+              Aku sampe ga percaya! Tugas selesai dengan hasil yang sempurna dan cepat bgt! Makasih JokiInit💥🎯
             </blockquote>
           </figure>
     
@@ -473,10 +473,10 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Muhammad Abiyyi</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Muhammad Abiyyi</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+            <blockquote class=" text-sm lg:text-base text-gray-600">
               Serius deh, JokiInit tuh super kece. Semua tugas gue selesai dengan cepat dan hasilnya gak ngecewain sama sekali. 100% recommended!
             </blockquote>
           </figure>
@@ -485,11 +485,11 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Rafli</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Rafli</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-              Puas banget pake JokiInit! Tugas gue selesai cepet banget, hasilnya oke, dan yang paling penting gak ribet. Pokoknya puas 100%!
+            <blockquote class=" text-sm lg:text-base text-gray-600">
+              Puas banget pake JokiInit! Tugas ku selesai cepet banget, hasilnya oke, dan yang paling penting gak ribet. Pokoknya puas 100000000000000%!
             </blockquote>
           </figure>
   
@@ -497,11 +497,11 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Nur Fajrina</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Nur Fajrina</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-              WAHHHH, gak sabar buat pake JokiInit lagi! Kerjaannya cepet banget, hasilnya juga gak kalah keren! Gua bener-bener puas banget!🎉
+            <blockquote class=" text-sm lg:text-base text-gray-600">
+              WAHHHH, gak sabar buat pake JokiInit lagi! Kerjaannya cepet banget, hasilnya juga gak kalah keren! Aku bener-bener puas banget!🎉
             </blockquote>
           </figure>
     
@@ -509,10 +509,10 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Erwan Kurniawan</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Erwan Kurniawan</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+            <blockquote class=" text-sm lg:text-base text-gray-600">
               JOKIINIT Gacorr abisss jokinya cepat, tepat, kerennn dan hasil pengerjaan nya sangat baik sekali, Top bgt ini pokoknyaa🤩, Next harus order lagii deeh apalagi untuk harganya murah sesuai bgt buat budget mahasiswa👍🏻👍🏻
             </blockquote>
           </figure>
@@ -521,10 +521,10 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
-                <figcaption class="font-semibold text-lavender text-base md:text-xl">Hafiz Surya Wijaya</figcaption>
+                <figcaption class="font-semibold text-lavender text-base md:text-lg">Hafiz Surya Wijaya</figcaption>
               </div>
             </div>
-            <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+            <blockquote class=" text-sm lg:text-base text-gray-600">
               Pokoknya JokiInit tuh the best! Cepet banget kerjanya, hasilnya juga kece banget. Tugas selesai dengan mulus, makasih ya!
             </blockquote>
           </figure>
@@ -537,10 +537,10 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Bayu Rokhmatullah</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Bayu Rokhmatullah</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+              <blockquote class=" text-sm lg:text-base text-gray-600">
                 Gacorr abisss cepat, tepat, kerennn dan hasil pengerjaan nya sangat baik sekali, Top ini pokoknyaa🤩, Next harus order lagii gass👍🏻👍🏻
               </blockquote>
             </figure>
@@ -549,11 +549,11 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Tri Indah</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Tri Indah</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-                Gue sampe gak percaya! Tugas selesai dengan hasil yang sempurna dan cepat banget! Makasih banget JokiInit, kalian emang pahlawan! 💥🎯
+              <blockquote class=" text-sm lg:text-base text-gray-600">
+                Aku sampe ga percaya! Tugas selesai dengan hasil yang sempurna dan cepat bgt! Makasih JokiInit💥🎯
               </blockquote>
             </figure>
       
@@ -561,10 +561,10 @@
             <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Muhammad Abiyyi</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Muhammad Abiyyi</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+              <blockquote class=" text-sm lg:text-base text-gray-600">
                 Serius deh, JokiInit tuh super kece. Semua tugas gue selesai dengan cepat dan hasilnya gak ngecewain sama sekali. 100% recommended!
               </blockquote>
             </figure>
@@ -573,11 +573,11 @@
             <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Rafli</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Rafli</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-                Puas banget pake JokiInit! Tugas gue selesai cepet banget, hasilnya oke, dan yang paling penting gak ribet. Pokoknya puas 100%!
+              <blockquote class=" text-sm lg:text-base text-gray-600">
+                Puas banget pake JokiInit! Tugas ku selesai cepet banget, hasilnya oke, dan yang paling penting gak ribet. Pokoknya puas 100000000000000%!
               </blockquote>
             </figure>
   
@@ -585,11 +585,11 @@
             <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Nur Fajrina</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Nur Fajrina</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-                WAHHHH, gak sabar buat pake JokiInit lagi! Kerjaannya cepet banget, hasilnya juga gak kalah keren! Gua bener-bener puas banget!🎉
+              <blockquote class=" text-sm lg:text-base text-gray-600">
+                WAHHHH, gak sabar buat pake JokiInit lagi! Kerjaannya cepet banget, hasilnya juga gak kalah keren! Aku bener-bener puas banget!🎉
               </blockquote>
             </figure>
       
@@ -597,10 +597,10 @@
             <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Erwan Kurniawan</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Erwan Kurniawan</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+              <blockquote class=" text-sm lg:text-base text-gray-600">
                 JOKIINIT Gacorr abisss jokinya cepat, tepat, kerennn dan hasil pengerjaan nya sangat baik sekali, Top bgt ini pokoknyaa🤩, Next harus order lagii deeh apalagi untuk harganya murah sesuai bgt buat budget mahasiswa👍🏻👍🏻
               </blockquote>
             </figure>
@@ -609,10 +609,10 @@
             <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Hafiz Surya Wijaya</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Hafiz Surya Wijaya</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+              <blockquote class=" text-sm lg:text-base text-gray-600">
                 Pokoknya JokiInit tuh the best! Cepet banget kerjanya, hasilnya juga kece banget. Tugas selesai dengan mulus, makasih ya!
               </blockquote>
             </figure>
@@ -621,10 +621,10 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Bayu Rokhmatullah</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Bayu Rokhmatullah</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+              <blockquote class=" text-sm lg:text-base text-gray-600">
                 Gacorr abisss cepat, tepat, kerennn dan hasil pengerjaan nya sangat baik sekali, Top ini pokoknyaa🤩, Next harus order lagii gass👍🏻👍🏻
               </blockquote>
             </figure>
@@ -633,11 +633,11 @@
           <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Tri Indah</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Tri Indah</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-                Gue sampe gak percaya! Tugas selesai dengan hasil yang sempurna dan cepat banget! Makasih banget JokiInit, kalian emang pahlawan! 💥🎯
+              <blockquote class=" text-sm lg:text-base text-gray-600">
+                Aku sampe ga percaya! Tugas selesai dengan hasil yang sempurna dan cepat bgt! Makasih JokiInit💥🎯
               </blockquote>
             </figure>
       
@@ -645,10 +645,10 @@
             <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Muhammad Abiyyi</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Muhammad Abiyyi</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+              <blockquote class=" text-sm lg:text-base text-gray-600">
                 Serius deh, JokiInit tuh super kece. Semua tugas gue selesai dengan cepat dan hasilnya gak ngecewain sama sekali. 100% recommended!
               </blockquote>
             </figure>
@@ -657,11 +657,11 @@
             <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Rafli</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Rafli</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-                Puas banget pake JokiInit! Tugas gue selesai cepet banget, hasilnya oke, dan yang paling penting gak ribet. Pokoknya puas 100%!
+              <blockquote class=" text-sm lg:text-base text-gray-600">
+                Puas banget pake JokiInit! Tugas ku selesai cepet banget, hasilnya oke, dan yang paling penting gak ribet. Pokoknya puas 100000000000000%!
               </blockquote>
             </figure>
   
@@ -669,11 +669,11 @@
             <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Nur Fajrina</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Nur Fajrina</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
-                WAHHHH, gak sabar buat pake JokiInit lagi! Kerjaannya cepet banget, hasilnya juga gak kalah keren! Gua bener-bener puas banget!🎉
+              <blockquote class=" text-sm lg:text-base text-gray-600">
+                WAHHHH, gak sabar buat pake JokiInit lagi! Kerjaannya cepet banget, hasilnya juga gak kalah keren! Aku bener-bener puas banget!🎉
               </blockquote>
             </figure>
       
@@ -681,10 +681,10 @@
             <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Erwan Kurniawan</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Erwan Kurniawan</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+              <blockquote class=" text-sm lg:text-base text-gray-600">
                 JOKIINIT Gacorr abisss jokinya cepat, tepat, kerennn dan hasil pengerjaan nya sangat baik sekali, Top bgt ini pokoknyaa🤩, Next harus order lagii deeh apalagi untuk harganya murah sesuai bgt buat budget mahasiswa👍🏻👍🏻
               </blockquote>
             </figure>
@@ -693,10 +693,10 @@
             <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
-                  <figcaption class="font-semibold text-lavender text-base md:text-xl">Hafiz Surya Wijaya</figcaption>
+                  <figcaption class="font-semibold text-lavender text-base md:text-lg">Hafiz Surya Wijaya</figcaption>
                 </div>
               </div>
-              <blockquote class="mt-1 md:mt-2 text-sm lg:text-base text-gray-600">
+              <blockquote class=" text-sm lg:text-base text-gray-600">
                 Pokoknya JokiInit tuh the best! Cepet banget kerjanya, hasilnya juga kece banget. Tugas selesai dengan mulus, makasih ya!
               </blockquote>
             </figure>

@@ -76,3 +76,25 @@ function closeImage() {
     var modal = document.getElementById('image-modal');
     modal.style.display = "none";
 }
+
+// faq
+function toggleDropdown(button) {
+    // Tutup semua dropdown yang terbuka
+    const allFaqs = document.querySelectorAll('[data-faq]');
+    allFaqs.forEach((faq) => {
+      const content = faq.querySelector('div');
+      const icon = faq.querySelector('i');
+      if (faq.contains(button)) {
+        // Jika yang diklik, toggle visibility
+        content.classList.toggle('hidden');
+        icon.classList.toggle('bx-chevron-down');
+        icon.classList.toggle('bx-chevron-up');
+      } else {
+        // Tutup dropdown lainnya
+        content.classList.add('hidden');
+        icon.classList.add('bx-chevron-down');
+        icon.classList.remove('bx-chevron-up');
+      }
+    });
+  }
+  
