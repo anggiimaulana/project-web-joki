@@ -1,5 +1,5 @@
 <section class="bg-gray-50">
-    <div class="container mx-auto py-12 md:py-16 lg:py-20">
+    <div class="container mx-auto py-8 md:py-12">
         <div class="text-center px-2 md:px-0">
             <h3 class="text-gray-700 text-2xl md:text-4xl font-bold">
                 Service Jasa Joki Tugas By <span class="text-sky-700 font-serif">
@@ -14,13 +14,13 @@
                 </span>
             </p>
         </div>
-        <div class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 px-4 md:px-0">
+        <div class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 px-4 md:px-0" id="services-list">
             <!-- Berlangganan -->
-            <div class="bg-white shadow rounded-3xl">
+            <div class="service-item bg-white shadow rounded-3xl md:block">
                 <div class="relative">
                     <img src="{{ asset('images/programming.jpg') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
                 </div>
-                <div class="p-4 text-center text-gray-600">
+                <div class="px-4 text-center text-gray-600">
                     <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
                         Subscription JOKIIN<span class="text-base md:text-xl">IT</span>
                         - Jasa Joki Tugas IT Unlimitied
@@ -49,34 +49,28 @@
                 </div>
             </div>
         
-            <!-- Laprak -->
-            <div class="bg-white shadow rounded-3xl">
+            <!-- Express -->
+            <div class="service-item bg-white shadow rounded-3xl md:block">
                 <div class="relative">
                     <img src="{{ asset('images/programming.jpg') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
                 </div>
-                <div class="p-4 text-center text-gray-600">
+                <div class="px-4 text-center text-gray-600">
                     <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
                         JOKIIN<span class="text-base md:text-xl">IT</span>
-                        - Jasa Joki Laporan Tugas & Praktikum IT
+                        Express - Jasa Joki Secepat Kilat
                     </h3>
                     <p class="text-base lg:text-xl">
-                        Dengan <span class="text-sky-700 font-semibold">
-                            Jasa Joki Laporan Tugas & Praktikum IT</span>, 
-                            kamu akan mendapatkan laporan berkualitas tinggi, lengkap dengan format yang sesuai dan analisis yang mendalam.
+                        Butuh tugas diselesaikan dengan cepat? Gunakan <span class="text-sky-700 font-semibold">
+                        Paket Express dari JOKIINIT! </span>
+                        Dengan paket ini, tugas Anda akan diprioritaskan dan diselesaikan dalam waktu singkat.
                     </p>
-                    <div id="hidden-laprak" class="hidden">
+                    <div id="hidden-express" class="hidden">
                         <p class="text-base lg:text-xl mt-2">
-                            Mulai dari coding, troubleshooting, hingga penulisan laporan, semuanya kami kerjakan dengan detail dan profesional. Waktu dan tenagamu jadi lebih efisien, tanpa perlu repot memikirkan tugas yang menumpuk.
-                        </p>
-                        <p class="text-base lg:text-xl mt-2">
-                            Fokus saja pada hal penting lainnya, dan biarkan kami yang menangani tugas-tugas IT-mu. 
-                            Yuk, serahkan laporan tugas dan praktikum-mu kepada tim ahli dari <span class="text-sky-700 font-bold">
-                                JOKIIN<span class="text-sm md:text-base">IT</span>
-                            </span>! 🎓
+                            Meskipun harganya sedikit lebih mahal dibandingkan paket lainnya, kami memastikan kualitas dan kecepatan pengerjaan yang maksimal untuk memenuhi kebutuhan mendesak Anda!
                         </p>
                     </div>
 
-                    <button id="button-laprak" class="mt-2 text-lavender font-semibold text-sm md:text-base">
+                    <button id="button-express" class="mt-2 text-lavender font-semibold text-sm md:text-base">
                         Baca Selengkapnya
                     </button>
                     <div class="flex gap-2 md:gap-4">
@@ -87,11 +81,11 @@
             </div>
         
             <!-- Tubes -->
-            <div class="bg-white shadow rounded-3xl">
+            <div class="service-item bg-white shadow rounded-3xl md:block">
                 <div class="relative">
                     <img src="{{ asset('images/programming3.jpg') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
                 </div>
-                <div class="p-4 text-center text-gray-600">
+                <div class="px-4 text-center text-gray-600">
                     <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
                         JOKIIN<span class="text-base md:text-xl">IT</span> - Jasa Joki Tugas Besar IT
                     </h3>
@@ -122,12 +116,49 @@
                 </div>
             </div>
         
+            <!-- Laprak -->
+            <div class="service-item bg-white shadow rounded-3xl hidden md:block">
+                <div class="relative">
+                    <img src="{{ asset('images/programming.jpg') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
+                </div>
+                <div class="px-4 text-center text-gray-600">
+                    <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
+                        JOKIIN<span class="text-base md:text-xl">IT</span>
+                        - Jasa Joki Laporan Tugas & Praktikum IT
+                    </h3>
+                    <p class="text-base lg:text-xl">
+                        Dengan <span class="text-sky-700 font-semibold">
+                            Jasa Joki Laporan Tugas & Praktikum IT</span>, 
+                            kamu akan mendapatkan laporan berkualitas tinggi, lengkap dengan format yang sesuai dan analisis yang mendalam.
+                    </p>
+                    <div id="hidden-laprak" class="hidden">
+                        <p class="text-base lg:text-xl mt-2">
+                            Mulai dari coding, troubleshooting, hingga penulisan laporan, semuanya kami kerjakan dengan detail dan profesional. Waktu dan tenagamu jadi lebih efisien, tanpa perlu repot memikirkan tugas yang menumpuk.
+                        </p>
+                        <p class="text-base lg:text-xl mt-2">
+                            Fokus saja pada hal penting lainnya, dan biarkan kami yang menangani tugas-tugas IT-mu. 
+                            Yuk, serahkan laporan tugas dan praktikum-mu kepada tim ahli dari <span class="text-sky-700 font-bold">
+                                JOKIIN<span class="text-sm md:text-base">IT</span>
+                            </span>! 🎓
+                        </p>
+                    </div>
+
+                    <button id="button-laprak" class="mt-2 text-lavender font-semibold text-sm md:text-base">
+                        Baca Selengkapnya
+                    </button>
+                    <div class="flex gap-2 md:gap-4">
+                        <button class="mt-4 w-full cursor-pointer bg-lavender hover:bg-sky-500 text-zinc-200 py-1 md:py-2 rounded-2xl font-bold">Konsultasi</button>
+                        <button class="mt-4 w-full cursor-pointer bg-zinc-100 hover:bg-zinc-200 text-lavender py-1 md:py-2 rounded-2xl font-bold">Detail</button>
+                    </div>
+                </div>
+            </div>
+
             <!-- Karya Ilmiah -->
-            <div class="bg-white shadow rounded-3xl">
+            <div class="service-item bg-white shadow rounded-3xl hidden md:block">
                 <div class="relative">
                     <img src="{{ asset('images/programming.png') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
                 </div>
-                <div class="p-4 text-center text-gray-600">
+                <div class="px-4 text-center text-gray-600">
                     <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
                         JOKIIN<span class="text-base md:text-xl">IT</span>
                         - Jasa Joki Karya Ilmiah Bidang IT
@@ -158,42 +189,12 @@
                 </div>
             </div>
 
-            <!-- Magang -->
-            <div class="bg-white shadow rounded-3xl">
-                <div class="relative">
-                    <img src="{{ asset('images/programming.png') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
-                </div>
-                <div class="p-4 text-center text-gray-600">
-                    <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
-                        JOKIIN<span class="text-base md:text-xl">IT</span>
-                        - Jasa Joki Laporan Magang IT
-                    </h3>
-                    <p class="text-base lg:text-xl">Dengan layanan ini, kamu hanya perlu mengirimkan data-data yang diperlukan, dan kami akan menyusun laporan magangmu dengan rapi dan sesuai dengan arahan serta instruksi yang kamu berikan.</p>
-                    <div id="hidden-magang" class="hidden">
-                        <p class="text-base lg:text-xl mt-2">
-                            Tidak hanya itu, kami juga memastikan hasilnya sesuai dengan format dan kebutuhanmu. Yuk, wujudkan laporan magang terbaikmu bersama <span class="text-sky-700 font-semibold">
-                                JOKIIN<span class="text-sm md:text-base">IT</span>
-                            </span>!
-                        </p>
-                    </div>
-
-                    <button id="button-magang" class="mt-2 text-lavender font-semibold text-sm md:text-base">
-                        Baca Selengkapnya
-                    </button>
-
-                    <div class="flex gap-2 md:gap-4">
-                        <button class="mt-4 w-full cursor-no-drop bg-lavender hover:bg-sky-500 text-zinc-200 py-1 md:py-2 rounded-2xl font-bold" disabled>Coming Soon</button>
-                        {{-- <button class="mt-4 w-full cursor-pointer bg-zinc-100 hover:bg-zinc-200 text-lavender py-1 md:py-2 rounded-2xl font-bold">Detail</button> --}}
-                    </div>
-                </div>
-            </div>
-
             <!-- Skripsi -->
-            <div class="bg-white shadow rounded-3xl">
+            <div class="service-item bg-white shadow rounded-3xl hidden md:block">
                 <div class="relative">
                     <img src="{{ asset('images/programming.png') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
                 </div>
-                <div class="p-4 text-center text-gray-600">
+                <div class="px-4 text-center text-gray-600">
                     <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
                         JOKIIN<span class="text-base md:text-xl">IT</span>
                         - Jasa Joki Tugas Akhir dan Skripsi IT
@@ -223,7 +224,16 @@
                     </div>
                 </div>
             </div>
-            
+
+            {{-- Lebih banyak/sedikit --}}
+            <div class="col-span-full flex justify-center mt-4">
+                <button id="show-more" class="bg-lavender hover:bg-sky-600 text-white font-bold py-2 px-6 rounded-3xl transition-all duration-300 md:hidden">
+                    Lihat Lebih Banyak
+                </button>
+                <button id="show-less" class="bg-lavender hover:bg-sky-600 text-white font-bold py-2 px-6 rounded-3xl transition-all duration-300 btn  hidden">
+                    Lebih Sedikit
+                </button>
+            </div>
         </div>
     </div>
 </section>

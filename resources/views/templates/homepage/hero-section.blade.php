@@ -1,5 +1,5 @@
 <section class="bg-lavender relative">
-    <div class="container px-6 md:px-0 mx-auto flex flex-col lg:flex-row items-center">
+    <div class="container px-6 md:px-0 mx-auto flex flex-col lg:flex-row items-center mb-8">
         <div class="max-w-3xl pt-28 pb-16 md:pt-36 md:pb-24 lg:pt-64 lg:pb-44 text-zinc-100">
             <p class="italic text-sm md:text-base font-bold">Jasa Joki Tugas <strong class="font-serif">Bidang IT</strong> Murah, Cepat, &
                 Berkualitas</p>

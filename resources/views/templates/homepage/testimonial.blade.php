@@ -1,5 +1,5 @@
 <section class="bg-gray-50">
-  <div class="container mx-auto py-12 md:py-16 lg:py-20">
+  <div class="container mx-auto py-8 md:py-12">
     <div class="text-center px-2 md:px-0">
       <h3 class="text-gray-700 text-2xl md:text-4xl font-bold">
         Testimoni <span class="text-sky-700 font-serif">
