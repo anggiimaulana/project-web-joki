@@ -1,5 +1,5 @@
-<section class="bg-lavender">
-    <div class="container mx-auto py-8">
+<section class="bg-lavender my-8 md:my-12">
+    <div class="container mx-auto md:py-12">
         <div class="flex flex-col md:flex-row justify-center items-center md:items-stretch gap-4 md:gap-2 lg:gap-4">
             <div class="text-center text-rose-300 text-3xl md:text-4xl lg:text-5xl flex flex-col items-center w-full max-w-60 md:max-w-64 p-2">
                 <i class='bx bxs-group mb-1'></i>
