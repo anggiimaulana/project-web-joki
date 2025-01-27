@@ -8,7 +8,7 @@
             </h3>
             <div class="h-2 rounded w-36 md:w-56 mx-auto bg-gradient-to-r from-blue-700 to-blue-300 my-4"></div>
         </div>
-        <div class="grid px-4 mx-auto my-5 md:my-10 grid-cols-1 lg:grid-cols-2 gap-4 items-center">
+        <div class="grid px-4 mx-auto my-5 grid-cols-1 lg:grid-cols-2 gap-4 items-center">
             <div>
                 <img class="rounded-3xl w-full md:max-w-3xl lg:max-w-2xl h-fit" 
                     src="{{ asset('images/programming.jpg') }}" 
