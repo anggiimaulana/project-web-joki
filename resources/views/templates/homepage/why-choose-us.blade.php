@@ -1,5 +1,5 @@
-<section class="bg-gray-50 py-12">
-    <div class="container mx-auto px-4">
+<section class="bg-gray-50">
+    <div class="container mx-auto px-4 py-12 md:py-16 lg:py-20">
         <div class="text-center px-2 md:px-0 ">
             <h3 class="text-gray-700 text-2xl md:text-4xl font-bold">
                 Kenapa Harus <span class="text-sky-700 font-serif">
@@ -15,7 +15,7 @@
                 </span>
             </p>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-5 md:my-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-5 ">
             <!-- Profesionalitas -->
             <div class="flex flex-col items-center text-center">
                 <div class="mb-4">

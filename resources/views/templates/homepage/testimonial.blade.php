@@ -15,7 +15,7 @@
           🙌
         </p>
     </div>
-    <div class="my-5 md:my-10">
+    <div class="mt-5">
       {{-- kanan ke kiri --}}
       <div class="group flex overflow-hidden p-2 [--gap:1rem] [gap:var(--gap)] flex-row [--duration:20s]">
         <div class="marque-left flex shrink-0 justify-around [gap:var(--gap)] animate-marquee-left flex-row group-hover:[animation-play-state:paused]">

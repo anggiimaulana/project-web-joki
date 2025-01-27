@@ -13,7 +13,7 @@
                 </span> tugas demi kenyamanan pelayanan.
             </p>
         </div>
-        <div class="mt-5 md:mt-10 px-4 md:px-6 lg:px-16">
+        <div class="mt-5 px-4 md:px-6 lg:px-16">
             <img 
                 src="{{ asset('images/how-to-order-jokiinit.jpg') }}" 
                 alt="how-to-order-jokiinit"

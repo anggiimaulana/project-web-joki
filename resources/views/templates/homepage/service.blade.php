@@ -14,7 +14,7 @@
                 </span>
             </p>
         </div>
-        <div class="my-5 md:my-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 px-4 md:px-0">
+        <div class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 px-4 md:px-0">
             <!-- Berlangganan -->
             <div class="bg-white shadow rounded-3xl">
                 <div class="relative">
