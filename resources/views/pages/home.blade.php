@@ -11,6 +11,7 @@
         @include('templates.homepage.how-to-order')
         @include('templates.homepage.service')
         @include('templates.homepage.testimonial')
+        @include('templates.homepage.faq')
     </div>
     
     <script src="{{ asset('js/script.js') }}"></script>
