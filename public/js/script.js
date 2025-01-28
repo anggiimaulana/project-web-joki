@@ -158,7 +158,7 @@ function toggleFaqVisibility() {
     hiddenFaqs.forEach((item) => item.classList.toggle('hidden'));
 
     toggleButton.textContent =
-    toggleButton.textContent === 'Lihat Lebih Banyak' ? 'TuLebih Sedikittup' : 'Lihat Lebih Banyak';
+    toggleButton.textContent === 'Lihat Lebih Banyak' ? 'Lebih Sedikit' : 'Lihat Lebih Banyak';
 }
 
 function faqItemsToShow() {
