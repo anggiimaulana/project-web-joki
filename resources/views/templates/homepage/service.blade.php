@@ -20,7 +20,7 @@
                 <div class="relative">
                     <img src="{{ asset('images/programming.jpg') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
                 </div>
-                <div class="px-4 text-center text-gray-600">
+                <div class="p-4 text-center text-gray-600">
                     <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
                         Subscription JOKIIN<span class="text-base md:text-xl">IT</span>
                         - Jasa Joki Tugas IT Unlimitied
@@ -54,7 +54,7 @@
                 <div class="relative">
                     <img src="{{ asset('images/programming.jpg') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
                 </div>
-                <div class="px-4 text-center text-gray-600">
+                <div class="p-4 text-center text-gray-600">
                     <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
                         JOKIIN<span class="text-base md:text-xl">IT</span>
                         Express - Jasa Joki Secepat Kilat
@@ -85,7 +85,7 @@
                 <div class="relative">
                     <img src="{{ asset('images/programming3.jpg') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
                 </div>
-                <div class="px-4 text-center text-gray-600">
+                <div class="p-4 text-center text-gray-600">
                     <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
                         JOKIIN<span class="text-base md:text-xl">IT</span> - Jasa Joki Tugas Besar IT
                     </h3>
@@ -121,7 +121,7 @@
                 <div class="relative">
                     <img src="{{ asset('images/programming.jpg') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
                 </div>
-                <div class="px-4 text-center text-gray-600">
+                <div class="p-4 text-center text-gray-600">
                     <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
                         JOKIIN<span class="text-base md:text-xl">IT</span>
                         - Jasa Joki Laporan Tugas & Praktikum IT
@@ -158,7 +158,7 @@
                 <div class="relative">
                     <img src="{{ asset('images/programming.png') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
                 </div>
-                <div class="px-4 text-center text-gray-600">
+                <div class="p-4 text-center text-gray-600">
                     <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
                         JOKIIN<span class="text-base md:text-xl">IT</span>
                         - Jasa Joki Karya Ilmiah Bidang IT
@@ -194,7 +194,7 @@
                 <div class="relative">
                     <img src="{{ asset('images/programming.png') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
                 </div>
-                <div class="px-4 text-center text-gray-600">
+                <div class="p-4 text-center text-gray-600">
                     <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
                         JOKIIN<span class="text-base md:text-xl">IT</span>
                         - Jasa Joki Tugas Akhir dan Skripsi IT

@@ -24,7 +24,7 @@
                   <i class="bx bx-chevron-down"></i>
                 </span>
               </button>
-              <div class="hidden p-4 bg-white text-gray-700 rounded-3xl shadow text-base md:text-lg">
+              <div class="hidden p-4 bg-white text-gray-700 rounded-3xl rounded-t-2xl shadow text-base md:text-lg">
                 Ya, kami menjamin kerahasiaan data dan keamanan informasi klien dalam setiap layanan yang kami berikan.
               </div>
             </div>
@@ -35,13 +35,13 @@
                 class="flex justify-between items-center w-full p-4 text-left text-gray-700 bg-gray-100 font-semibold rounded-3xl shadow focus:outline-none text-base md:text-lg"
                 onclick="toggleDropdown(this)"
               >
-                <span>Apakah layanan JokiInit hanya untuk pelajar dan mahasiswa?</span>
+                <span>Berapa harga layanan di JokiInit?</span>
                 <span class="text-2xl">
                   <i class="bx bx-chevron-down"></i>
                 </span>
               </button>
-              <div class="hidden p-4 bg-white text-gray-700 rounded-3xl shadow text-base md:text-lg">
-                Tidak, layanan kami terbuka untuk semua kalangan, termasuk pekerja profesional, pelaku bisnis, dan lainnya.
+              <div class="hidden p-4 bg-white text-gray-700 rounded-3xl rounded-t-2xl shadow text-base md:text-lg">
+                Harga layanan kami mulai dari 30 ribu, tergantung pada tingkat kesulitan dan deadline pekerjaan. Silakan hubungi tim kami untuk detail harga sesuai kebutuhan Anda.
               </div>
             </div>
           
@@ -56,7 +56,7 @@
                   <i class="bx bx-chevron-down"></i>
                 </span>
               </button>
-              <div class="hidden p-4 bg-white text-gray-700 rounded-3xl shadow text-base md:text-lg">
+              <div class="hidden p-4 bg-white text-gray-700 rounded-3xl rounded-t-2xl shadow text-base md:text-lg">
                 Ya, kami memberikan garansi hasil kerja sesuai dengan deskripsi layanan yang disepakati di awal.
               </div>
             </div>
@@ -72,7 +72,7 @@
                   <i class="bx bx-chevron-down"></i>
                 </span>
               </button>
-              <div class="hidden p-4 bg-white text-gray-700 rounded-3xl shadow text-base md:text-lg">
+              <div class="hidden p-4 bg-white text-gray-700 rounded-3xl rounded-t-2xl shadow text-base md:text-lg">
                 Waktu penyelesaian tergantung pada tingkat kesulitan dan kompleksitas tugas. Sebelum Anda melakukan order, kami akan memberikan keterangan deadline yang jelas untuk memastikan tugas selesai tepat waktu. Selain itu, kami juga akan memberikan estimasi waktu secara rinci sebelum memulai pekerjaan.
               </div>
             </div>
@@ -88,7 +88,7 @@
                   <i class="bx bx-chevron-down"></i>
                 </span>
               </button>
-              <div class="hidden p-4 bg-white text-gray-700 rounded-3xl shadow text-base md:text-lg">
+              <div class="hidden p-4 bg-white text-gray-700 rounded-3xl rounded-t-2xl shadow text-base md:text-lg">
                 Tentu! Kami sering mengadakan promo atau diskon menarik untuk pelanggan setia. Informasi ini bisa Anda cek di website atau media sosial kami.
               </div>
             </div>
@@ -104,7 +104,7 @@
                   <i class="bx bx-chevron-down"></i>
                 </span>
               </button>
-              <div class="hidden p-4 bg-white text-gray-700 rounded-3xl shadow text-base md:text-lg">
+              <div class="hidden p-4 bg-white text-gray-700 rounded-3xl rounded-t-2xl shadow text-base md:text-lg">
                 Kami menyediakan berbagai metode pembayaran yang fleksibel, termasuk:
                 <strong class="italic">
                   ShopeePay, SeaBank, DANA, GoPay, LinkAja, dan QRIS
@@ -123,7 +123,7 @@
                   <i class="bx bx-chevron-down"></i>
                 </span>
               </button>
-              <div class="hidden p-4 bg-white text-gray-700 rounded-3xl shadow text-base md:text-lg">
+              <div class="hidden p-4 bg-white text-gray-700 rounded-3xl rounded-t-2xl shadow text-base md:text-lg">
                 Anda akan mendapatkan laporan progres secara berkala dari tim kami hingga tugas selesai.
               </div>
             </div>
@@ -139,7 +139,7 @@
                   <i class="bx bx-chevron-down"></i>
                 </span>
               </button>
-              <div class="hidden p-4 bg-white text-gray-700 rounded-3xl shadow text-base md:text-lg">
+              <div class="hidden p-4 bg-white text-gray-700 rounded-3xl rounded-t-2xl shadow text-base md:text-lg">
                 Kami berusaha melayani berbagai bidang tugas, namun jika tugas Anda berada di luar keahlian kami, tim akan memberi tahu Anda sejak awal.
               </div>
             </div>
@@ -155,7 +155,7 @@
                   <i class="bx bx-chevron-down"></i>
                 </span>
               </button>
-              <div class="hidden p-4 bg-white text-gray-700 rounded-3xl shadow text-base md:text-lg">
+              <div class="hidden p-4 bg-white text-gray-700 rounded-3xl rounded-t-2xl shadow text-base md:text-lg">
                 Pembatalan dapat dilakukan sesuai dengan kebijakan pembatalan yang berlaku. Mohon hubungi tim kami untuk detail lebih lanjut.
               </div>
             </div>
@@ -171,7 +171,7 @@
                   <i class="bx bx-chevron-down"></i>
                 </span>
               </button>
-              <div class="hidden p-4 bg-white text-gray-700 rounded-3xl shadow text-base md:text-lg">
+              <div class="hidden p-4 bg-white text-gray-700 rounded-3xl rounded-t-2xl shadow text-base md:text-lg">
                 Bisa, kami menyediakan layanan ekspres untuk pekerjaan mendesak dengan biaya tambahan.
               </div>
             </div>

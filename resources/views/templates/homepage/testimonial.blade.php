@@ -20,7 +20,7 @@
       <div class="group flex overflow-hidden p-2 [--gap:1rem] [gap:var(--gap)] flex-row [--duration:20s]">
         <div class="marque-left flex shrink-0 justify-around [gap:var(--gap)] animate-marquee-left flex-row group-hover:[animation-play-state:paused]">
           <!-- Agnita -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Agnita Najwa</figcaption>
@@ -32,7 +32,7 @@
           </figure>
   
           <!-- Malik -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Malik Hakim</figcaption>
@@ -44,7 +44,7 @@
           </figure>
   
           <!-- Alfarizy -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Alfarizy</figcaption>
@@ -56,7 +56,7 @@
           </figure>
     
           <!-- Najmi-->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Najmi Ayu</figcaption>
@@ -68,7 +68,7 @@
           </figure>
     
           <!-- Syahirah -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Syahirah</figcaption>
@@ -80,7 +80,7 @@
           </figure>
     
           <!-- Haikal-->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Haikal Ibrahim</figcaption>
@@ -92,7 +92,7 @@
           </figure>
     
           <!-- Salma -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Salma Rusyda</figcaption>
@@ -103,7 +103,7 @@
             </blockquote>
           </figure>
           <!-- Agnita -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Agnita Najwa</figcaption>
@@ -115,7 +115,7 @@
           </figure>
   
           <!-- Malik -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Malik Hakim</figcaption>
@@ -127,7 +127,7 @@
           </figure>
   
           <!-- Alfarizy -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Alfarizy</figcaption>
@@ -139,7 +139,7 @@
           </figure>
     
           <!-- Najmi-->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Najmi Ayu</figcaption>
@@ -151,7 +151,7 @@
           </figure>
     
           <!-- Syahirah -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Syahirah</figcaption>
@@ -163,7 +163,7 @@
           </figure>
     
           <!-- Haikal-->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Haikal Ibrahim</figcaption>
@@ -175,7 +175,7 @@
           </figure>
     
           <!-- Salma -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Salma Rusyda</figcaption>
@@ -190,7 +190,7 @@
         <!-- Duplicate testimonials for continuous scrolling -->
         <div class="marque-left flex shrink-0 justify-around [gap:var(--gap)] animate-marquee-left flex-row group-hover:[animation-play-state:paused]">
           <!-- Agnita -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Agnita Najwa</figcaption>
@@ -202,7 +202,7 @@
             </figure>
   
           <!-- Malik -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Malik Hakim</figcaption>
@@ -214,7 +214,7 @@
             </figure>
   
           <!-- Alfarizy -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Alfarizy</figcaption>
@@ -226,7 +226,7 @@
             </figure>
       
             <!-- Najmi-->
-            <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+            <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Najmi Ayu</figcaption>
@@ -238,7 +238,7 @@
             </figure>
       
             <!-- Syahirah -->
-            <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+            <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Syahirah</figcaption>
@@ -250,7 +250,7 @@
             </figure>
       
             <!-- Haikal-->
-            <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+            <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Haikal Ibrahim</figcaption>
@@ -262,7 +262,7 @@
             </figure>
       
             <!-- Salma -->
-            <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+            <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Salma Rusyda</figcaption>
@@ -274,7 +274,7 @@
             </figure>
 
           <!-- Agnita -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Agnita Najwa</figcaption>
@@ -286,7 +286,7 @@
             </figure>
   
           <!-- Malik -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Malik Hakim</figcaption>
@@ -298,7 +298,7 @@
             </figure>
   
           <!-- Alfarizy -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Alfarizy</figcaption>
@@ -310,7 +310,7 @@
             </figure>
       
             <!-- Najmi-->
-            <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+            <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Najmi Ayu</figcaption>
@@ -322,7 +322,7 @@
             </figure>
       
             <!-- Syahirah -->
-            <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+            <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Syahirah</figcaption>
@@ -334,7 +334,7 @@
             </figure>
       
             <!-- Haikal-->
-            <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+            <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Haikal Ibrahim</figcaption>
@@ -346,7 +346,7 @@
             </figure>
       
             <!-- Salma -->
-            <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+            <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Salma Rusyda</figcaption>
@@ -363,7 +363,7 @@
       <div class="group flex overflow-hidden p-2 [--gap:1rem] [gap:var(--gap)] flex-row [--duration:20s]">
         <div class="marque-right flex shrink-0 justify-around [gap:var(--gap)] animate-marquee-right flex-row group-hover:[animation-play-state:paused]">
           <!-- Bayu -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Bayu Rokhmatullah</figcaption>
@@ -375,7 +375,7 @@
           </figure>
   
           <!-- Tri Indah -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Tri Indah</figcaption>
@@ -387,7 +387,7 @@
           </figure>
     
           <!-- Muhammad Abiyyi -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Muhammad Abiyyi</figcaption>
@@ -399,7 +399,7 @@
           </figure>
     
           <!-- Rafli -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Rafli</figcaption>
@@ -411,7 +411,7 @@
           </figure>
   
           <!-- Nur Fajrina -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Nur Fajrina</figcaption>
@@ -423,7 +423,7 @@
           </figure>
     
           <!-- Erwan Kurniawan -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Erwan Kurniawan</figcaption>
@@ -435,7 +435,7 @@
           </figure>
     
           <!-- Hafiz Surya -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Hafiz Surya Wijaya</figcaption>
@@ -446,7 +446,7 @@
             </blockquote>
           </figure>
           <!-- Bayu -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Bayu Rokhmatullah</figcaption>
@@ -458,7 +458,7 @@
           </figure>
   
           <!-- Tri Indah -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Tri Indah</figcaption>
@@ -470,7 +470,7 @@
           </figure>
     
           <!-- Muhammad Abiyyi -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Muhammad Abiyyi</figcaption>
@@ -482,7 +482,7 @@
           </figure>
     
           <!-- Rafli -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Rafli</figcaption>
@@ -494,7 +494,7 @@
           </figure>
   
           <!-- Nur Fajrina -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Nur Fajrina</figcaption>
@@ -506,7 +506,7 @@
           </figure>
     
           <!-- Erwan Kurniawan -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Erwan Kurniawan</figcaption>
@@ -518,7 +518,7 @@
           </figure>
     
           <!-- Hafiz Surya -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
             <div class="flex flex-row items-center gap-2">
               <div class="flex flex-col">
                 <figcaption class="font-semibold text-lavender text-base md:text-lg">Hafiz Surya Wijaya</figcaption>
@@ -534,7 +534,7 @@
         <!-- Duplicate testimonials for continuous scrolling -->
         <div class="marque-right flex shrink-0 justify-around [gap:var(--gap)] animate-marquee-right flex-row group-hover:[animation-play-state:paused]">
           <!-- Bayu -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Bayu Rokhmatullah</figcaption>
@@ -546,7 +546,7 @@
             </figure>
   
           <!-- Tri Indah -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Tri Indah</figcaption>
@@ -558,7 +558,7 @@
             </figure>
       
             <!-- Muhammad Abiyyi -->
-            <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+            <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Muhammad Abiyyi</figcaption>
@@ -570,7 +570,7 @@
             </figure>
       
             <!-- Rafli -->
-            <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+            <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Rafli</figcaption>
@@ -582,7 +582,7 @@
             </figure>
   
             <!-- Nur Fajrina -->
-            <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+            <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Nur Fajrina</figcaption>
@@ -594,7 +594,7 @@
             </figure>
       
             <!-- Erwan Kurniawan -->
-            <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+            <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Erwan Kurniawan</figcaption>
@@ -606,7 +606,7 @@
             </figure>
       
             <!-- Hafiz Surya -->
-            <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+            <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Hafiz Surya Wijaya</figcaption>
@@ -618,7 +618,7 @@
             </figure>
 
           <!-- Bayu -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Bayu Rokhmatullah</figcaption>
@@ -630,7 +630,7 @@
             </figure>
   
           <!-- Tri Indah -->
-          <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+          <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Tri Indah</figcaption>
@@ -642,7 +642,7 @@
             </figure>
       
             <!-- Muhammad Abiyyi -->
-            <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+            <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Muhammad Abiyyi</figcaption>
@@ -654,7 +654,7 @@
             </figure>
       
             <!-- Rafli -->
-            <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+            <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Rafli</figcaption>
@@ -666,7 +666,7 @@
             </figure>
   
             <!-- Nur Fajrina -->
-            <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+            <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Nur Fajrina</figcaption>
@@ -678,7 +678,7 @@
             </figure>
       
             <!-- Erwan Kurniawan -->
-            <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+            <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Erwan Kurniawan</figcaption>
@@ -690,7 +690,7 @@
             </figure>
       
             <!-- Hafiz Surya -->
-            <figure class="relative w-64 md:w-72 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
+            <figure class="relative w-80 md:w-96 cursor-pointer overflow-hidden rounded-3xl border p-4 border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]">
               <div class="flex flex-row items-center gap-2">
                 <div class="flex flex-col">
                   <figcaption class="font-semibold text-lavender text-base md:text-lg">Hafiz Surya Wijaya</figcaption>
