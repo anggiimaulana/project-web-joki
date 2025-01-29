@@ -8,4 +8,8 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    build: {
+        outDir: 'public/build', // lokasi build output
+        assetsDir: 'assets',
+    },
 });
