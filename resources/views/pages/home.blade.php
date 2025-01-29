@@ -4,15 +4,13 @@
 
 @section('data')
     <div>
-        @include('templates.homepage.hero-section')
-        @include('templates.homepage.about')
-        @include('templates.homepage.rating')
-        @include('templates.homepage.why-choose-us')
-        @include('templates.homepage.how-to-order')
-        @include('templates.homepage.service')
-        @include('templates.homepage.testimonial')
-        @include('templates.homepage.faq')
+        @include('templates.hero-section')
+        @include('templates.about')
+        @include('templates.rating')
+        @include('templates.why-choose-us')
+        @include('templates.how-to-order')
+        @include('templates.service')
+        @include('templates.testimonial')
+        @include('templates.faq')
     </div>
-    
-    <script src="{{ asset('js/script.js') }}"></script>
 @endsection

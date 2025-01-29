@@ -20,19 +20,19 @@
         </div>
 
         <!-- Desktop menu -->
-        <div class="navbar hidden lg:flex md:hidden md:gap-x-4 lg:gap-x-10">
+        <div class="navbar hidden lg:flex md:hidden md:gap-x-4 lg:gap-x-6">
             <a href="/"
                 class="relative font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-600 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-600 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'home' ? 'text-sky-600 after:scale-x-100' : '' }}">
                 <i class='bx bxs-home text-xl'></i>
                 <p>Beranda</p>
             </a>
             <a href="/service"
-                class="relative font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-600 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-600 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'review' ? 'text-sky-600 after:scale-x-100' : '' }}">
+                class="relative font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-600 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-600 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'service' ? 'text-sky-600 after:scale-x-100' : '' }}">
                 <i class='bx bxs-customize text-xl'></i>
                 <p>Layanan</p>
             </a>
             <a href="/blog"
-                class="relative font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-600 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-600 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'information' ? 'text-sky-600 after:scale-x-100' : '' }}">
+                class="relative font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-600 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-600 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'blog' ? 'text-sky-600 after:scale-x-100' : '' }}">
                 <i class='bx bxl-blogger text-xl'></i>
                 <p>Blog</p>
             </a>
@@ -42,13 +42,13 @@
                 <p>Track Order</p>
             </a>
             <a href="/faq"
-                class="relative font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-600 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-600 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'track-order' ? 'text-sky-600 after:scale-x-100' : '' }}">
+                class="relative font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-600 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-600 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'faq' ? 'text-sky-600 after:scale-x-100' : '' }}">
                 <i class='bx bxs-user-detail text-xl'></i>
                 <p>FAQ</p>
             </a>
             <div class="hidden lg:flex md:flex lg:flex-1 lg:justify-end gap-x-1">
                 <a href="/syarat-ketentuan"
-                    class="relative font-semibold text-base text-sky-600 px-6 py-2 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-600 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform">
+                    class="relative font-semibold text-base text-sky-600 px-6 py-2 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-600 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'syarat-ketentuan' ? 'after:scale-x-100' : '' }}">
                     Syarat & Ketentuan
                 </a>
                 <button 
@@ -87,12 +87,12 @@
                             <p>Beranda</p>
                         </a>
                         <a href="/service"
-                            class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-gray-700 hover:bg-gray-50 hover:text-sky-500 {{ isset($slug) && $slug === 'rating' ? 'text-sky-600 after:scale-x-100' : '' }}">
+                            class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-gray-700 hover:bg-gray-50 hover:text-sky-500 {{ isset($slug) && $slug === 'service' ? 'text-sky-600 after:scale-x-100' : '' }}">
                             <i class='bx bxs-customize text-xl'></i>
                             <p>Layanan</p>
                         </a>
                         <a href="/blog"
-                            class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-gray-700 hover:bg-gray-50 hover:text-sky-500 {{ isset($slug) && $slug === 'information' ? 'text-sky-600 after:scale-x-100' : '' }}">
+                            class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-gray-700 hover:bg-gray-50 hover:text-sky-500 {{ isset($slug) && $slug === 'blog' ? 'text-sky-600 after:scale-x-100' : '' }}">
                             <i class='bx bxl-blogger text-xl'></i>
                             <p>Blog</p>
                         </a>
@@ -102,19 +102,19 @@
                             <p>Track Order</p>
                         </a>
                         <a href="/faq"
-                            class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-gray-700 hover:bg-gray-50 hover:text-sky-500 {{ isset($slug) && $slug === 'track-order' ? 'text-sky-600 after:scale-x-100' : '' }}">
+                            class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-gray-700 hover:bg-gray-50 hover:text-sky-500 {{ isset($slug) && $slug === 'faq' ? 'text-sky-600 after:scale-x-100' : '' }}">
                             <i class='bx bxs-user-detail text-xl'></i>
                             <p>FAQ</p>
                         </a>
                         <hr class="text-sky-200">
+                        <a href="/syarat-ketentuan"
+                            class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-sky-500 hover:bg-gray-50 hover:text-sky-600 {{ isset($slug) && $slug === 'syarat-ketentuan' ? 'text-sky-600 after:scale-x-100' : '' }}">
+                            Syarat & Ketentuan
+                        </a>
                         <div>
-                            <a href="/syarat-ketentuan"
-                                class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-sky-500 hover:bg-gray-50 hover:text-sky-600">
-                                Syarat & Ketentuan
-                            </a>
                             <button 
                                 onclick="window.open('https://wa.me/6281394106225?text=Halo, saya ingin konsultasi', '_blank')"
-                                class="-mx-3 flex items-center gap-x-2 rounded-lg px-3 py-2 font-semibold text-sky-500 hover:bg-gray-50 hover:text-sky-600">
+                                class=" flex items-center w-full justify-center rounded-3xl px-6 py-2 font-semibold bg-lavender text-white hover:bg-sky-600">
                                 Konsultasi Tugas
                             </button>
                         </div>

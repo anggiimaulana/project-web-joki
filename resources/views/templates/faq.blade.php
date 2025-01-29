@@ -177,10 +177,10 @@
             </div>
 
             <!-- Tombol Lihat Lebih Banyak/Sembunyikan -->
-            <div class="col-span-full flex justify-center mt-4">
+            <div class="col-span-full flex justify-center">
               <button
                 id="toggle-faq"
-                class="bg-lavender hover:bg-sky-600 text-white font-bold py-2 px-6 rounded-3xl transition-all duration-300"
+                class="bg-lavender hover:bg-sky-600 text-white font-semibold py-2 w-52  rounded-3xl transition-all duration-300"
                 onclick="toggleFaqVisibility()"
               >
                 Lihat Lebih Banyak
