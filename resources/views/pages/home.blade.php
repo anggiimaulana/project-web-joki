@@ -11,6 +11,7 @@
         @include('templates.how-to-order')
         @include('templates.service')
         @include('templates.testimonial')
+        @include('templates.blog')
         @include('templates.faq')
     </div>
 @endsection
