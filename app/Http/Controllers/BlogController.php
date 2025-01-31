@@ -9,7 +9,7 @@ class BlogController extends Controller
     public function index()
     {
         $slug = 'blog';
-        $title = 'Blog JOKIINIT.com';
+        $title = 'Blog - JOKIINIT.com';
         return view('pages.blog', compact('slug', 'title'));
     }
 }

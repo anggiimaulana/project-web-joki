@@ -8,7 +8,7 @@ class ServiceController extends Controller
 {
     public function index() {
         $slug = 'service';
-        $title = 'Layanan JOKIINIT.com';
+        $title = 'Layanan Joki - JOKIINIT.com';
         return view('pages.service', compact('slug', 'title'));
     }
 }
