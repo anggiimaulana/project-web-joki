@@ -6,4 +6,5 @@
     <div class="pt-16 md:pt-20">
         @include('templates.faq')
     </div>
+    <script src="{{ asset('js/faq.js') }}"></script>
 @endsection

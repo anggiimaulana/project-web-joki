@@ -7,7 +7,7 @@
                 </span>
             </h3>
             <div class="h-2 rounded w-44 md:w-1/2 lg:w-1/3 mx-auto bg-gradient-to-r from-blue-700 to-blue-300 my-4"></div>
-            <p class="text-base md:text-lg text-gray-700">
+            <p class="text-base md:text-xl text-gray-700">
                 Bingung memilih jenis tugas yang perlu dijokikan? Tenang, kami siap membantu! Konsultasikan tugasmu dengan Jasa Joki Tugas by
                 <span class="text-sky-700 font-semibold">
                     JOKIIN<span class="text-sm md:text-base">IT</span>
@@ -43,10 +43,10 @@
                         Baca Selengkapnya
                     </button>
                     <div class="flex mt-4 justify-center gap-x-2 md:gap-x-4">
-                        <button class="w-full items-center cursor-pointer bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold">Order <span>
+                        <button class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold">Order <span>
                             JOKIIN<span class="text-sm">IT</span>
                         </span></button>
-                        <button class="w-60 md:w-full cursor-pointer bg-zinc-100 hover:bg-zinc-200 text-lavender py-2 rounded-3xl font-semibold border border-sky-200">Konsultasi</button>
+                        <button class="w-full cursor-pointer text-sm md:text-base bg-zinc-100 hover:bg-zinc-200 text-lavender py-2 rounded-3xl font-semibold border border-sky-200">Konsultasi</button>
                     </div>
                 </div>
             </div>
@@ -76,10 +76,10 @@
                         Baca Selengkapnya
                     </button>
                     <div class="flex mt-4 justify-center gap-x-2 md:gap-x-4">
-                        <button class="w-full items-center cursor-pointer bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold">Order <span>
+                        <button class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold">Order <span>
                             JOKIIN<span class="text-sm">IT</span>
                         </span></button>
-                        <button class="w-60 md:w-full cursor-pointer bg-zinc-100 hover:bg-zinc-200 text-lavender py-2 rounded-3xl font-semibold border border-sky-200">Konsultasi</button>
+                        <button class="w-full cursor-pointer text-sm md:text-base bg-zinc-100 hover:bg-zinc-200 text-lavender py-2 rounded-3xl font-semibold border border-sky-200">Konsultasi</button>
                     </div>
                 </div>
             </div>
@@ -115,10 +115,10 @@
                         Baca Selengkapnya
                     </button>
                     <div class="flex mt-4 justify-center gap-x-2 md:gap-x-4">
-                        <button class="w-full items-center cursor-pointer bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold">Order <span>
+                        <button class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold">Order <span>
                             JOKIIN<span class="text-sm">IT</span>
                         </span></button>
-                        <button class="w-60 md:w-full cursor-pointer bg-zinc-100 hover:bg-zinc-200 text-lavender py-2 rounded-3xl font-semibold border border-sky-200">Konsultasi</button>
+                        <button class="w-full cursor-pointer text-sm md:text-base bg-zinc-100 hover:bg-zinc-200 text-lavender py-2 rounded-3xl font-semibold border border-sky-200">Konsultasi</button>
                     </div>
                 </div>
             </div>
@@ -153,10 +153,10 @@
                         Baca Selengkapnya
                     </button>
                     <div class="flex mt-4 justify-center gap-x-2 md:gap-x-4">
-                        <button class="w-full items-center cursor-pointer bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold">Order <span>
+                        <button class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold">Order <span>
                             JOKIIN<span class="text-sm">IT</span>
                         </span></button>
-                        <button class="w-60 md:w-full cursor-pointer bg-zinc-100 hover:bg-zinc-200 text-lavender py-2 rounded-3xl font-semibold border border-sky-200">Konsultasi</button>
+                        <button class="w-full cursor-pointer text-sm md:text-base bg-zinc-100 hover:bg-zinc-200 text-lavender py-2 rounded-3xl font-semibold border border-sky-200">Konsultasi</button>
                     </div>
                 </div>
             </div>
@@ -191,10 +191,10 @@
                         Baca Selengkapnya
                     </button>
                     <div class="flex mt-4 justify-center gap-x-2 md:gap-x-4">
-                        <button class="w-full items-center cursor-pointer bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold">Order <span>
+                        <button class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold">Order <span>
                             JOKIIN<span class="text-sm">IT</span>
                         </span></button>
-                        <button class="w-60 md:w-full cursor-pointer bg-zinc-100 hover:bg-zinc-200 text-lavender py-2 rounded-3xl font-semibold border border-sky-200">Konsultasi</button>
+                        <button class="w-full cursor-pointer text-sm md:text-base bg-zinc-100 hover:bg-zinc-200 text-lavender py-2 rounded-3xl font-semibold border border-sky-200">Konsultasi</button>
                     </div>
                 </div>
             </div>
@@ -230,20 +230,20 @@
                     </button>
 
                     <div class="flex mt-4 justify-center gap-x-2 md:gap-x-4">
-                        <button class="w-full items-center cursor-pointer bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold">Order <span>
+                        <button class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold">Order <span>
                             JOKIIN<span class="text-sm">IT</span>
                         </span></button>
-                        <button class="w-60 md:w-full cursor-pointer bg-zinc-100 hover:bg-zinc-200 text-lavender py-2 rounded-3xl font-semibold border border-sky-200">Konsultasi</button>
+                        <button class="w-full cursor-pointer text-sm md:text-base bg-zinc-100 hover:bg-zinc-200 text-lavender py-2 rounded-3xl font-semibold border border-sky-200">Konsultasi</button>
                     </div>
                 </div>
             </div>
 
             {{-- Lebih banyak/sedikit --}}
             <div class="col-span-full flex justify-center">
-                <button id="show-more" class="bg-lavender hover:bg-sky-600 text-white py-2 w-52 font-semibold rounded-3xl transition-all duration-300 md:hidden">
+                <button id="show-more" class="bg-lavender hover:bg-sky-600 text-sm md:text-base text-white py-2 w-40 font-semibold rounded-3xl transition-all duration-300 md:hidden">
                     Lihat Lebih Banyak
                 </button>
-                <button id="show-less" class="bg-lavender hover:bg-sky-600 text-white py-2 w-52 font-semibold rounded-3xl transition-all duration-300 btn  hidden">
+                <button id="show-less" class="bg-lavender hover:bg-sky-600 text-sm md:text-base text-white py-2 w-40 font-semibold rounded-3xl transition-all duration-300 hidden">
                     Lebih Sedikit
                 </button>
             </div>

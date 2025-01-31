@@ -13,7 +13,7 @@
                 </span> untuk membantu menyelesaikan tugas dengan lebih cepat dan efisien!
             </p>
         </div>
-        <div class="mt-5 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3" id="blog-list">
+        <div class="mt-5 grid gap-6 md:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3" id="blog-list">
             <div class="flex flex-col bg-white rounded-3xl overflow-hidden shadow-lg">
                 <img class="h-52 w-full object-cover rounded-2xl" src=" {{ asset('images/deepseek.jpeg') }} " loading="lazy" alt="deepseek">
                 <div class="flex flex-1 flex-col p-6 justify-between">
@@ -56,66 +56,6 @@
                 </div>
             </div>
             
-            <div class="flex flex-col bg-white rounded-3xl overflow-hidden shadow-lg">
-                <img class="h-52 w-full object-cover rounded-2xl" src=" {{ asset('images/programming3.jpg') }} " loading="lazy" alt="promo">
-                <div class="flex flex-1 flex-col p-6 justify-between">
-                    <div>
-                        <p class="text-sm text-gray-500">Feb 12, 2020 <span class="ml-2 px-4 py-1 bg-lavender text-white rounded-full text-xs font-semibold">Promo</span></p>
-                        <a href="">
-                            <h3 class="mt-2 text-lg md:text-xl font-bold text-gray-600 hover:underline hover:text-lavender">Kupon Promo 20% Untuk Semua Kategori Joki!</h3>
-                        </a>
-                        <p class="mt-3 text-base text-gray-700">Cupiditate maiores ullam eveniet adipisci in doloribus nulla minus...</p>
-                    </div>
-                    <div class="mt-6 flex items-center">
-                        <div>
-                            <p class="text-sm text-gray-700">Penulis:</p>
-                            <p class="text-base text-gray-600 font-medium">Robi Permana</p>
-                            <p class="text-base text-gray-500 font-semibold">Director of Product</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="flex flex-col bg-white rounded-3xl overflow-hidden shadow-lg">
-                <img class="h-52 w-full object-cover rounded-2xl" src=" {{ asset('images/programming3.jpg') }} " loading="lazy" alt="promo">
-                <div class="flex flex-1 flex-col p-6 justify-between">
-                    <div>
-                        <p class="text-sm text-gray-500">Feb 12, 2020 <span class="ml-2 px-4 py-1 bg-lavender text-white rounded-full text-xs font-semibold">Promo</span></p>
-                        <a href="">
-                            <h3 class="mt-2 text-lg md:text-xl font-bold text-gray-600 hover:underline hover:text-lavender">Kupon Promo 20% Untuk Semua Kategori Joki!</h3>
-                        </a>
-                        <p class="mt-3 text-base text-gray-700">Cupiditate maiores ullam eveniet adipisci in doloribus nulla minus...</p>
-                    </div>
-                    <div class="mt-6 flex items-center">
-                        <div>
-                            <p class="text-sm text-gray-700">Penulis:</p>
-                            <p class="text-base text-gray-600 font-medium">Robi Permana</p>
-                            <p class="text-base text-gray-500 font-semibold">Director of Product</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="flex flex-col bg-white rounded-3xl overflow-hidden shadow-lg">
-                <img class="h-52 w-full object-cover rounded-2xl" src=" {{ asset('images/programming3.jpg') }} " loading="lazy" alt="promo">
-                <div class="flex flex-1 flex-col p-6 justify-between">
-                    <div>
-                        <p class="text-sm text-gray-500">Feb 12, 2020 <span class="ml-2 px-4 py-1 bg-lavender text-white rounded-full text-xs font-semibold">Promo</span></p>
-                        <a href="">
-                            <h3 class="mt-2 text-lg md:text-xl font-bold text-gray-600 hover:underline hover:text-lavender">Kupon Promo 20% Untuk Semua Kategori Joki!</h3>
-                        </a>
-                        <p class="mt-3 text-base text-gray-700">Cupiditate maiores ullam eveniet adipisci in doloribus nulla minus...</p>
-                    </div>
-                    <div class="mt-6 flex items-center">
-                        <div>
-                            <p class="text-sm text-gray-700">Penulis:</p>
-                            <p class="text-base text-gray-600 font-medium">Robi Permana</p>
-                            <p class="text-base text-gray-500 font-semibold">Director of Product</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <div class="flex flex-col bg-white rounded-3xl overflow-hidden shadow-lg">
                 <img class="h-52 w-full object-cover rounded-2xl" src=" {{ asset('images/programming3.jpg') }} " loading="lazy" alt="promo">
                 <div class="flex flex-1 flex-col p-6 justify-between">
