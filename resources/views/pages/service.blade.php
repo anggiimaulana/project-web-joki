@@ -6,4 +6,6 @@
     <div class="pt-16 md:pt-20">
         @include('templates.service')
     </div>
+    <script src="{{ asset('js/service.js') }}"></script>
+
 @endsection

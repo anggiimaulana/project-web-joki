@@ -3,6 +3,5 @@
     @include('layouts.nav')
     @yield('data')
     @include('layouts.footer')
-    <script src="{{ asset('js/script.js') }}"></script>
 </body>
 </html>

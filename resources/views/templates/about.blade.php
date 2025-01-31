@@ -39,7 +39,7 @@
                     </p>
                 </div>
                 <!-- Tombol "Baca Selengkapnya" -->
-                <button id="button-about" type="button" class="mt-2 text-sky-700 font-bold text-sm md:text-base lg:hidden">
+                <button id="button-about" type="button" class="mt-2 text-sky-700 font-semibold text-sm md:text-base lg:hidden">
                     Baca Selengkapnya
                 </button>
             </div>

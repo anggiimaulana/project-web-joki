@@ -11,7 +11,8 @@
         @include('templates.how-to-order')
         @include('templates.service')
         @include('templates.testimonial')
-        @include('templates.blog')
+        @include('templates.blog_home')
         @include('templates.faq')
     </div>
+    <script src="{{ asset('js/script.js') }}"></script>
 @endsection
