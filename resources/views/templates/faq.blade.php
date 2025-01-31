@@ -180,7 +180,7 @@
             <div class="col-span-full flex justify-center">
               <button
                 id="toggle-faq"
-                class="bg-lavender hover:bg-sky-600 text-white font-semibold py-2 w-52  rounded-3xl transition-all duration-300"
+                class="bg-lavender hover:bg-sky-600 text-white font-semibold py-2 w-40 text-sm md:text-base rounded-3xl transition-all duration-300"
                 onclick="toggleFaqVisibility()"
               >
                 Lihat Lebih Banyak

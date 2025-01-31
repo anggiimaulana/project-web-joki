@@ -14,7 +14,7 @@
                 </span>
             </p>
         </div>
-        <div class="mt-5 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4 md:px-0" id="services-list">
+        <div class="mt-5 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4 md:px-0" id="services-list">
             <!-- Berlangganan -->
             <div class="service-item bg-white shadow rounded-3xl md:block">
                 <div class="relative">
