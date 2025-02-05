@@ -21,7 +21,7 @@
         
         
                 <div class="items-center justify-center flex gap-2 p-4">
-                    <input type="text" id="orderId" placeholder="Masukkan UID pesananmu." 
+                    <input type="text" id="orderId" placeholder="Masukkan UID pesananmu." required
                         class="w-full md:max-w-96 px-4 py-2 border text-gray-600 text-base md:text-lg border-gray-300 rounded-2xl focus:border-sky-300 focus:ring focus:ring-sky-300 outline-none">
                     <button onclick="trackOrder()" 
                         class="bg-lavender text-white px-6 py-2 md:text-lg rounded-2xl hover:bg-sky-500 focus:outline-none focus:ring-2 focus:ring-sky-500">Lacak</button>
