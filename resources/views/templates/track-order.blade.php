@@ -7,7 +7,7 @@
                 </span>
             </h3>
             <div class="h-2 rounded w-44 md:w-1/2 lg:w-1/3 mx-auto bg-gradient-to-r from-blue-700 to-blue-300 my-4"></div>
-            <p class="text-base md:text-xl text-gray-700">
+            <p class="text-base md:text-lg text-gray-700">
                 Pantau status pesananmu dengan mudah dan cepat. Dapatkan pembaruan real-time tentang setiap tahap pengerjaan, dari proses awal hingga selesai! 🚀
             </p>
         </div>

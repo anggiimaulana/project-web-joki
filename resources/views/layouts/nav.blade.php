@@ -20,7 +20,7 @@
         </div>
 
         <!-- Desktop menu -->
-        <div class="navbar hidden lg:flex md:hidden md:gap-x-4 lg:gap-x-6">
+        <div class="navbar hidden lg:flex md:hidden md:gap-x-4 lg:gap-x-5">
             <a href="{{ route('HomePage') }}"
                 class="relative font-semibold text-gray-700 flex items-center gap-x-1 hover:text-sky-600 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-600 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'home' ? 'text-sky-600 after:scale-x-100' : '' }}">
                 <i class='bx bxs-home text-xl'></i>
