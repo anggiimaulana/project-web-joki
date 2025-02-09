@@ -1,4 +1,4 @@
-<header id="header" class="bg-white fixed w-full z-50 transition-colors duration-300">
+<header id="header" class="bg-white fixed w-full z-50">
     <nav class="container px-6 md:px-0 mx-auto flex max-w-8xl items-center justify-between py-4 border-b border-sky-200"
         aria-label="Global">
         <div class="name-company flex lg:flex-1">
