@@ -16,17 +16,17 @@
         </div>
         <div class="mt-5 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4 md:px-0" id="services-list">
             <!-- Berlangganan -->
-            <div class="service-item bg-white shadow rounded-3xl md:block">
+            <div class="service-item bg-white shadow rounded-3xl flex flex-col h-full">
                 <div class="relative">
                     <img src="{{ asset('images/programming.jpg') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
                 </div>
-                <div class="p-4 text-center text-gray-600">
+                <div class="p-4 text-center text-gray-600 flex flex-col flex-grow">
                     <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
                         Subscription JOKIIN<span class="text-base md:text-xl">IT</span>
                         - Jasa Joki Tugas IT Unlimitied
                     </h3>
-                    <p class="text-base lg:text-xl">
-                        Untuk kamu yang aktif berorganisasi, sibuk mengejar karier, atau sekadar malas mengerjakan tugas kuliah, <span class="text-sky-700 font-semibold">
+                    <p class="text-base lg:text-xl flex-grow">
+                        Untuk kamu yang aktif berorganisasi, sibuk mengejar karier, atau sekedar malas mengerjakan tugas kuliah, <span class="text-sky-700 font-semibold">
                             Jasa Joki Tugas Subscription
                         </span> dari <span class="text-sky-700 font-bold">
                             JOKIIN<span class="text-sm md:text-base">IT</span>
@@ -52,16 +52,16 @@
             </div>
         
             <!-- Express -->
-            <div class="service-item bg-white shadow rounded-3xl md:block">
+            <div class="service-item bg-white shadow rounded-3xl flex flex-col h-full">
                 <div class="relative">
                     <img src="{{ asset('images/programming.jpg') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
                 </div>
-                <div class="p-4 text-center text-gray-600">
+                <div class="p-4 text-center text-gray-600 flex flex-col flex-grow">
                     <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
                         JOKIIN<span class="text-base md:text-xl">IT</span>
                         Express - Jasa Joki Tugas Secepat Kilat
                     </h3>
-                    <p class="text-base lg:text-xl">
+                    <p class="text-base lg:text-xl flex-grow">
                         Butuh tugas diselesaikan dengan cepat? Gunakan <span class="text-sky-700 font-semibold">
                         Paket Express dari JOKIINIT! </span>
                         Dengan paket ini, tugas Anda akan diprioritaskan dan diselesaikan dalam waktu singkat.
@@ -85,16 +85,16 @@
             </div>
 
             <!-- Laprak -->
-            <div class="service-item bg-white shadow rounded-3xl hidden md:block">
+            <div class="service-item bg-white shadow rounded-3xl hidden flex-col h-full">
                 <div class="relative">
                     <img src="{{ asset('images/programming.jpg') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
                 </div>
-                <div class="p-4 text-center text-gray-600">
+                <div class="p-4 text-center text-gray-600 flex flex-col flex-grow">
                     <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
                         JOKIIN<span class="text-base md:text-xl">IT</span>
                         - Jasa Joki Laporan Tugas & Praktikum IT
                     </h3>
-                    <p class="text-base lg:text-xl">
+                    <p class="text-base lg:text-xl flex-grow">
                         Dengan <span class="text-sky-700 font-semibold">
                             Jasa Joki Laporan Tugas & Praktikum IT</span>, 
                             kamu akan mendapatkan laporan berkualitas tinggi, lengkap dengan format yang sesuai dan analisis yang mendalam.
@@ -124,15 +124,15 @@
             </div>
         
             <!-- Tubes -->
-            <div class="service-item bg-white shadow rounded-3xl md:block">
+            <div class="service-item bg-white shadow rounded-3xl hidden md:flex flex-col h-full">
                 <div class="relative">
                     <img src="{{ asset('images/programming3.jpg') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
                 </div>
-                <div class="p-4 text-center text-gray-600">
+                <div class="p-4 text-center text-gray-600 flex flex-col flex-grow">
                     <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
                         JOKIIN<span class="text-base md:text-xl">IT</span> - Jasa Joki Tugas Besar dan Proyek IT
                     </h3>
-                    <p class="text-base lg:text-xl">
+                    <p class="text-base lg:text-xl flex-grow">
                         Tugas besar IT di akhir semester sering kali terasa berat, apalagi saat mendekati UAS. 
                         Tapi jangan khawatir, kami siap membantu kamu menyelesaikan tugas besar dengan hasil terbaik!
                     </p>
@@ -162,16 +162,16 @@
             </div>
 
             <!-- Karya Ilmiah -->
-            <div class="service-item bg-white shadow rounded-3xl hidden md:block">
+            <div class="service-item bg-white shadow rounded-3xl hidden md:flex flex-col h-full">
                 <div class="relative">
                     <img src="{{ asset('images/programming.png') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
                 </div>
-                <div class="p-4 text-center text-gray-600">
+                <div class="p-4 text-center text-gray-600 flex flex-col flex-grow">
                     <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
                         JOKIIN<span class="text-base md:text-xl">IT</span>
                         - Jasa Joki Karya Ilmiah Bidang IT
                     </h3>
-                    <p class="text-base lg:text-xl">
+                    <p class="text-base lg:text-xl flex-grow">
                         Kami hadir untuk mempermudah perjalanan akademikmu! Dengan Jasa Joki IT dari <span class="text-sky-700 font-bold">
                             JOKIIN<span class="text-sm md:text-base">IT</span>
                         </span>, semua kebutuhanmu, mulai dari penelitian hingga penulisan, akan diselesaikan dengan profesional.
@@ -200,16 +200,16 @@
             </div>
 
             <!-- Non IT -->
-            <div class="service-item bg-white shadow rounded-3xl hidden md:block">
+            <div class="service-item bg-white shadow rounded-3xl hidden md:flex flex-col h-full">
                 <div class="relative">
                     <img src="{{ asset('images/programming.png') }}" alt="Product Image" class="w-full h-64 object-cover rounded-2xl" loading="lazy">
                 </div>
-                <div class="p-4 text-center text-gray-600">
+                <div class="p-4 text-center text-gray-600 flex flex-col flex-grow">
                     <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
                         JOKIIN<span class="text-base md:text-xl">IT</span>
                         - Butuh Joki Tugas Non-IT? Cek Ketersediaan Dulu!
                     </h3>
-                    <p class="text-base lg:text-xl">
+                    <p class="text-base lg:text-xl flex-grow">
                         Selain bidang IT,
                         <span class="text-sky-700 font-bold">
                             JOKIIN<span class="text-sm md:text-base">IT</span>
