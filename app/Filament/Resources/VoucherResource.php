@@ -85,6 +85,7 @@ class VoucherResource extends Resource
                 TextColumn::make('created_at')->label('Tanggal Dibuat')->dateTime()->alignCenter(),
                 TextColumn::make('tanggal_kadaluarsa')->label('Tanggal Kadaluarsa')->dateTime(),
             ])
+            ->defaultSort('id', 'desc')
             ->filters([
                 //
             ])

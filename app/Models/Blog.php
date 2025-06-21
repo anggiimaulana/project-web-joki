@@ -20,6 +20,14 @@ class Blog extends Model
         'posisi_kerja',
     ];
 
+    public function getGambarUrlAttribute()
+    {
+        if ($this->image) {
+            return asset('storage/' . $this->image);
+        }
+        return asset('images/default-blog.jpg'); // gambar default jika tidak ada
+    }
+
     public function kategoriBlog()
     {
         return $this->belongsTo(KategoriBlog::class);

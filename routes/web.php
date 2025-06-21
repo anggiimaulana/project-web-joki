@@ -13,5 +13,6 @@ Route::get('/', [HomeController::class, 'index'])->name('HomePage');
 Route::get('/service', [ServiceController::class, 'index'])->name('ServicePage');
 Route::get('/faq', [FaqController::class, 'index'])->name('FaqPage');
 Route::get('/blog', [BlogController::class, 'index'])->name('BlogPage');
+Route::get('/blog/detail/{slug}', [BlogController::class, 'detail'])->name('BlogDetail');
 Route::get('/track-order', [TrackOrderController::class, 'index'])->name('TrackOrderPage');
 Route::get('/syarat-ketentuan', [SyaratKetentuanController::class, 'index'])->name('SyaratKetentuanPage');
