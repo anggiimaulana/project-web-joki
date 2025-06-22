@@ -110,5 +110,3 @@
         </div>
     </div>
 </div>
-
-<script src="{{ asset('js/track-order.js') }}"></script>

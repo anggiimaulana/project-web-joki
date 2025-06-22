@@ -92,10 +92,10 @@
                 <div class="bg-white rounded-2xl shadow-lg p-6 border border-gray-100">
                     <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
                         <!-- Info -->
-                        <div class="text-sm text-gray-600">
-                            Menampilkan <span class="font-semibold text-gray-800">{{ $blog->firstItem() }}</span>
-                            sampai <span class="font-semibold text-gray-800">{{ $blog->lastItem() }}</span>
-                            dari <span class="font-semibold text-gray-800">{{ $blog->total() }}</span> artikel
+                        <div class="text-base text-gray-700">
+                            Menampilkan <span class="font-semibold text-lavender">{{ $blog->firstItem() }}</span>
+                            sampai <span class="font-semibold text-lavender">{{ $blog->lastItem() }}</span>
+                            dari <span class="font-semibold text-lavender">{{ $blog->total() }}</span> artikel
                         </div>
 
                         <!-- Pagination Links -->

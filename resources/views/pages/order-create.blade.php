@@ -4,7 +4,7 @@
 
 @section('data')
     <div class="pt-16 md:pt-20">
-        @include('templates.track-order')
+        @include('templates.order-create')
     </div>
-    <script src="{{ asset('js/track-order.js') }}"></script>
+
 @endsection

@@ -31,7 +31,7 @@ class OrderResource extends Resource
 
     protected static ?string $label = 'Orderan Joki';
 
-    protected static ?string $pluralLabel = 'Daftar Joki';
+    protected static ?string $pluralLabel = 'Daftar Orderan Joki';
 
     protected static ?string $navigationLabel = 'Orderan Joki';
 
@@ -78,7 +78,7 @@ class OrderResource extends Resource
 
                 Select::make('voucher_id')
                     ->label('Diskon Voucher (%)')
-                    ->options(Voucher::pluck('persentase', 'id'))
+                    ->options(Voucher::pluck('code', 'id'))
                     ->searchable()
                     ->nullable()
                     ->reactive()
@@ -136,7 +136,7 @@ class OrderResource extends Resource
         return $table
             ->columns([
                 TextColumn::make('no')->label('No')->rowIndex(),
-                TextColumn::make('unique_id')->label('UID')->searchable(),
+                TextColumn::make('unique_id')->label('UID')->searchable()->copyMessage('Copied!'),
                 TextColumn::make('name')->label('Nama')->searchable(),
                 TextColumn::make('nomor_wa')->label('No. Whatsapp'),
                 TextColumn::make('kategori_joki.nama_kategori')->label('Kategori'),
