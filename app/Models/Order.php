@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 
 class Order extends Model
 {
@@ -27,8 +28,9 @@ class Order extends Model
     protected static function booted()
     {
         static::created(function (Order $order) {
-            // Format: JKIT0(ID_KATEGORI)-0(ID)
-            $order->unique_id = 'JKIT0' . $order->kategori_joki_id . '-0' . $order->id;
+            // Format: JKIT-[random]-[kategoriID]-[metodeID]-[orderID]
+            $random = strtoupper(Str::random(4)); // contoh: X7K2
+            $order->unique_id = 'JKIT-' . $random . '-K' . $order->kategori_joki_id . 'M' . $order->metode_pembayaran_id . '0' . $order->id;
             $order->saveQuietly(); // Hindari infinite loop saving
         });
     }
