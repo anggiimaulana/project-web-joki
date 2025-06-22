@@ -136,7 +136,8 @@ class OrderResource extends Resource
         return $table
             ->columns([
                 TextColumn::make('no')->label('No')->rowIndex(),
-                TextColumn::make('name')->label('Nama'),
+                TextColumn::make('unique_id')->label('UID')->searchable(),
+                TextColumn::make('name')->label('Nama')->searchable(),
                 TextColumn::make('nomor_wa')->label('No. Whatsapp'),
                 TextColumn::make('kategori_joki.nama_kategori')->label('Kategori'),
                 TextColumn::make('metode_pembayaran.nama_metode')->label('Metode Pembayaran'),
@@ -152,6 +153,7 @@ class OrderResource extends Resource
                         'Mendekati Selesai (76–99%)' => 'info',
                         'Menunggu Validasi' => 'success',
                         'Selesai' => 'success',
+                        'Dibatalkan' => 'danger',
                     }),
                 TextColumn::make('created_at')->label('Tanggal Dibuat')->dateTime(),
             ])
