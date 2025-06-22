@@ -102,7 +102,7 @@
             <div class="border-t border-gray-200 pt-8 mb-8">
                 <h3 class="text-lg font-semibold text-gray-900 mb-2">Bagikan Artikel Ini</h3>
                 <div class="flex space-x-4">
-                    <a href="https://wa.me/?text={{ urlencode($blog->title . ' - ' . request()->fullUrl()) }}"
+                    <a href="https://wa.me/?text={{ urlencode($blog->title . ' - Baca selengkapnya di: ' . request()->fullUrl()) }}"
                         target="_blank"
                         class="inline-flex items-center px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors duration-200">
                         <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
@@ -113,6 +113,7 @@
                     </a>
                 </div>
             </div>
+
 
             <!-- Back to Blog -->
             <div class="text-center">

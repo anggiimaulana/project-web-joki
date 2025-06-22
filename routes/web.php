@@ -15,4 +15,5 @@ Route::get('/faq', [FaqController::class, 'index'])->name('FaqPage');
 Route::get('/blog', [BlogController::class, 'index'])->name('BlogPage');
 Route::get('/blog/detail/{slug}', [BlogController::class, 'detail'])->name('BlogDetail');
 Route::get('/track-order', [TrackOrderController::class, 'index'])->name('TrackOrderPage');
+Route::post('/track-order/status', [TrackOrderController::class, 'getOrderStatus'])->name('TrackOrderPage.status');
 Route::get('/syarat-ketentuan', [SyaratKetentuanController::class, 'index'])->name('SyaratKetentuanPage');

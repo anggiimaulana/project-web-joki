@@ -38,6 +38,10 @@ class StatusOrderSeeder extends Seeder
                 'status' => 'Selesai',
                 'keterangan' => 'Joki selesai, validasi oke, job closed.',
             ],
+            [
+                'status' => 'Dibatalkan',
+                'keterangan' => 'Pesanan dibatalkan oleh pengguna atau oleh pihak JokiinIT',
+            ],
         ];
 
         foreach ($statuses as $data) {
