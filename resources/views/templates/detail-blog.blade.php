@@ -47,11 +47,11 @@
             <!-- Header -->
             <header class="mb-8">
                 <div class="mb-4">
-                    <span class="inline-block px-4 py-2 bg-sky-100 text-sky-800 rounded-full text-sm font-semibold">
+                    <span class="inline-block px-4 py-2 bg-sky-100 text-sky-700 rounded-full text-sm font-semibold">
                         {{ $blog->kategoriBlog->nama_kategori ?? 'Uncategorized' }}
                     </span>
                 </div>
-                <h1 class="text-2xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">
+                <h1 class="text-2xl md:text-4xl font-bold text-gray-700 mb-6 leading-tight">
                     {{ $blog->title }}
                 </h1>
                 <div class="flex flex-col md:flex-row md:items-center md:justify-between text-gray-600 mb-6">
@@ -61,7 +61,7 @@
                             {{ substr($blog->user->name ?? 'A', 0, 1) }}
                         </div>
                         <div>
-                            <p class="font-medium text-gray-900">{{ $blog->user->name ?? 'Admin' }}</p>
+                            <p class="font-medium text-gray-700">{{ $blog->user->name ?? 'Admin' }}</p>
                             <p class="text-sm text-gray-600">{{ $blog->posisi_kerja ?? 'Content Writer' }}</p>
                         </div>
                     </div>
@@ -93,14 +93,14 @@
 
             <!-- Content (support enter/baris baru) -->
             <div class="prose prose-lg max-w-none">
-                <div class="text-gray-800 leading-relaxed">
+                <div class="text-gray-700 leading-relaxed">
                     {!! nl2br(e($blog->content)) !!}
                 </div>
             </div>
 
             <!-- Share Buttons -->
             <div class="border-t border-gray-200 pt-8 mb-8">
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">Bagikan Artikel Ini</h3>
+                <h3 class="text-lg font-semibold text-gray-700 mb-2">Bagikan Artikel Ini</h3>
                 <div class="flex space-x-4">
                     <a href="https://wa.me/?text={{ urlencode($blog->title . ' - Baca selengkapnya di: ' . request()->fullUrl()) }}"
                         target="_blank"
@@ -118,7 +118,7 @@
             <!-- Back to Blog -->
             <div class="text-center">
                 <a href="{{ route('BlogPage') }}"
-                    class="inline-flex items-center px-6 py-3 bg-lavender text-white rounded-lg hover:bg-sky-800 transition-colors duration-200 font-medium">
+                    class="inline-flex items-center px-6 py-3 bg-lavender text-white rounded-lg hover:bg-sky-700 transition-colors duration-200 font-medium">
                     <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M10 19l-7-7m0 0l7-7m-7 7h18" />
@@ -147,7 +147,7 @@
                                     </div>
                                     <div class="absolute top-3 left-3">
                                         <span
-                                            class="px-3 py-1 bg-white/90 backdrop-blur-sm text-sky-800 rounded-full text-xs font-semibold shadow-md">
+                                            class="px-3 py-1 bg-white/90 backdrop-blur-sm text-sky-700 rounded-full text-xs font-semibold shadow-md">
                                             {{ $item->kategoriBlog->nama_kategori ?? 'Uncategorized' }}
                                         </span>
                                     </div>
@@ -155,7 +155,7 @@
                                 <div class="p-4">
                                     <a href="{{ route('BlogDetail', $item->slug) }}" class="block">
                                         <h3
-                                            class="text-base font-bold text-gray-800 mb-2 group-hover:text-sky-700 transition-colors duration-300 line-clamp-2">
+                                            class="text-base font-bold text-gray-700 mb-2 group-hover:text-sky-700 transition-colors duration-300 line-clamp-2">
                                             {{ $item->title }}
                                         </h3>
                                     </a>
@@ -169,7 +169,7 @@
                                                 {{ substr($item->user->name ?? 'A', 0, 1) }}
                                             </div>
                                             <div>
-                                                <p class="text-xs font-medium text-gray-800">
+                                                <p class="text-xs font-medium text-gray-700">
                                                     {{ $item->user->name ?? 'Admin' }}</p>
                                             </div>
                                         </div>

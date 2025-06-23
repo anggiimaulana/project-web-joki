@@ -12,6 +12,8 @@ use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\DB;
 use Exception;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\OrderNotification;
 
 class OrderController extends Controller
 {
@@ -27,6 +29,58 @@ class OrderController extends Controller
         } catch (Exception $e) {
             Log::error('Error loading order create page', ['error' => $e->getMessage()]);
             return back()->with('error', 'Terjadi kesalahan saat memuat halaman.');
+        }
+    }
+
+    // [BARU] API endpoint untuk mengambil detail metode pembayaran
+    public function getPaymentMethodDetails(Request $request)
+    {
+        try {
+            $validator = Validator::make($request->all(), [
+                'metode_pembayaran_id' => 'required|exists:metode_pembayarans,id'
+            ]);
+
+            if ($validator->fails()) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Metode pembayaran tidak valid'
+                ], 422);
+            }
+
+            $metodePembayaran = MetodePembayaran::find($request->metode_pembayaran_id);
+
+            if (!$metodePembayaran) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Metode pembayaran tidak ditemukan'
+                ], 404);
+            }
+
+            // Siapkan data response
+            $paymentMethodData = [
+                'id' => $metodePembayaran->id,
+                'nama_metode' => $metodePembayaran->nama_metode,
+                'atas_nama' => $metodePembayaran->atas_nama,
+                'nomor_rekening' => $metodePembayaran->nomor_rekening,
+                'foto_qr' => $metodePembayaran->foto_qr,
+                'foto_qr_url' => $metodePembayaran->foto_qr ? Storage::url($metodePembayaran->foto_qr) : null
+            ];
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Detail metode pembayaran ditemukan',
+                'payment_method' => $paymentMethodData
+            ]);
+        } catch (Exception $e) {
+            Log::error('Get payment method details failed', [
+                'error' => $e->getMessage(),
+                'metode_pembayaran_id' => $request->metode_pembayaran_id ?? 'null'
+            ]);
+
+            return response()->json([
+                'success' => false,
+                'message' => 'Terjadi kesalahan saat mengambil detail pembayaran'
+            ], 500);
         }
     }
 
@@ -109,7 +163,24 @@ class OrderController extends Controller
             // Hitung diskon jika ada voucher_id
             if ($voucherId) {
                 $voucher = Voucher::find($voucherId);
+                $isValid = false;
                 if ($voucher && $voucher->status_voucher == 'Aktif' && $voucher->tanggal_kadaluarsa > now()) {
+                    if (!is_null($voucher->maksimal_person)) {
+                        $usedCount = $voucher->orders()->count();
+                        if ($usedCount < $voucher->maksimal_person) {
+                            $isValid = true;
+                        } else {
+                            Log::warning('Voucher usage exceeds maksimal_person', [
+                                'voucher_id' => $voucherId,
+                                'max' => $voucher->maksimal_person,
+                                'used' => $usedCount
+                            ]);
+                        }
+                    } else {
+                        $isValid = true; // unlimited usage
+                    }
+                }
+                if ($isValid) {
                     $diskon = ($hargaAwal * $voucher->persentase) / 100;
                     $hargaSetelahDiskon = $hargaAwal - $diskon;
                     Log::info('Voucher applied', [
@@ -121,7 +192,6 @@ class OrderController extends Controller
                 } else {
                     $voucherId = null;
                     $hargaSetelahDiskon = $hargaAwal;
-                    Log::warning('Invalid/expired voucher id used', ['voucher_id' => $request->voucher_id]);
                 }
             }
 
@@ -171,6 +241,19 @@ class OrderController extends Controller
 
             if (!$order) {
                 throw new Exception('Gagal membuat order di database');
+            }
+
+            // [BARU] Kirim email notifikasi ke owner
+            try {
+                $order->load(['kategori_joki', 'metode_pembayaran', 'status_order', 'voucher']);
+                Mail::to('anggimaulana23@student.polindra.ac.id')->send(new OrderNotification($order));
+                Log::info('Order notification email sent successfully', ['order_id' => $order->id]);
+            } catch (Exception $emailError) {
+                Log::error('Failed to send order notification email', [
+                    'order_id' => $order->id,
+                    'email_error' => $emailError->getMessage()
+                ]);
+                // Jangan throw error untuk email, order tetap berhasil
             }
 
             DB::commit();
@@ -241,8 +324,19 @@ class OrderController extends Controller
             if (!$voucher) {
                 return response()->json([
                     'success' => false,
-                    'message' => 'Kode voucher tidak valid, tidak aktif, atau sudah expired'
+                    'message' => 'Kode voucher tidak valid atau sudah expired.'
                 ], 404);
+            }
+
+            // Cek maksimal_person (jika ada)
+            if (!is_null($voucher->maksimal_person)) {
+                $usedCount = $voucher->orders()->count();
+                if ($usedCount >= $voucher->maksimal_person) {
+                    return response()->json([
+                        'success' => false,
+                        'message' => 'Voucher sudah mencapai batas maksimal penggunaan (' . $voucher->maksimal_person . 'x)'
+                    ], 400);
+                }
             }
 
             return response()->json([

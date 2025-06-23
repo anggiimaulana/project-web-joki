@@ -34,13 +34,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Fungsi untuk menunjukkan lebih banyak item
     showMoreButton.addEventListener('click', function () {
-      visibleItems += 3; // Tampilkan 3 item lebih banyak
+      visibleItems += 4; // Tampilkan 3 item lebih banyak
       updateVisibleItems();
     });
 
     // Fungsi untuk menunjukkan lebih sedikit item
     showLessButton.addEventListener('click', function () {
-      visibleItems -= 3; // Sembunyikan 3 item
+      visibleItems -= 4; // Sembunyikan 3 item
       updateVisibleItems();
     });
 
@@ -78,5 +78,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Skripsi
     toggleVisibility("button-skripsi", "hidden-skripsi");
+
+    // Skripsi
+    toggleVisibility("button-lainnya", "hidden-lainnya");
 
 });

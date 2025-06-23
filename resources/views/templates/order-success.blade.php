@@ -8,7 +8,7 @@
                         d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                 </svg>
             </div>
-            <h1 class="text-3xl md:text-4xl font-bold text-gray-700 mb-4">
+            <h1 class="text-3xl md:text-4xl font-bold text-lavender mb-4">
                 Order Berhasil Dibuat!
             </h1>
             <div class="h-2 rounded w-44 md:w-80 mx-auto bg-gradient-to-r from-green-600 to-green-400 mb-4"></div>
@@ -26,10 +26,11 @@
                 <!-- Order ID -->
                 <div class="text-center mb-8">
                     <div class="inline-block bg-sky-50 px-6 py-3 rounded-xl border border-sky-200">
-                        <p class="text-base md:text-xl text-gray-700 font-semibold mb-1">ID Pesanan</p>
+                        <p class="text-base md:text-xl text-gray-600 font-semibold mb-1">Unique ID (UID) Pesanan</p>
                         <div class="flex items-center justify-center gap-2">
-                            <p id="uniqueIdText" class="text-base md:text-2xl font-bold text-sky-700">{{ $order->unique_id }}</p>
-                            <button onclick="copyUniqueId()" class="text-sky-600 hover:text-sky-800" title="Salin ID">
+                            <p id="uniqueIdText" class="text-base md:text-2xl font-bold text-sky-700">
+                                {{ $order->unique_id }}</p>
+                            <button onclick="copyUniqueId()" class="text-sky-600 hover:text-sky-700" title="Salin ID">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none"
                                     stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -37,14 +38,18 @@
                                 </svg>
                             </button>
                         </div>
-
+                    </div>
+                    <div class="text-center mt-2">
+                        <p class="text-gray-600">
+                            Simpan Unique ID (UID) pesanan Anda untuk melakukan Tracking Order.
+                        </p>
                     </div>
                 </div>
 
                 <!-- Order Information -->
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                     <div class="bg-gray-50 rounded-2xl p-4">
-                        <h3 class="font-semibold text-gray-700 mb-3 flex items-center">
+                        <h3 class="font-semibold text-gray-600 mb-3 flex items-center">
                             <svg class="w-5 h-5 mr-2 text-sky-600" fill="none" stroke="currentColor"
                                 viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -55,17 +60,17 @@
                         <div class="space-y-2">
                             <div class="flex justify-between">
                                 <span class="text-gray-600">Nama:</span>
-                                <span class="font-medium">{{ $order->name }}</span>
+                                <span class="font-medium text-gray-600">{{ $order->name }}</span>
                             </div>
                             <div class="flex justify-between">
                                 <span class="text-gray-600">WhatsApp:</span>
-                                <span class="font-medium">{{ $order->nomor_wa }}</span>
+                                <span class="font-medium text-gray-600">{{ $order->nomor_wa }}</span>
                             </div>
                         </div>
                     </div>
 
                     <div class="bg-gray-50 rounded-2xl p-4">
-                        <h3 class="font-semibold text-gray-700 mb-3 flex items-center">
+                        <h3 class="font-semibold text-gray-600 mb-3 flex items-center">
                             <svg class="w-5 h-5 mr-2 text-sky-600" fill="none" stroke="currentColor"
                                 viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -77,11 +82,13 @@
                         <div class="space-y-2">
                             <div class="flex justify-between">
                                 <span class="text-gray-600">Kategori:</span>
-                                <span class="font-medium">{{ $order->kategori_joki->nama_kategori ?? '-' }}</span>
+                                <span
+                                    class="font-medium text-gray-600">{{ $order->kategori_joki->nama_kategori ?? '-' }}</span>
                             </div>
                             <div class="flex justify-between">
                                 <span class="text-gray-600">Pembayaran:</span>
-                                <span class="font-medium">{{ $order->metode_pembayaran->nama_metode ?? '-' }}</span>
+                                <span
+                                    class="font-medium text-gray-600">{{ $order->metode_pembayaran->nama_metode ?? '-' }}</span>
                             </div>
                         </div>
                     </div>
@@ -89,7 +96,7 @@
 
                 <!-- Price Summary -->
                 <div class="bg-gradient-to-r from-sky-50 to-blue-50 rounded-2xl p-6 mb-8">
-                    <h3 class="font-semibold text-gray-700 mb-4 flex items-center">
+                    <h3 class="font-semibold text-gray-600 mb-4 flex items-center">
                         <svg class="w-5 h-5 mr-2 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1">
@@ -100,7 +107,7 @@
                     <div class="space-y-3">
                         <div class="flex justify-between">
                             <span class="text-gray-600">Harga Awal:</span>
-                            <span class="font-medium">Rp
+                            <span class="font-medium text-gray-600">Rp
                                 {{ number_format($order->total_harga_awal, 0, ',', '.') }}</span>
                         </div>
                         @if ($order->voucher)
@@ -112,8 +119,8 @@
                         @endif
                         <hr class="border-gray-300">
                         <div class="flex justify-between font-bold text-base">
-                            <span class="text-gray-700">Total Dibayar:</span>
-                            <span class="text-sky-700">Rp
+                            <span class="text-gray-600">Total Dibayar:</span>
+                            <span class="text-sky-600">Rp
                                 {{ number_format($order->total_harga_setelah_diskon, 0, ',', '.') }}</span>
                         </div>
                     </div>
@@ -127,20 +134,20 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                         </svg>
-                        <h3 class="font-semibold text-yellow-800">Status Pesanan</h3>
+                        <h3 class="font-semibold text-yellow-700">Status Pesanan</h3>
                     </div>
                     <p class="text-yellow-700 mb-2">
-                        <span class="font-medium">{{ $order->status_order->status ?? '-' }}</span>
+                        <span class="font-medium text-gray-600">{{ $order->status_order->status ?? '-' }}</span>
                     </p>
-                    <p class="text-sm text-yellow-600">
-                        Perkiraan selesai:
+                    <p class="text-base text-yellow-600">
+                        Perkiraan selesai (Paling Lambat):
                         {{ $order->perkiraan_selesai ? \Carbon\Carbon::parse($order->perkiraan_selesai)->format('d F Y') : 'Akan ditentukan' }}
                     </p>
                 </div>
 
                 <!-- Next Steps -->
                 <div class="bg-blue-50 border border-blue-200 rounded-2xl p-6 mb-8">
-                    <h3 class="font-semibold text-blue-800 mb-3 flex items-center">
+                    <h3 class="font-semibold text-lavender mb-3 flex items-center">
                         <svg class="w-5 h-5 mr-2 text-blue-600" fill="none" stroke="currentColor"
                             viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -148,20 +155,20 @@
                         </svg>
                         Langkah Selanjutnya
                     </h3>
-                    <div class="space-y-2 text-blue-700">
+                    <div class="space-y-2 text-lavender">
                         <div class="flex items-start">
                             <span
-                                class="inline-block w-6 h-6 bg-blue-200 text-blue-800 text-xs font-bold rounded-full flex items-center justify-center mr-3 mt-0.5">1</span>
+                                class="inline-block w-6 h-6 bg-blue-200 text-lavender text-xs font-bold rounded-full flex items-center justify-center mr-3 mt-0.5">1</span>
                             <p>Tim kami akan memverifikasi pembayaran Anda dalam 1x24 jam</p>
                         </div>
                         <div class="flex items-start">
                             <span
-                                class="inline-block w-6 h-6 bg-blue-200 text-blue-800 text-xs font-bold rounded-full flex items-center justify-center mr-3 mt-0.5">2</span>
+                                class="inline-block w-6 h-6 bg-blue-200 text-lavender text-xs font-bold rounded-full flex items-center justify-center mr-3 mt-0.5">2</span>
                             <p>Anda akan dihubungi melalui WhatsApp untuk konfirmasi detail tugas</p>
                         </div>
                         <div class="flex items-start">
                             <span
-                                class="inline-block w-6 h-6 bg-blue-200 text-blue-800 text-xs font-bold rounded-full flex items-center justify-center mr-3 mt-0.5">3</span>
+                                class="inline-block w-6 h-6 bg-blue-200 text-lavender text-xs font-bold rounded-full flex items-center justify-center mr-3 mt-0.5">3</span>
                             <p>Pengerjaan tugas akan dimulai setelah semua detail dikonfirmasi</p>
                         </div>
                     </div>
@@ -188,7 +195,7 @@
                 <!-- Back to Home Button -->
                 <div class="text-center mt-8">
                     <a href="{{ route('HomePage') }}"
-                        class="inline-flex items-center px-8 py-3 bg-gradient-to-r from-sky-700 to-sky-500 hover:from-sky-800 hover:to-sky-600 text-white font-semibold rounded-2xl transition-all duration-300 transform hover:scale-105">
+                        class="inline-flex items-center px-8 py-3 bg-gradient-to-r from-sky-700 to-sky-500 hover:from-sky-700 hover:to-sky-600 text-white font-semibold rounded-2xl transition-all duration-300 transform hover:scale-105">
                         <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6">
@@ -216,7 +223,7 @@
     function showToast(message, isError = false) {
         const toast = document.createElement("div");
         toast.className = `
-            fixed top-5 right-5 z-50 px-4 py-3 rounded-xl shadow-lg text-white text-sm font-semibold transition transform duration-300 ease-in-out
+            fixed top-5 right-5 z-50 px-4 py-3 rounded-xl shadow-lg text-white text-base font-semibold transition transform duration-300 ease-in-out
             ${isError ? 'bg-red-500' : 'bg-green-500'}
         `;
         toast.textContent = message;

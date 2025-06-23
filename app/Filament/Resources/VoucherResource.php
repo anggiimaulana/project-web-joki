@@ -46,6 +46,11 @@ class VoucherResource extends Resource
                     ->required()
                     ->numeric()
                     ->placeholder('Masukan presentase diskon'),
+                TextInput::make('maksimal_person')
+                    ->label('Maksimal Penggunaan (Opsional)')
+                    ->nullable()
+                    ->numeric()
+                    ->placeholder('Masukan maksimal penggunaan'),
                 Select::make('status_voucher')
                     ->searchable()
                     ->label('Status Voucher')

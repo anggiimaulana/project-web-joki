@@ -1,7 +1,7 @@
 <section class="bg-gradient-to-br from-gray-50 to-blue-50 min-h-screen">
     <div class="container mx-auto py-8 md:py-12 px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-10">
-            <h3 class="text-gray-800 text-2xl md:text-4xl font-bold mb-4">
+            <h3 class="text-gray-700 text-2xl md:text-4xl font-bold mb-4">
                 Blog, Informasi, dan Promo by
                 <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-blue-600 font-serif">
                     JOKIIN<span class="text-xl md:text-3xl">IT</span>
@@ -51,7 +51,7 @@
 
                             <a href="{{ route('BlogDetail', $item->slug) }}" class="block">
                                 <h3
-                                    class="text-xl font-bold text-gray-800 mb-3 group-hover:text-sky-700 transition-colors duration-300 line-clamp-2">
+                                    class="text-xl font-bold text-gray-700 mb-3 group-hover:text-sky-700 transition-colors duration-300 line-clamp-2">
                                     {{ $item->title }}
                                 </h3>
                             </a>
@@ -67,7 +67,7 @@
                                         {{ substr($item->user->name ?? 'A', 0, 1) }}
                                     </div>
                                     <div>
-                                        <p class="text-sm font-medium text-gray-800">{{ $item->user->name ?? 'Admin' }}
+                                        <p class="text-sm font-medium text-gray-700">{{ $item->user->name ?? 'Admin' }}
                                         </p>
                                         <p class="text-xs text-gray-500">{{ $item->posisi_kerja ?? 'Writer' }}</p>
                                     </div>
@@ -163,7 +163,7 @@
                             d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                     </svg>
                 </div>
-                <h3 class="text-2xl font-bold text-gray-800 mb-4">Belum Ada Artikel</h3>
+                <h3 class="text-2xl font-bold text-gray-700 mb-4">Belum Ada Artikel</h3>
                 <p class="text-gray-600 text-lg">Artikel blog sedang dalam proses pengembangan. Kembali lagi nanti ya!
                 </p>
             </div>

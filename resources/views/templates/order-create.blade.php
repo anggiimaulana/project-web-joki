@@ -1,8 +1,8 @@
  <div class="min-h-screen bg-gray-50 py-8">
      <div class="container mx-auto px-4">
          <div class="text-center mb-8">
-             <h1 class="text-3xl md:text-4xl font-bold text-gray-700 mb-4">
-                 Order <span class="text-sky-700 font-serif">JOKIIN<span class="text-2xl md:text-3xl">IT</span></span>
+             <h1 class="text-3xl md:text-4xl font-bold mb-4 text-gray-700">
+                 Order <span class="font-serif text-sky-700">JOKIIN<span class="text-2xl md:text-3xl">IT</span></span>
              </h1>
              <div class="h-2 rounded w-44 md:w-1/2 lg:w-1/3 mx-auto bg-gradient-to-r from-blue-700 to-blue-300 mb-4">
              </div>
@@ -33,14 +33,14 @@
                          <div>
                              <label class="block text-gray-700 font-medium mb-2">Nama Lengkap *</label>
                              <input type="text" name="name" id="name" required
-                                 class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-sky-500 focus:ring-2 focus:ring-sky-200 transition-all"
+                                 class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-sky-500 focus:ring-2 focus:ring-sky-100 outline-none transition-all"
                                  placeholder="Masukkan nama lengkap">
                              <span class="text-red-500 text-sm error-message" data-field="name"></span>
                          </div>
                          <div>
                              <label class="block text-gray-700 font-medium mb-2">Nomor WhatsApp *</label>
                              <input type="tel" name="nomor_wa" id="nomor_wa" required
-                                 class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-sky-500 focus:ring-2 focus:ring-sky-200 transition-all"
+                                 class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-sky-500 focus:ring-2 focus:ring-sky-200 outline-none transition-all"
                                  placeholder="08123456789">
                              <span class="text-red-500 text-sm error-message" data-field="nomor_wa"></span>
                              <p class="text-sm text-gray-500 mt-1">Format: 08xxx atau +628xxx</p>
@@ -63,7 +63,7 @@
                          <div>
                              <label class="block text-gray-700 font-medium mb-2">Kategori Joki *</label>
                              <select name="kategori_joki_id" id="kategori_joki_id" required
-                                 class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-sky-500 focus:ring-2 focus:ring-sky-200 transition-all">
+                                 class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-sky-500 focus:ring-2 focus:ring-sky-200 transition-all outline-none">
                                  <option value="" selected disabled>Pilih salah satu</option>
                                  @foreach ($kategoriJoki as $kategori)
                                      <option value="{{ $kategori->id }}">{{ $kategori->nama_kategori }}</option>
@@ -74,13 +74,14 @@
                          <div>
                              <label class="block text-gray-700 font-medium mb-2">Metode Pembayaran *</label>
                              <select name="metode_pembayaran_id" id="metode_pembayaran_id" required
-                                 class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-sky-500 focus:ring-2 focus:ring-sky-200 transition-all">
+                                 class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-sky-500 focus:ring-2 focus:ring-sky-200 transition-all outline-none">
                                  <option value="" disabled selected>Pilih salah satu</option>
                                  @foreach ($metodePembayaran as $metode)
                                      <option value="{{ $metode->id }}">{{ $metode->nama_metode }}</option>
                                  @endforeach
                              </select>
                              <span class="text-red-500 text-sm error-message" data-field="metode_pembayaran_id"></span>
+                             <div id="paymentDetailsContainer" class="mt-4 hidden"></div>
                          </div>
                      </div>
                  </div>
@@ -103,7 +104,7 @@
                                  <span class="absolute left-4 top-3 text-gray-500">Rp</span>
                                  <input type="number" name="total_harga_awal" id="total_harga_awal" required
                                      min="1000"
-                                     class="w-full pl-12 pr-4 py-3 rounded-xl border border-gray-300 focus:border-sky-500 focus:ring-2 focus:ring-sky-200 transition-all"
+                                     class="w-full pl-12 pr-4 py-3 rounded-xl border border-gray-300 focus:border-sky-500 focus:ring-2 focus:ring-sky-200 transition-all outline-none"
                                      placeholder="50000">
                              </div>
                              <span class="text-red-500 text-sm error-message" data-field="total_harga_awal"></span>
@@ -113,12 +114,12 @@
 
                              <div class="flex flex-col sm:flex-row gap-2">
                                  <input type="text" name="voucher_code" id="voucher_code"
-                                     class="sm:flex-1 px-4 py-3 rounded-xl border border-gray-300 focus:border-sky-500 focus:ring-2 focus:ring-sky-200 transition-all"
+                                     class="sm:flex-1 px-4 py-3 rounded-xl border border-gray-300 focus:border-sky-500 focus:ring-2 focus:ring-sky-200 transition-all outline-none"
                                      placeholder="Masukkan kode voucher">
                                  <input type="hidden" name="voucher_id" id="voucher_id_hidden">
 
                                  <button type="button" id="checkVoucherBtn"
-                                     class="px-4 py-1 md:py-3 bg-sky-600 text-white rounded-xl hover:bg-sky-700 transition-colors sm:w-auto w-full">
+                                     class="px-6 py-2 md:py-3 bg-gradient-to-r from-sky-700 to-sky-500 hover:from-sky-700 hover:to-sky-600 text-white rounded-xl transition-all duration-300 transform hover:scale-105 sm:w-auto w-full">
                                      Cek
                                  </button>
                              </div>
@@ -212,8 +213,8 @@
 
                  <div class="text-center pt-2 md:pt-4">
                      <button type="submit" id="submitBtn"
-                         class="w-full sm:w-auto bg-gradient-to-r from-sky-700 to-sky-500 hover:from-sky-800 hover:to-sky-600 text-white font-semibold py-3 px-6 rounded-2xl text-base sm:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
-                         <span id="submitText">Kirim Pesanan</span>
+                         class="w-full sm:w-auto bg-gradient-to-r from-sky-700 to-sky-500 hover:from-sky-700 hover:to-sky-600 text-white font-semibold py-2 md:py-3 px-6 rounded-2xl text-base sm:text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+                         <span id="submitText">Buat Pesanan</span>
                          <svg id="loadingIcon" class="hidden animate-spin -mr-1 ml-3 h-5 w-5 text-white inline"
                              fill="none" viewBox="0 0 24 24">
                              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor"

@@ -25,3 +25,4 @@ Route::get('/orders/success/{unique_id}', [OrderController::class, 'success'])->
 
 // API Routes untuk AJAX
 Route::post('/api/check-voucher', [OrderController::class, 'checkVoucher'])->name('api.check-voucher');
+Route::post('/api/payment-method-details', [OrderController::class, 'getPaymentMethodDetails'])->name('api.check-payment-method');
