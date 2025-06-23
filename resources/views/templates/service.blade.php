@@ -55,7 +55,8 @@
 
                     <div class="flex mt-4 justify-center gap-x-2 md:gap-x-4">
                         <button
-                            class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold" onclick="window.location.href='/order'">
+                            class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold"
+                            onclick="window.location.href='/order'">
                             Order <span>JOKIIN<span class="text-sm">IT</span></span>
                         </button>
                         <button
@@ -95,7 +96,8 @@
                     </button>
                     <div class="flex mt-4 justify-center gap-x-2 md:gap-x-4">
                         <button
-                            class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold" onclick="window.location.href='/order'">Order
+                            class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold"
+                            onclick="window.location.href='/order'">Order
                             <span>
                                 JOKIIN<span class="text-sm">IT</span>
                             </span></button>
@@ -142,7 +144,8 @@
                     </button>
                     <div class="flex mt-4 justify-center gap-x-2 md:gap-x-4">
                         <button
-                            class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold" onclick="window.location.href='/order'">Order
+                            class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold"
+                            onclick="window.location.href='/order'">Order
                             <span>
                                 JOKIIN<span class="text-sm">IT</span>
                             </span></button>
@@ -187,7 +190,8 @@
                     </button>
                     <div class="flex mt-4 justify-center gap-x-2 md:gap-x-4">
                         <button
-                            class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold" onclick="window.location.href='/order'">Order
+                            class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold"
+                            onclick="window.location.href='/order'">Order
                             <span>
                                 JOKIIN<span class="text-sm">IT</span>
                             </span></button>
@@ -235,7 +239,8 @@
                     </button>
                     <div class="flex mt-4 justify-center gap-x-2 md:gap-x-4">
                         <button
-                            class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold" onclick="window.location.href='/order'">Order
+                            class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold"
+                            onclick="window.location.href='/order'">Order
                             <span>
                                 JOKIIN<span class="text-sm">IT</span>
                             </span></button>
@@ -281,13 +286,61 @@
 
                     <div class="flex mt-4 justify-center gap-x-2 md:gap-x-4">
                         <button
-                            class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold" onclick="window.location.href='/order'">
+                            class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold"
+                            onclick="window.location.href='/order'">
                             Order <span>JOKIIN<span class="text-sm">IT</span></span>
                         </button>
                         <button
                             class="w-full cursor-pointer text-sm md:text-base bg-zinc-100 hover:bg-zinc-200 text-lavender py-2 rounded-3xl font-semibold border border-sky-200">
                             Konsultasi
                         </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- lainnya -->
+            <div class="service-item bg-white shadow rounded-3xl hidden md:flex flex-col h-full">
+                <div class="relative">
+                    <img src="{{ asset('images/programming.png') }}" alt="Product Image"
+                        class="w-full h-64 object-cover rounded-2xl" loading="lazy">
+                </div>
+                <div class="p-4 text-center text-gray-600 flex flex-col flex-grow">
+                    <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
+                        JOKIIN<span class="text-base md:text-xl">IT</span>
+                        - Butuh Joki Diluar Bidang IT? Konsultasikan dulu!
+                    </h3>
+                    <p class="text-base lg:text-xl flex-grow">
+                        Selain bidang IT,
+                        <span class="text-sky-700 font-bold">
+                            JOKIIN<span class="text-sm md:text-base">IT</span>
+                        </span>juga menerima pengerjaan tugas di berbagai bidang non-IT, seperti makalah, essay atau
+                        karya ilmiah, matematika, analisis, laporan, presentasi, dan lainnya.
+                    </p>
+                    <div id="hidden-lainnya" class="hidden">
+                        <p class="text-base lg:text-xl mt-2 hidden md:block">
+                            Kami memahami bahwa tidak semua tugas akademik berkaitan dengan teknologi, sehingga kami
+                            berupaya memberikan solusi terbaik bagi Anda yang membutuhkan bantuan di bidang lain.
+                        </p>
+                        <p class="text-base lg:text-xl mt-2">
+                            Layanan ini tersedia berdasarkan kesanggupan worker, dan harga akan disesuaikan dengan
+                            tingkat kesulitan serta kompleksitas tugas.
+                            Jika worker tidak dapat mengerjakannya, maka tugas tersebut tidak bisa kami proses. Jadi,
+                            pastikan untuk menghubungi kami terlebih dahulu untuk memastikan ketersediaan! 😊
+                        </p>
+                    </div>
+
+                    <button id="button-lainnya" class="mt-2 text-lavender font-semibold text-sm md:text-base">
+                        Baca Selengkapnya
+                    </button>
+
+                    <div class="flex mt-4 justify-center gap-x-2 md:gap-x-4">
+                        <button
+                            class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold">Order
+                            <span>
+                                JOKIIN<span class="text-sm">IT</span>
+                            </span></button>
+                        <button
+                            class="w-full cursor-pointer text-sm md:text-base bg-zinc-100 hover:bg-zinc-200 text-lavender py-2 rounded-3xl font-semibold border border-sky-200">Konsultasi</button>
                     </div>
                 </div>
             </div>

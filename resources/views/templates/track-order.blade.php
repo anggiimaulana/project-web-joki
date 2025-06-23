@@ -8,7 +8,7 @@
             </h3>
             <div class="h-2 rounded w-44 md:w-1/2 lg:w-1/3 mx-auto bg-gradient-to-r from-blue-700 to-blue-300 my-4">
             </div>
-            <p class="text-base md:text-lg text-gray-700">
+            <p class="text-base md:text-lg text-gray-600">
                 Pantau status pesananmu dengan mudah dan cepat. Dapatkan pembaruan real-time tentang setiap tahap
                 pengerjaan, dari proses awal hingga selesai! 🚀
             </p>
@@ -49,7 +49,7 @@
                     <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-2 md:gap-4 py-4">
                         <div class="bg-white p-2 md:px-0 rounded-lg shadow">
                             <h3
-                                class="text-gray-700 text-base md:text-lg border-b border-gray-200 text-center font-bold pb-2">
+                                class="text-gray-600 text-base md:text-lg border-b border-gray-200 text-center font-bold pb-2">
                                 Unique ID (UID)
                             </h3>
                             <p id="uniqueId" class="text-base font-semibold text-gray-600 text-center pt-2">
@@ -57,7 +57,7 @@
                         </div>
                         <div class="bg-white p-2 rounded-lg shadow">
                             <h3
-                                class="text-gray-700 text-base md:text-lg border-b border-gray-200 text-center font-bold pb-2">
+                                class="text-gray-600 text-base md:text-lg border-b border-gray-200 text-center font-bold pb-2">
                                 Jenis Layanan
                             </h3>
                             <p id="serviceType"
@@ -65,7 +65,7 @@
                         </div>
                         <div class="bg-white p-2 rounded-lg shadow hidden md:block">
                             <h3
-                                class="text-gray-700 text-base md:text-lg border-b border-gray-200 text-center font-bold pb-2">
+                                class="text-gray-600 text-base md:text-lg border-b border-gray-200 text-center font-bold pb-2">
                                 Total Transaksi
                             </h3>
                             <p id="totalAmount"
@@ -73,14 +73,14 @@
                         </div>
                         <div class="bg-white p-2 rounded-lg shadow">
                             <h3
-                                class="text-gray-700 text-base md:text-lg border-b border-gray-200 text-center font-bold pb-2">
+                                class="text-gray-600 text-base md:text-lg border-b border-gray-200 text-center font-bold pb-2">
                                 Status
                             </h3>
                             <p id="orderStatusText" class="text-base font-semibold text-center pt-2"></p>
                         </div>
                         <div class="bg-white p-2 rounded-lg shadow">
                             <h3
-                                class="text-gray-700 text-base md:text-lg border-b border-gray-200 text-center font-bold pb-2">
+                                class="text-gray-600 text-base md:text-lg border-b border-gray-200 text-center font-bold pb-2">
                                 Perkiraan Selesai
                             </h3>
                             <p id="estimatedCompletion"
@@ -101,7 +101,7 @@
             <div class="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-red-100 mb-4">
                 <i class='bx bx-error text-red-600 text-2xl'></i>
             </div>
-            <h3 id="errorTitle" class="text-lg font-semibold text-gray-900 mb-2">Oops! Terjadi Kesalahan</h3>
+            <h3 id="errorTitle" class="text-lg font-semibold text-gray-700 mb-2">Oops! Terjadi Kesalahan</h3>
             <p id="errorMessage" class="text-gray-600 mb-6">Terjadi kesalahan saat memproses permintaan Anda.</p>
             <button onclick="closePopup()"
                 class="w-full bg-sky-600 text-white px-4 py-2 rounded-xl hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-500 transition-colors">

@@ -77,7 +77,7 @@ class OrderResource extends Resource
                     ->afterStateUpdated(fn(Set $set, Get $get, $state) => static::hitungDiskon($set, $get)),
 
                 Select::make('voucher_id')
-                    ->label('Diskon Voucher (%)')
+                    ->label('Kode Voucher (Opsional)')
                     ->options(Voucher::pluck('code', 'id'))
                     ->searchable()
                     ->nullable()
