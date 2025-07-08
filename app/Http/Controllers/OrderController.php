@@ -246,7 +246,7 @@ class OrderController extends Controller
             // [BARU] Kirim email notifikasi ke owner
             try {
                 $order->load(['kategori_joki', 'metode_pembayaran', 'status_order', 'voucher']);
-                Mail::to('anggimaulana23@student.polindra.ac.id')->send(new OrderNotification($order));
+                Mail::to('official.jokiinit@gmail.com')->send(new OrderNotification($order));
                 Log::info('Order notification email sent successfully', ['order_id' => $order->id]);
             } catch (Exception $emailError) {
                 Log::error('Failed to send order notification email', [

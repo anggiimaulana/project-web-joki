@@ -1,9 +1,9 @@
 function self() {
-    window.location.href = 'https://jokitugaslo.com';
+    window.location.href = '/order';
 }
 
 function order() {
-    window.location.href = 'https://jokitugaslo.com';
+    window.open('https://wa.me/6287711447242?text=Halo, perkenalkan saya ... dari (sebutkan sekolah/kampus/lainnya) ingin konsultasi (Jelaskan masalah atau permasalahan)', '_blank');
 }
 
 document.addEventListener('DOMContentLoaded', function () {

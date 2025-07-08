@@ -39,11 +39,11 @@
                          </div>
                          <div>
                              <label class="block text-gray-700 font-medium mb-2">Nomor WhatsApp *</label>
-                             <input type="tel" name="nomor_wa" id="nomor_wa" required
+                             <input type="number" name="nomor_wa" id="nomor_wa" required
                                  class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-sky-500 focus:ring-2 focus:ring-sky-200 outline-none transition-all"
                                  placeholder="08123456789">
                              <span class="text-red-500 text-sm error-message" data-field="nomor_wa"></span>
-                             <p class="text-sm text-gray-500 mt-1">Format: 08xxx atau +628xxx</p>
+                             <p class="text-sm text-gray-500 mt-1">Format: 08xxx atau 628xxx</p>
                          </div>
                      </div>
                  </div>

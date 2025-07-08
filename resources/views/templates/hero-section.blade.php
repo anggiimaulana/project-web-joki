@@ -37,7 +37,7 @@
                 {{-- mobile --}}
                 <button onclick="self()"
                     class="cursor-pointer text-sm bg-blue-400 w-40 py-2 lg:h-10 px-2 rounded-3xl text-white font-bold hover:bg-sky-600 flex md:hidden items-center justify-center">
-                    Order JOKIINIT
+                    Order JOKIIN<span class="text-xs">IT</span>
                 </button>
                 <button onclick="order()"
                     class="cursor-pointer text-sm bg-white w-36 py-2 lg:h-10 px-2 rounded-3xl text-sky-500 font-bold hover:bg-gray-100 flex md:hidden items-center justify-center">
@@ -47,11 +47,11 @@
                 {{-- desktop --}}
                 <button onclick="self()"
                     class="hidden cursor-pointer text-sm md:text-base bg-blue-400 lg:max-w-full md:w-60 w-36 py-2 lg:h-10 px-4 lg:px-6 rounded-3xl font-bold hover:bg-sky-600 md:flex items-center justify-center">
-                    Order JOKIINIT
+                    Order JOKIIN<span class="text-xs md:text-sm">IT</span>
                 </button>
                 <button onclick="order()"
                     class="hidden cursor-pointer text-sm md:text-base bg-white lg:max-w-full md:w-60 w-44 py-2 lg:h-10 px-4 lg:px-6 rounded-3xl text-sky-500 font-bold hover:bg-gray-100 md:flex items-center justify-center">
-                    JOKIINIT Support Team
+                    JOKIIN<span class="text-xs md:text-sm">IT <span class="text-sm md:text-base">Support Team</span></span>
                 </button>
             </div>
         </div>

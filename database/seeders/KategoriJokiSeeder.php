@@ -12,9 +12,10 @@ class KategoriJokiSeeder extends Seeder
     {
         KategoriJoki::create(['nama_kategori' => 'Subscription']);
         KategoriJoki::create(['nama_kategori' => 'Express']);
+        KategoriJoki::create(['nama_kategori' => 'Creative']);
         KategoriJoki::create(['nama_kategori' => 'Praktikum']);
         KategoriJoki::create(['nama_kategori' => 'Tubes & Proyek']);
         KategoriJoki::create(['nama_kategori' => 'Karya Ilmiah']);
-        KategoriJoki::create(['nama_kategori' => 'Lainnya']);
+        KategoriJoki::create(['nama_kategori' => 'Non-IT']);
     }
 }
