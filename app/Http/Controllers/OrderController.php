@@ -405,4 +405,33 @@ class OrderController extends Controller
         }
         return '+' . $number;
     }
+
+    // private function sendWhatsAppNotification($phone, $message)
+    // {
+    //     $token = 'elClY0h8T69MzKJgTL5hUmDXwCljMfwfYsJi1OmnY7OxWEL2uUA27ln';
+    //     $url = 'https://sby.wablas.com/api/send-message';
+
+    //     $data = [
+    //         'phone' => $phone,
+    //         'message' => $message,
+    //         'secret' => false,
+    //         'priority' => false,
+    //     ];
+
+    //     $curl = curl_init();
+    //     curl_setopt_array($curl, [
+    //         CURLOPT_URL => $url,
+    //         CURLOPT_RETURNTRANSFER => true,
+    //         CURLOPT_POST => true,
+    //         CURLOPT_POSTFIELDS => http_build_query($data),
+    //         CURLOPT_HTTPHEADER => [
+    //             'Authorization: ' . $token,
+    //         ],
+    //     ]);
+
+    //     $response = curl_exec($curl);
+    //     curl_close($curl);
+
+    //     Log::info('WA Response: ' . $response);
+    // }
 }

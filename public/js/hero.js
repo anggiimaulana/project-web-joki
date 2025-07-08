@@ -1,5 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const words = ["Profesional", "Sat-set", "Canggih", "Dipercaya", "Lengkap", "Berkualitas"];
+   const words = [
+    "Terjamin",
+    "Tepat Waktu",
+    "Anti Ribet",
+    "Rapi & Jelas",
+    "Dipercaya Banyak Mahasiswa",
+    "Sat-Set", 
+    "Siap Presentasi",
+];
     const descElement = document.getElementById("desc");
     let currentIndex = 0;
 

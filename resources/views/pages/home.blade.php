@@ -14,5 +14,6 @@
         @include('templates.blog_home')
         @include('templates.faq')
     </div>
+    <script src="{{ asset('js/hero.js') }}"></script>
     <script src="{{ asset('js/script.js') }}"></script>
 @endsection
