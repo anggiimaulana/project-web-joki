@@ -2,7 +2,8 @@
     <nav class="container px-6 md:px-0 mx-auto flex max-w-8xl items-center justify-between py-4 border-b border-sky-200"
         aria-label="Global">
         <div class="name-company flex lg:flex-1">
-            <a class="italic font-serif text-2xl md:text:3xl lg:text-3xl text-lavender hover:text-sky-600 font-bold" href="/">
+            <a class="italic font-serif text-2xl md:text:3xl lg:text-3xl text-lavender hover:text-sky-600 font-bold"
+                href="/">
                 JOKIIN<span class="text-xl lg:text-2xl">IT</span>
             </a>
         </div>
@@ -51,8 +52,8 @@
                     class="relative font-semibold text-base text-sky-600 px-6 py-2 after:content-[''] after:absolute after:left-0 after:right-0 after:-bottom-1 after:h-[2px] after:bg-sky-600 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform {{ isset($slug) && $slug === 'syarat-ketentuan' ? 'after:scale-x-100' : '' }}">
                     Syarat & Ketentuan
                 </a>
-                <button 
-                    onclick="window.open('https://wa.me/6281394106225?text=Halo, saya ingin konsultasi', '_blank')"
+                <button
+                    onclick="window.open('https://wa.me/6287711447242?text=Halo, perkenalkan saya ... dari (sebutkan sekolah/kampus/lainnya) ingin konsultasi (Jelaskan masalah atau permasalahan)', '_blank')"
                     class="font-semibold text-base text-white bg-sky-600 px-6 py-2 rounded-3xl border hover:bg-sky-500">
                     Konsultasi Tugas
                 </button>
@@ -112,7 +113,7 @@
                             Syarat & Ketentuan
                         </a>
                         <div>
-                            <button 
+                            <button
                                 onclick="window.open('https://wa.me/6281394106225?text=Halo, saya ingin konsultasi', '_blank')"
                                 class=" flex items-center w-full justify-center rounded-3xl px-6 py-2 font-semibold bg-lavender text-white hover:bg-sky-600">
                                 Konsultasi Tugas

@@ -33,7 +33,7 @@
                             <i class="bx bxl-whatsapp text-xl mr-2"></i>+628987654321
                         </p>
                         <p class="text-zinc-200 hover:text-white flex items-center">
-                            <i class="bx bx-envelope text-xl mr-2"></i>anggimaulana23@student.polindra.ac.id
+                            <i class="bx bx-envelope text-xl mr-2"></i>official.jokiinit@gmail.com
                         </p>
                     </div>
 
@@ -57,10 +57,11 @@
                     <!-- Social Media Icons -->
                     <div class="flex flex-col gap-2 mt-2">
                         <a href="#" class="text-zinc-200 text-base hover:text-white">Beranda</a>
-                        <a href="#" class="text-zinc-200 text-base hover:text-white">Informasi</a>
+                        <a href="#" class="text-zinc-200 text-base hover:text-white">Layanan</a>
+                        <a href="#" class="text-zinc-200 text-base hover:text-white">Blog</a>
                         <a href="#" class="text-zinc-200 text-base hover:text-white">Track
                             Order</a>
-                        <a href="#" class="text-zinc-200 text-base hover:text-white">Review</a>
+                        <a href="#" class="text-zinc-200 text-base hover:text-white">FAQ</a>
                     </div>
                 </div>
             </div>
