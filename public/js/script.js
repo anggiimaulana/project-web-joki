@@ -6,28 +6,8 @@ function order() {
     window.location.href = 'https://jokitugaslo.com';
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-    const words = ["Profesional", "Sat-set", "Canggih", "Dipercaya", "Lengkap", "Berkualitas"];
-    const descElement = document.getElementById("desc");
-    let currentIndex = 0;
-
-    const updateWord = () => {
-        descElement.classList.add("opacity-0", "scale-90");
-
-        setTimeout(() => {
-            currentIndex = (currentIndex + 1) % words.length;
-            descElement.textContent = words[currentIndex];
-
-            descElement.classList.remove("opacity-0", "scale-90");
-        }, 500);
-    };
-
-    // Run updateWord every 3,5 seconds
-    setInterval(updateWord, 3500);
-});
-
 document.addEventListener('DOMContentLoaded', function () {
-    const items = document.querySelectorAll('.service-item'); // Pilih semua item layanan
+    const items = document.querySelectorAll('.service-item');
     const showMoreButton = document.getElementById('show-more');
     const showLessButton = document.getElementById('show-less');
 
@@ -37,45 +17,63 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Fungsi untuk menunjukkan item berdasarkan jumlah visibleItems
     function updateVisibleItems() {
-      items.forEach((item, index) => {
-        if (index < visibleItems) {
-          item.classList.remove('hidden');
+        // Dapatkan semua service items kecuali yang memiliki class md:flex (yang selalu tampil di desktop)
+        const mobileItems = Array.from(items).filter(item => !item.classList.contains('md:flex'));
+        
+        // Untuk mobile: tampilkan berdasarkan visibleItems
+        if (window.innerWidth < 768) {
+            items.forEach((item, index) => {
+                if (index < visibleItems) {
+                    item.classList.remove('hidden');
+                } else {
+                    item.classList.add('hidden');
+                }
+            });
+            
+            // Tampilkan tombol sesuai dengan jumlah item yang terlihat
+            if (visibleItems >= items.length) {
+                showMoreButton.classList.add('hidden');
+                showLessButton.classList.remove('hidden');
+            } else {
+                showMoreButton.classList.remove('hidden');
+            }
+
+            if (visibleItems <= itemsToShow) {
+                showLessButton.classList.add('hidden');
+            } else {
+                showLessButton.classList.remove('hidden');
+            }
         } else {
-          item.classList.add('hidden');
+            // Untuk desktop: tampilkan semua item dan sembunyikan tombol
+            items.forEach(item => {
+                item.classList.remove('hidden');
+            });
+            showMoreButton.classList.add('hidden');
+            showLessButton.classList.add('hidden');
         }
-      });
-
-      // Tampilkan tombol sesuai dengan jumlah item yang terlihat
-      if (visibleItems >= items.length) {
-        showMoreButton.classList.add('hidden');
-        showLessButton.classList.add('hidden');
-      } else {
-        showMoreButton.classList.remove('hidden');
-      }
-
-      if (visibleItems <= itemsToShow) {
-        showLessButton.classList.add('hidden');
-      } else {
-        showLessButton.classList.remove('hidden');
-      }
     }
 
     // Fungsi untuk menunjukkan lebih banyak item
     showMoreButton.addEventListener('click', function () {
-      visibleItems += 3; // Tampilkan 3 item lebih banyak
-      updateVisibleItems();
+        visibleItems += 4;
+        if (visibleItems > items.length) {
+            visibleItems = items.length;
+        }
+        updateVisibleItems();
     });
 
     // Fungsi untuk menunjukkan lebih sedikit item
     showLessButton.addEventListener('click', function () {
-      visibleItems -= 3; // Sembunyikan 3 item
-      updateVisibleItems();
+        visibleItems = itemsToShow;
+        updateVisibleItems();
     });
+
+    // Handle resize window
+    window.addEventListener('resize', updateVisibleItems);
 
     // Inisialisasi tampilan item
     updateVisibleItems();
-  });
-
+});
 
 // Visibility Selengkapnya & Sembunyikan desc service
 document.addEventListener("DOMContentLoaded", function () {
@@ -83,20 +81,25 @@ document.addEventListener("DOMContentLoaded", function () {
         const button = document.getElementById(buttonId);
         const content = document.getElementById(contentId);
 
-        button.addEventListener("click", () => {
-            content.classList.toggle("hidden");
-            button.textContent = content.classList.contains("hidden") ? "Baca Selengkapnya" : "Sembunyikan";
-        });
+        if (button && content) {
+            button.addEventListener("click", () => {
+                content.classList.toggle("hidden");
+                button.textContent = content.classList.contains("hidden") ? "Baca Selengkapnya" : "Sembunyikan";
+            });
+        }
     };
 
-    // About
-    toggleVisibility("button-about", "hidden-about");
+    // Subscribe (Apps)
+    toggleVisibility("button-subscribe", "hidden-subscribe");
 
-    // Subscribe
-    toggleVisibility("button-laprak", "hidden-laprak");
+    // Express
+    toggleVisibility("button-express", "hidden-express");
+
+    // Creative (sesuaikan dengan ID yang benar)
+    toggleVisibility("button-creative", "hidden-creative");
 
     // Laprak
-    toggleVisibility("button-subscribe", "hidden-subscribe");
+    toggleVisibility("button-laprak", "hidden-laprak");
 
     // Tubes
     toggleVisibility("button-tubes", "hidden-tubes");
@@ -104,12 +107,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Karya Ilmiah
     toggleVisibility("button-karya-ilmiah", "hidden-karya-ilmiah");
 
-    // Express
-    toggleVisibility("button-express", "hidden-express");
-
-    // Skripsi
-    toggleVisibility("button-skripsi", "hidden-skripsi");
-
+    // Lainnya
+    toggleVisibility("button-lainnya", "hidden-lainnya");
 });
 
 // Open image how-to-order-jokiinit

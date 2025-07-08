@@ -20,32 +20,34 @@
             <!-- Layanan Pembuatan Aplikasi -->
             <div class="service-item bg-white shadow rounded-3xl flex flex-col h-full">
                 <div class="relative">
-                    <img src="{{ asset('images/programming.jpg') }}" alt="Product Image"
+                    <img src="{{ asset('images/apps.jpg') }}" alt="Product Image"
                         class="w-full h-64 object-cover rounded-2xl" loading="lazy">
                 </div>
                 <div class="p-4 text-center text-gray-600 flex flex-col flex-grow">
                     <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
-                        JOKIIN<span class="text-base md:text-xl">IT</span> Apps – Jasa Pembuatan Aplikasi Mobile &
-                        Website
+                        JOKIIN<span class="text-base md:text-xl">IT</span> Apps – Wujudkan Aplikasi Impianmu!
                     </h3>
                     <p class="text-base lg:text-xl flex-grow">
-                        Butuh aplikasi untuk skripsi, proyek organisasi, bisnis, atau startup?
-                        <span class="text-sky-700 font-bold">
-                            JOKIIN<span class="text-sm md:text-base">IT</span>
-                        </span> siap bantu kamu mewujudkan ide menjadi aplikasi nyata, baik berbasis Android, iOS,
-                        maupun Web.
+                        Punya ide keren tapi gak tahu cara mulai bikin aplikasinya? Atau butuh aplikasi buat bisnis,
+                        tugas akhir, organisasi, atau start-up kamu?
+                        <span class="text-sky-700 font-bold">JOKIINIT Apps</span> siap bantu kamu mulai dari nol hingga
+                        jadi aplikasi beneran!
                     </p>
 
                     <div id="hidden-subscribe" class="hidden">
                         <p class="text-base lg:text-xl mt-2">
-                            Kami mengerjakan berbagai jenis aplikasi seperti sistem informasi, marketplace, katalog
-                            produk, e-learning, dan lainnya.
-                            Kamu bisa request desain, fitur, hingga teknologi yang diinginkan seperti Flutter, Laravel,
-                            React, Firebase, dan sebagainya.
+                            Mau bikin aplikasi mobile Android/iOS? Atau aplikasi web modern? Tenang, kami siap bantu
+                            semua jenis aplikasi —
+                            mulai dari sistem informasi, katalog produk, marketplace, hingga platform edukasi.
                         </p>
                         <p class="text-base lg:text-xl mt-2">
-                            Cocok untuk mahasiswa, UMKM, organisasi, atau siapa pun yang ingin punya aplikasi sendiri.
-                            Konsultasikan kebutuhanmu dan biarkan tim kami bantu mengembangkan solusinya! 💻📱
+                            Request desain, fitur, dan teknologi sesuka kamu — dari Flutter, Laravel, React, hingga
+                            Firebase. Semua bisa kami sesuaikan!
+                            Cocok banget buat mahasiswa, UMKM, komunitas, atau siapa pun yang pengen tampil profesional
+                            dengan aplikasi sendiri.
+                        </p>
+                        <p class="text-base lg:text-xl mt-2">
+                            Yuk, konsultasi sekarang dan biar kami bantu mewujudkan solusi digitalmu! 🚀
                         </p>
                     </div>
 
@@ -71,23 +73,25 @@
             <!-- Express -->
             <div class="service-item bg-white shadow rounded-3xl flex flex-col h-full">
                 <div class="relative">
-                    <img src="{{ asset('images/programming.jpg') }}" alt="Product Image"
+                    <img src="{{ asset('images/express.jpg') }}" alt="Product Image"
                         class="w-full h-64 object-cover rounded-2xl" loading="lazy">
                 </div>
                 <div class="p-4 text-center text-gray-600 flex flex-col flex-grow">
                     <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
-                        JOKIIN<span class="text-base md:text-xl">IT</span>
-                        Express - Jasa Joki Tugas Secepat Kilat
+                        JOKIIN<span class="text-base md:text-xl">IT</span> Express – Solusi Kilat Tugas Mepet Deadline!
                     </h3>
                     <p class="text-base lg:text-xl flex-grow">
-                        Butuh tugas diselesaikan dengan cepat? Gunakan <span class="text-sky-700 font-semibold">
-                            Paket Express dari JOKIINIT! </span>
-                        Dengan paket ini, tugas Anda akan diprioritaskan dan diselesaikan dalam waktu singkat.
+                        Dikejar deadline? Tugas belum kelar padahal waktunya udah mepet banget? Jangan panik!
+                        <span class="text-sky-700 font-semibold">Paket Express dari JOKIINIT</span> hadir buat kamu yang
+                        butuh bantuan super cepat!
                     </p>
                     <div id="hidden-express" class="hidden">
                         <p class="text-base lg:text-xl mt-2">
-                            Meskipun harganya sedikit lebih mahal dibandingkan paket lainnya, kami memastikan kualitas
-                            dan kecepatan pengerjaan yang maksimal untuk memenuhi kebutuhan mendesak Anda!
+                            Kami kerjakan tugasmu dengan prioritas tinggi, tanpa ngorbanin kualitas.
+                            Meskipun biaya sedikit lebih tinggi dari paket biasa, kecepatan dan kualitas adalah
+                            prioritas kami.
+                            Cocok banget buat kamu yang udah kepepet tapi tetap pengen hasil terbaik. Gak perlu
+                            khawatir, tinggal order – kami langsung gas!
                         </p>
                     </div>
 
@@ -107,180 +111,40 @@
                 </div>
             </div>
 
-            <!-- Laprak -->
-            <div class="service-item bg-white shadow rounded-3xl hidden flex-col h-full">
-                <div class="relative">
-                    <img src="{{ asset('images/programming.jpg') }}" alt="Product Image"
-                        class="w-full h-64 object-cover rounded-2xl" loading="lazy">
-                </div>
-                <div class="p-4 text-center text-gray-600 flex flex-col flex-grow">
-                    <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
-                        JOKIIN<span class="text-base md:text-xl">IT</span> Laprak
-                        - Jasa Joki Laporan Tugas & Praktikum IT
-                    </h3>
-                    <p class="text-base lg:text-xl flex-grow">
-                        Dengan <span class="text-sky-700 font-semibold">
-                            Jasa Joki Laporan Tugas & Praktikum IT</span>,
-                        kamu akan mendapatkan laporan berkualitas tinggi, lengkap dengan format yang sesuai dan analisis
-                        yang mendalam.
-                    </p>
-                    <div id="hidden-laprak" class="hidden">
-                        <p class="text-base lg:text-xl mt-2">
-                            Mulai dari coding, troubleshooting, hingga penulisan laporan, semuanya kami kerjakan dengan
-                            detail dan profesional. Waktu dan tenagamu jadi lebih efisien, tanpa perlu repot memikirkan
-                            tugas yang menumpuk.
-                        </p>
-                        <p class="text-base lg:text-xl mt-2">
-                            Fokus saja pada hal penting lainnya, dan biarkan kami yang menangani tugas-tugas IT-mu.
-                            Yuk, serahkan laporan tugas dan praktikum-mu kepada tim ahli dari <span
-                                class="text-sky-700 font-bold">
-                                JOKIIN<span class="text-sm md:text-base">IT</span>
-                            </span>! 🎓
-                        </p>
-                    </div>
 
-                    <button id="button-laprak" class="mt-2 text-lavender font-semibold text-sm md:text-base">
-                        Baca Selengkapnya
-                    </button>
-                    <div class="flex mt-4 justify-center gap-x-2 md:gap-x-4">
-                        <button
-                            class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold"
-                            onclick="window.location.href='/order'">Order
-                            <span>
-                                JOKIIN<span class="text-sm">IT</span>
-                            </span></button>
-                        <button
-                            class="w-full cursor-pointer text-sm md:text-base bg-zinc-100 hover:bg-zinc-200 text-lavender py-2 rounded-3xl font-semibold border border-sky-200">Konsultasi</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Tubes -->
+            <!-- Layanan Joki Desain Aplikasi, Desain Grafis & Animasi -->
             <div class="service-item bg-white shadow rounded-3xl hidden md:flex flex-col h-full">
                 <div class="relative">
-                    <img src="{{ asset('images/programming3.jpg') }}" alt="Product Image"
+                    <img src="{{ asset('images/creative.jpg') }}" alt="Desain Kreatif"
                         class="w-full h-64 object-cover rounded-2xl" loading="lazy">
                 </div>
                 <div class="p-4 text-center text-gray-600 flex flex-col flex-grow">
                     <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
-                        JOKIIN<span class="text-base md:text-xl">IT</span> Tubes - Jasa Joki Tugas Besar dan Proyek IT
+                        JOKIIN<span class="text-base md:text-xl">IT</span> CREATIVE – Desain Keren, Proyek Makin
+                        Perfect!
                     </h3>
                     <p class="text-base lg:text-xl flex-grow">
-                        Tugas besar IT di akhir semester sering kali terasa berat, apalagi saat mendekati UAS.
-                        Tapi jangan khawatir, kami siap membantu kamu menyelesaikan tugas besar dengan hasil terbaik!
-                    </p>
-                    <div id="hidden-tubes" class="hidden">
-                        <p class="text-base lg:text-xl mt-2">
-                            Dengan <span class="text-sky-700 font-semibold">
-                                Jasa Joki Tugas Besar IT</span>, semua kebutuhan tugasmu—mulai dari analisis, coding,
-                            implementasi, hingga dokumentasi—ditangani oleh tim profesional. Kami memastikan hasilnya
-                            sesuai dengan standar dosen dan kebutuhan proyekmu.
-                        </p>
-                        <p class="text-base lg:text-xl mt-2">
-                            💻 Fokuslah pada persiapan UAS atau hal penting lainnya, dan biarkan kami membantu
-                            menyelesaikan tugas besarmu dengan cepat dan tepat waktu.
-                            Yuk, percayakan tugas besar IT-mu kepada <span class="text-sky-700 font-bold">
-                                JOKIIN<span class="text-sm md:text-base">IT</span>
-                            </span>! 🎓 sekarang! 🚀
-                        </p>
-                    </div>
-
-                    <button id="button-tubes" class="mt-2 text-lavender font-semibold text-sm md:text-base">
-                        Baca Selengkapnya
-                    </button>
-                    <div class="flex mt-4 justify-center gap-x-2 md:gap-x-4">
-                        <button
-                            class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold"
-                            onclick="window.location.href='/order'">Order
-                            <span>
-                                JOKIIN<span class="text-sm">IT</span>
-                            </span></button>
-                        <button
-                            class="w-full cursor-pointer text-sm md:text-base bg-zinc-100 hover:bg-zinc-200 text-lavender py-2 rounded-3xl font-semibold border border-sky-200">Konsultasi</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Karya Ilmiah -->
-            <div class="service-item bg-white shadow rounded-3xl hidden md:flex flex-col h-full">
-                <div class="relative">
-                    <img src="{{ asset('images/programming.png') }}" alt="Product Image"
-                        class="w-full h-64 object-cover rounded-2xl" loading="lazy">
-                </div>
-                <div class="p-4 text-center text-gray-600 flex flex-col flex-grow">
-                    <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
-                        JOKIIN<span class="text-base md:text-xl">IT</span>
-                        - Jasa Joki Karya Ilmiah Bidang IT
-                    </h3>
-                    <p class="text-base lg:text-xl flex-grow">
-                        Kami hadir untuk mempermudah perjalanan akademikmu! Dengan Jasa Joki IT dari <span
-                            class="text-sky-700 font-bold">
-                            JOKIIN<span class="text-sm md:text-base">IT</span>
-                        </span>, semua kebutuhanmu, mulai dari penelitian hingga penulisan, akan diselesaikan dengan
-                        profesional.
-                    </p>
-                    <div id="hidden-karya-ilmiah" class="hidden">
-                        <p class="text-base lg:text-xl mt-2">
-                            🔍 Topik IT seperti kecerdasan buatan, sistem informasi, pengembangan perangkat lunak, atau
-                            keamanan siber bukanlah masalah bagi tim ahli kami. Kami menjamin hasil yang relevan, sesuai
-                            standar akademik, dan bebas dari plagiarisme, sehingga kamu bisa tenang fokus pada hal lain.
-                        </p>
-                        <p class="text-base lg:text-xl mt-2">
-                            Jangan biarkan deadline dan kompleksitas tugas menghambat langkahmu! Hubungi <span
-                                class="text-sky-700 font-bold">
-                                JOKIIN<span class="text-sm md:text-base">IT</span>
-                            </span> sekarang untuk karya ilmiah dan makalah IT berkualitas yang sesuai dengan
-                            keinginanmu! 🌟
-                        </p>
-                    </div>
-
-                    <button id="button-karya-ilmiah" class="mt-2 text-lavender font-semibold text-sm md:text-base">
-                        Baca Selengkapnya
-                    </button>
-                    <div class="flex mt-4 justify-center gap-x-2 md:gap-x-4">
-                        <button
-                            class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold"
-                            onclick="window.location.href='/order'">Order
-                            <span>
-                                JOKIIN<span class="text-sm">IT</span>
-                            </span></button>
-                        <button
-                            class="w-full cursor-pointer text-sm md:text-base bg-zinc-100 hover:bg-zinc-200 text-lavender py-2 rounded-3xl font-semibold border border-sky-200">Konsultasi</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Layanan Joki Skripsi Bidang IT -->
-            <div class="service-item bg-white shadow rounded-3xl hidden md:flex flex-col h-full">
-                <div class="relative">
-                    <img src="{{ asset('images/programming.png') }}" alt="Product Image"
-                        class="w-full h-64 object-cover rounded-2xl" loading="lazy">
-                </div>
-                <div class="p-4 text-center text-gray-600 flex flex-col flex-grow">
-                    <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
-                        JOKIIN<span class="text-base md:text-xl">IT</span> – Skripsi IT Bikin Pusing?
-                    </h3>
-                    <p class="text-base lg:text-xl flex-grow">
-                        Tenang! <span class="text-sky-700 font-bold">JOKIIN<span
-                                class="text-sm md:text-base">IT</span></span> hadir untuk bantu kamu ngerjain skripsi
-                        di bidang Teknologi Informasi, mulai dari analisis sistem, perancangan aplikasi, implementasi,
-                        sampai dokumentasi lengkap.
+                        Gak jago desain tapi pengen hasil yang estetik dan profesional? 🎨<br>
+                        Tenang, <span class="text-sky-700 font-bold">JOKIIN<span class="text-sm md:text-base">IT</span>
+                            CREATIVE</span> siap bantuin kamu bikin <span class="font-semibold text-sky-700">desain
+                            aplikasi, konten grafis</span>, sampai <span class="font-semibold text-sky-700">animasi
+                            presentasi</span> yang memukau!
                     </p>
 
-                    <div id="hidden-skripsi" class="hidden">
+                    <div id="hidden-creative" class="hidden">
                         <p class="text-base lg:text-xl mt-2 hidden md:block">
-                            Cocok buat kamu yang lagi kejar deadline atau butuh bantuan teknis dalam pembuatan skripsi
-                            berbasis IT. Kami punya tim berpengalaman di berbagai topik seperti website, mobile apps,
-                            AI, IoT, dan lainnya.
+                            Kami melayani pembuatan UI/UX, konten digital, visual branding, animasi produk, dan desain
+                            presentasi.
+                            Cocok buat tugas kuliah, portofolio, promosi usaha, atau pitching proyek besar!
                         </p>
                         <p class="text-base lg:text-xl mt-2">
-                            Layanan ini disesuaikan dengan tingkat kesulitan dan permintaan kamu. Konsultasikan dulu
-                            idemu, lalu tim kami bantu sesuaikan solusi terbaiknya. Skripsi jadi lebih ringan, lulus
-                            jadi lebih dekat! 😎
+                            Cukup ceritain idemu, sisanya biar kami yang garap sampai jadi desain kece yang siap pakai!
+                            💡<br>
+                            Konsultasi? GRATIS tanpa ribet!
                         </p>
                     </div>
 
-                    <button id="button-skripsi" class="mt-2 text-lavender font-semibold text-sm md:text-base">
+                    <button id="button-creative" class="mt-2 text-lavender font-semibold text-sm md:text-base">
                         Baca Selengkapnya
                     </button>
 
@@ -298,17 +162,184 @@
                 </div>
             </div>
 
-            <!-- lainnya -->
-            <div class="service-item bg-white shadow rounded-3xl hidden md:flex flex-col h-full">
+
+
+            <!-- Laprak -->
+            <div class="service-item bg-white shadow rounded-3xl hidden flex-col h-full">
                 <div class="relative">
-                    <img src="{{ asset('images/programming.png') }}" alt="Product Image"
+                    <img src="{{ asset('images/laprak.jpg') }}" alt="Jasa Joki Laporan"
                         class="w-full h-64 object-cover rounded-2xl" loading="lazy">
                 </div>
                 <div class="p-4 text-center text-gray-600 flex flex-col flex-grow">
                     <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
-                        JOKIIN<span class="text-base md:text-xl">IT</span>
-                        - Butuh Joki Diluar Bidang IT? Konsultasikan dulu!
+                        JOKIIN<span class="text-base md:text-xl">IT</span> Laprak – Laporan Auto Jadi, Nilai Aman
+                        Terkendali!
                     </h3>
+                    <p class="text-base lg:text-xl flex-grow">
+                        Lagi dikejar deadline <span class="font-semibold text-sky-700">laporan praktikum</span> atau
+                        <span class="font-semibold text-sky-700">tugas akhir coding</span>? 📚💻
+                        <br><span class="text-sky-700 font-bold">JOKIIN<span class="text-sm md:text-base">IT</span>
+                            Laprak</span>
+                        siap bantu kamu nyelesein laporan dari awal sampai akhir, lengkap, rapi, dan sesuai format
+                        kampus!
+                    </p>
+                    <div id="hidden-laprak" class="hidden">
+                        <p class="text-base lg:text-xl mt-2">
+                            Mulai dari implementasi kode, dokumentasi, troubleshooting error, sampai penulisan analisis,
+                            semua kami
+                            kerjain dengan teliti dan sesuai standar dosen.
+                        </p>
+                        <p class="text-base lg:text-xl mt-2">
+                            Gak usah stres mikirin tugas numpuk. Serahin aja ke tim <span
+                                class="text-sky-700 font-bold">JOKIIN<span
+                                    class="text-sm md:text-base">IT</span></span>
+                            yang udah berpengalaman bantuin
+                            ratusan mahasiswa
+                            di seluruh Indonesia. 🎓✨
+                        </p>
+                    </div>
+
+                    <button id="button-laprak" class="mt-2 text-lavender font-semibold text-sm md:text-base">
+                        Baca Selengkapnya
+                    </button>
+
+                    <div class="flex mt-4 justify-center gap-x-2 md:gap-x-4">
+                        <button
+                            class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold"
+                            onclick="window.location.href='/order'">
+                            Order <span>JOKIIN<span class="text-sm">IT</span></span>
+                        </button>
+                        <button
+                            class="w-full cursor-pointer text-sm md:text-base bg-zinc-100 hover:bg-zinc-200 text-lavender py-2 rounded-3xl font-semibold border border-sky-200">
+                            Konsultasi
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Tubes -->
+            <div class="service-item bg-white shadow rounded-3xl hidden md:flex flex-col h-full">
+                <div class="relative">
+                    <img src="{{ asset('images/tubes-proyek.jpg') }}" alt="Jasa Joki Tugas Besar & Proyek IT"
+                        class="w-full h-64 object-cover rounded-2xl" loading="lazy">
+                </div>
+                <div class="p-4 text-center text-gray-600 flex flex-col flex-grow">
+                    <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
+                        JOKIIN<span class="text-base md:text-xl">IT</span> Tubes – Tugas Besar & Proyek IT? Serahin Aja
+                        ke Kami!
+                    </h3>
+                    <p class="text-base lg:text-xl flex-grow">
+                        Pusing mikirin <span class="font-semibold text-sky-700">Tubes atau Proyek Akhir</span> yang
+                        belum kelar
+                        padahal UAS udah mepet? 😵‍💫
+                        <br><span class="text-sky-700 font-bold">JOKIIN<span class="text-sm md:text-base">IT</span>
+                            Tubes</span> siap bantu kamu dari awal sampai akhir—coding,
+                        laporan, dokumentasi, semua beres!
+                    </p>
+                    <div id="hidden-tubes" class="hidden">
+                        <p class="text-base lg:text-xl mt-2">
+                            Tim kami terbiasa ngerjain tugas besar mulai dari analisis kebutuhan, desain sistem,
+                            backend/frontend,
+                            API, sampai deployment. Dijamin hasilnya sesuai standar dosen & siap presentasi!
+                        </p>
+                        <p class="text-base lg:text-xl mt-2">
+                            Fokus aja ke UAS atau kegiatan lain, tugas besar biar kami yang beresin. ✨
+                            Percayain tugas pentingmu ke <span class="text-sky-700 font-bold">JOKIIN<span
+                                    class="text-sm md:text-base">IT</span></span> dan rasakan sendiri hasilnya: cepat,
+                            rapi, dan
+                            tanpa drama! 🚀
+                        </p>
+                    </div>
+
+                    <button id="button-tubes" class="mt-2 text-lavender font-semibold text-sm md:text-base">
+                        Baca Selengkapnya
+                    </button>
+
+                    <div class="flex mt-4 justify-center gap-x-2 md:gap-x-4">
+                        <button
+                            class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold"
+                            onclick="window.location.href='/order'">
+                            Order <span>JOKIIN<span class="text-sm">IT</span></span>
+                        </button>
+                        <button
+                            class="w-full cursor-pointer text-sm md:text-base bg-zinc-100 hover:bg-zinc-200 text-lavender py-2 rounded-3xl font-semibold border border-sky-200">
+                            Konsultasi
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Karya Ilmiah -->
+            <div class="service-item bg-white shadow rounded-3xl hidden md:flex flex-col h-full">
+                <div class="relative">
+                    <img src="{{ asset('images/karya-ilmiah.jpg') }}" alt="Jasa Karya Ilmiah IT"
+                        class="w-full h-64 object-cover rounded-2xl" loading="lazy">
+                </div>
+                <div class="p-4 text-center text-gray-600 flex flex-col flex-grow">
+                    <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
+                        JOKIIN<span class="text-base md:text-xl">IT</span> Karya Ilmiah – Artikel & Makalah IT? Biar
+                        Kami yang Beresin!
+                    </h3>
+
+                    <p class="text-base lg:text-xl flex-grow">
+                        Ribet ngerjain <span class="font-semibold text-sky-700">skripsi</span>, <span
+                            class="font-semibold text-sky-700">makalah ilmiah</span>, atau <span
+                            class="font-semibold text-sky-700">artikel jurnal</span> IT? 😓
+                        <br>Tenang, <span class="text-sky-700 font-bold">JOKIIN<span
+                                class="text-sm md:text-base">IT</span></span> siap bantu dari riset awal, metodologi,
+                        hingga bab
+                        akhir!
+                    </p>
+                    <div id="hidden-karya-ilmiah" class="hidden">
+                        <p class="text-base lg:text-xl mt-2">
+                            Tim kami ahli di topik IT seperti AI, IoT, pengembangan sistem, keamanan siber, hingga data
+                            science.
+                            Semua dikerjakan sesuai kaidah akademik, bebas plagiarisme, dan siap diuji di hadapan dosen
+                            pembimbing.
+                        </p>
+                        <p class="text-base lg:text-xl mt-2">
+                            Kamu tinggal fokus kuliah atau persiapan sidang—biar tim kami yang beresin laporan dan
+                            analisisnya. 🎓
+                            <br><span class="text-sky-700 font-bold">JOKIIN<span
+                                    class="text-sm md:text-base">IT</span></span> siap jadi partner terbaikmu buat
+                            karya ilmiah
+                            berkualitas tinggi!
+                        </p>
+                    </div>
+
+                    <button id="button-karya-ilmiah" class="mt-2 text-lavender font-semibold text-sm md:text-base">
+                        Baca Selengkapnya
+                    </button>
+
+                    <div class="flex mt-4 justify-center gap-x-2 md:gap-x-4">
+                        <button
+                            class="w-full cursor-pointer text-sm md:text-base bg-lavender hover:bg-sky-500 text-white py-2 rounded-3xl font-semibold"
+                            onclick="window.location.href='/order'">
+                            Order <span>JOKIIN<span class="text-sm">IT</span></span>
+                        </button>
+                        <button
+                            class="w-full cursor-pointer text-sm md:text-base bg-zinc-100 hover:bg-zinc-200 text-lavender py-2 rounded-3xl font-semibold border border-sky-200">
+                            Konsultasi
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- lainnya -->
+            <div class="service-item bg-white shadow rounded-3xl hidden md:flex flex-col h-full">
+                <div class="relative">
+                    <img src="{{ asset('images/non-it.jpg') }}" alt="Product Image"
+                        class="w-full h-64 object-cover rounded-2xl" loading="lazy">
+                </div>
+                <div class="p-4 text-center text-gray-600 flex flex-col flex-grow">
+                    <h3 class="text-xl md:text-2xl text-lavender font-bold mb-2 md:mb-4">
+                        JOKIIN<span class="text-base md:text-xl">IT</span> Non-IT – Tugas Bukan IT? Boleh Banget, Coba
+                        Dulu Konsultasi! 💬
+                    </h3>
+
                     <p class="text-base lg:text-xl flex-grow">
                         Selain bidang IT,
                         <span class="text-sky-700 font-bold">
